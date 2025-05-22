@@ -11,7 +11,7 @@ In the task, we will use Analog Discovery 2’s Wavegen and Scope to create and 
 
 **Connection**: Directly connect Wavegen to Scope.
 
-<img src="Pic/circuit diagram.png" height="150">
+<img src="Pic/circuit diagram.png" alt="Circuit Connection" style="height: 150px"/>
 
 ---
 
@@ -44,14 +44,13 @@ Click **Generate**, then **Save**, and finally **Run** the Wavegen.
 ### Frequency Analysis with FFT
 
 **Scope Setup**:
-- Y-axis: Fit the signal to ~50%
-- X-axis: Fit 8–10 cycles
+- Y-axis: Fit the signal to ~50% of the display window
+- X-axis: Fit around 10 cycles in the display window
 
 ---
 Use the **FFT** tool in Scope:
 
-- Start: `0 Hz`
-- Stop: `500 Hz` *(adjustable)*
+- Start: `0 Hz`, Stop: `500 Hz` *(adjustable)*
 - Top: `20 dB`, Bottom: `-40 dB`
 - Type: `Sample`, Window: `Flat Top`
 - Units: `Peak (dB)`, Reference: `1 V`
