@@ -1,15 +1,17 @@
 # ELE 292 Lab 7: Filters
+## Task 1 – Set Input with Noise
 
 ---
 
-## :dart: Task 1 – Set Input with Noise
+### Overview
+In Electrical Engineering, filters are used to selectively pass or attenuate specific frequency components of a signal. A common application of filters is dealing with signals affected by
+low-frequency or high-frequency noise. 
 
-### :mag: Overview
-In Electrical Engineering, filters are used to selectively pass or attenuate specific frequency components of a signal. A common application is to eliminate **low-frequency** or **high-frequency** noise.
-
-**Objective**: Use Analog Discovery 2’s Wavegen and Scope to create and analyze signals with high-frequency noise.
+In the task, we will use Analog Discovery 2’s Wavegen and Scope to create and analyze signals with high-frequency noise.
 
 **Connection**: Directly connect Wavegen to Scope.
+
+<img src="Pic/circuit diagram.png" height="150">
 
 ---
 
@@ -21,13 +23,16 @@ In Electrical Engineering, filters are used to selectively pass or attenuate spe
 - Amplitude: `1 V`
 - Offset: `0`
 - Symmetry: `50%`
-- Phase: `0`
 
 Then click the **gear icon → New** and configure the math expression as:
 
+```javascript
+sin(50*X) + 0.2*sin(1000*X)
 ```
-sin(50x) + 0.2 sin(1000x)
-```
+
+<img src="Pic/WaveGenSet_1.png" height="200">
+
+<img src="Pic/WaveGenSet_2.png" height="300">
 
 - The **main signal**: `sin(50x)`
 - The **noise signal**: `0.2 sin(1000x)`
