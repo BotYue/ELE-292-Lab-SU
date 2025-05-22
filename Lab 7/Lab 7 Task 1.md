@@ -15,7 +15,7 @@ In the task, we will use Analog Discovery 2’s Wavegen and Scope to create and 
 
 ---
 
-### 1.1 Signal with High-Frequency Noise
+### 1.1 Create a Signal with High-Freq Noise
 
 **Wavegen Setup**:
 - Type: `Sine`
@@ -39,14 +39,15 @@ sin(50*X) + 0.2*sin(1000*X)
 
 Click **Generate**, then **Save**, and finally **Run** the Wavegen.
 
+---
+
+### Frequency Analysis with FFT
+
 **Scope Setup**:
 - Y-axis: Fit the signal to ~50%
 - X-axis: Fit 8–10 cycles
 
 ---
-
-### :mag_right: Frequency Analysis with FFT
-
 Use the **FFT** tool in Scope:
 
 - Start: `0 Hz`
