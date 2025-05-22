@@ -3,7 +3,7 @@
 
 ---
 
-### Overview
+### Overview 
 In Electrical Engineering, filters are used to selectively pass or attenuate specific frequency components of a signal. A common application of filters is dealing with signals affected by
 low-frequency or high-frequency noise. 
 
