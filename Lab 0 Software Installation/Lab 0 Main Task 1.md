@@ -41,10 +41,10 @@ Install with **admin rights**. Successful installation will show a confirmation 
 |:---------------------:|
 | <img src="Pic/loose.png" height="250" alt="Loose USB connection"> |
 
-2. Open WaveForms. A “Device Manager” window should list “Discovery2” with a serial number. This indicates that your computer has suc-
+2. Open WaveForms. A **Device Manager** window should list **Discovery2** with a serial number. This indicates that your computer has suc-
 cessfully detected the Analog Discovery 2.
 
-<img src="Pic/DeviceManager.png" width="300"> 
+<img src="Pic/DeviceManager.png" width="600"> 
 
 3. On the the Device Manager window, keep the “Scope - Wavegen - Logic - Patterns - Others” row as default. Then,
 click **Select**. If successful, the green light on the device will **blink**.
