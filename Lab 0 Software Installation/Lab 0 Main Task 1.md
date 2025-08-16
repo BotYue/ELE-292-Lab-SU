@@ -35,16 +35,22 @@ Install with **admin rights**. Successful installation will show a confirmation 
 
 ### 📌 Task 1.3 Verify Installation
 
-1. Connect Analog Discovery 2 to your laptop via USB.
+1. Connect Analog Discovery 2 to your laptop via Micro USB Cable.
 
 | Bad: loose connection |
 |:---------------------:|
 | <img src="Pic/loose.png" height="250" alt="Loose USB connection"> |
 
-2. Open WaveForms. A “Device Manager” window should list “Discovery2” with a serial number.
-3. Click **Select**. If successful, the green light on the device will **blink**.
+2. Open WaveForms. A “Device Manager” window should list “Discovery2” with a serial number. This indicates that your computer has suc-
+cessfully detected the Analog Discovery 2.
 
+<img src="Pic/DeviceManager.png" width="300"> 
 
-### ✅ **Check Point 1** — Light blinking green  
-Get it checked by your instructor/TA.
+3. On the the Device Manager window, keep the “Scope - Wavegen - Logic - Patterns - Others” row as default. Then,
+click **Select**. If successful, the green light on the device will **blink**.
 
+### ✅ Check Point 1 — Light blinking green
+
+Show the blinking green light to your instructor/TA.
+
+> _Throughout this semester: when you hit a Check Point, stop and show your result to your instructor/TA._
