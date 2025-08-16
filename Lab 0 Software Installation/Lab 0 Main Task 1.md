@@ -3,7 +3,7 @@
 ## :dart: Task 1 – Digilent WaveForms
 ---
 
-#### 📌 Task 1.1 Know the hardware
+### 📌 Task 1.1 Know the hardware
 
 Each group should get:
 - One **Micro USB Cable**
@@ -22,7 +22,7 @@ organize wires from the Analog Discovery 2 for easier connection.
 
 ---
 
-#### 📌 Task 1.2 Install the Software
+### 📌 Task 1.2 Install the Software
 
 Visit:  
 🔗 https://digilent.com/reference/software/waveforms/waveforms-3/previous-versions
@@ -33,7 +33,7 @@ Install with **admin rights**. Successful installation will show a confirmation 
 
 ---
 
-#### 📌 Task 1.3 Verify Installation
+### 📌 Task 1.3 Verify Installation
 
 1. Connect Analog Discovery 2 to your laptop via USB.
 
@@ -44,6 +44,7 @@ Install with **admin rights**. Successful installation will show a confirmation 
 2. Open WaveForms. A “Device Manager” window should list “Discovery2” with a serial number.
 3. Click **Select**. If successful, the green light on the device will **blink**.
 
-✅ **Check Point 1** — Light blinking green  
-🎯 Get it checked by your TA/instructor.
+
+### ✅ **Check Point 1** — Light blinking green  
+Get it checked by your instructor/TA.
 
