@@ -48,7 +48,7 @@ Install the following one by one:
 |---------|---------|
 | <img src="Pic/BoardM1.png" width="500"> | <img src="Pic/BoardM2.png" width="500"> |
 
-
+-----
 
 ### 📌 Task 2.2 Verify installation
 
@@ -63,7 +63,7 @@ Upload and verify that the red light blinks every second.
 
 ❗ If cannot find the port, quickly double-press the RESET button. Then go back to the IDE and check.
 
-
+-----
 
 ### ✅ Check Point 2 — Light blinking red and IDE version
 
