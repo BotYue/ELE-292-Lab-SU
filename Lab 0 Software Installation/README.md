@@ -1,1 +1,4 @@
-This is the fisrt lab to do on Week 1.
+There is no prelab or lab report for Lab 0.
+
+Please find you group setting on BlackBoard.
+
