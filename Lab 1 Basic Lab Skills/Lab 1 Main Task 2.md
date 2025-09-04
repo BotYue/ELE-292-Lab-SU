@@ -28,6 +28,7 @@ Wire up such a circuit:
 
 $\text{Measured Voltage} = \text{Signal}(1+) - \text{Signal}(1-) = \text{Signal(W1)} - 0 = \text{Signal(W1)}$
 
+------
 ### 📌 Task 2.2 Configure source
 
 Recall in Task 1, you have explored the Wavegen.
@@ -44,7 +45,7 @@ Now configure it as:
 
 After setting up your **Wavegen**, activate it by clicking **Run** (green arrow icon :arrow_forward:) in Wavegen. The device will now output a voltage signal through **W1** (default).  
 
-
+--------
 ### 📌 Task 2.3 Adjust scope display
 
 In WaveForms, open **Scope**.  Click the  **Run** (green arrow icon :arrow_forward:). Use **Repeated** Mode.
@@ -104,6 +105,7 @@ This means such **trigger condition**: when the signal rises thru ? V, that poin
 
 *Don’t forget the units!*  
 
+---------
 ### 📌 Task 2.4 Measure the signal
 
 Scope has 3 measurement tools:  
@@ -136,3 +138,4 @@ Try all these 3 tools to measure the period of your signal (the distance between
 
 
 Show to your instructor/TA.
+
