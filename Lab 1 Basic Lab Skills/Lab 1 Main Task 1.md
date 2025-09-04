@@ -36,7 +36,7 @@ By default, you will see a sine wave displayed. The left panel is where you can 
 
 ---
 
-### 📌
+#### 📌
 Now, explore the left-panel settings. Use  **Sine** signal type.  Set Symmetry as 50%, Phase as 0. Try to generate this plot:  
 
 <img src="Pic/wavegen1.png" width="600"> 
@@ -57,7 +57,7 @@ Now, explore the left-panel settings. Use  **Sine** signal type.  Set Symmetry a
 
 ----------
 
-### 📌
+#### 📌
 
 Continue to explore the left-panel settings. Use  **Square** signal type. Try to generate this plot: 
 
@@ -82,5 +82,6 @@ Continue to explore the left-panel settings. Use  **Square** signal type. Try to
 ---------
 
 ### ✅ Check Point 1 — 2 Tables Data
+
 
 Show the data of your 2 tables to your instructor/TA.
