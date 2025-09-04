@@ -10,7 +10,7 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 - Item 2-a, 2-b, 2-c (2+2+4)  
 - Conclusion (3)  
 
-For Lab 1 report, You can request a **re-submit & re-grade** within 5 days after grades are posted. Email the instructor, Yue Cao, to submit your request.
+For Lab 1 report, You can request a **re-submit & re-grade** within 7 days after grades are posted. Email the instructor, Yue Cao, to submit your request.
 
 ---
 #### Notes on Conclusion Writing
