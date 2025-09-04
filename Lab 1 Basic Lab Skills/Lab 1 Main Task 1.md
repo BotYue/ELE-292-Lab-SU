@@ -45,6 +45,7 @@ Now, explore the left-panel settings. Use  **Sine** signal type. Set Symmetry as
 
 #### :pencil2:  Report Item 1-a
 > **Record these Wavegen settings in your Jupyter notebook.**  
+> To do so in Jupyterotebook, Start a new section using horizontal Rule and sub-Header ``### Report Item 1-a```.
 
 | Setting   | Value |
 | --------- | ----- |
@@ -85,6 +86,7 @@ Continue to explore the left-panel settings. Use  **Square** signal type. Set Sy
 
 
 Show the data of your 2 tables to your instructor/TA.
+
 
 
 
