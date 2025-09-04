@@ -24,9 +24,9 @@ Wire up such a circuit:
 **Pin-to-Pin Explained:**  
 
 - `1+` : Scope Ch.1 Positive → `W1` (Wavegen output)  
-- `1-` : Scope Ch.1 Negative → Ground  
+- `1-` : Scope Ch.1 Negative → `GND` (Ground)  
 
-$\text{Final Measurement} = \text{Signal}(1+) - \text{Signal}(1-) = \text{Signal(W1)}$
+$\text{Measured Voltage} = \text{Signal}(1+) - \text{Signal}(1-) = \text{Signal(W1)} - 0 = \text{Signal(W1)}$
 
 ### 📌 Task 2.2 Configure source
 
@@ -42,12 +42,12 @@ Now configure it as:
 | Amplitude |   1.5 V  |
 | Offset    |    3 V   |
 
-After setting up your **Wavegen**, activate it by clicking **Run** (green arrow icon) in Wavegen. The device will now output a voltage signal through **W1** (default).  
+After setting up your **Wavegen**, activate it by clicking **Run** (green arrow icon :arrow_forward:) in Wavegen. The device will now output a voltage signal through **W1** (default).  
 
 
 ### 📌 Task 2.3 Adjust scope display
 
-In WaveForms, open **Scope**.  Click the  **Run** (green arrow icon). Use **Repeated** Mode.
+In WaveForms, open **Scope**.  Click the  **Run** (green arrow icon :arrow_forward:). Use **Repeated** Mode.
 
 It is likely to get a signal messing around. To adjust this:
 
@@ -60,9 +60,10 @@ Go to the right-side panel, Adjust the 1 or more of these:
 - **Channel 1-Range**→ sets the Y-axis scale (volts per division)
 
 ❗Always keep **Time-Position** as 0
+
 ❗Don't use the middle wheel of mouse to scroll
 
-**Try to display ~3–5 cycles and ~50%  height on screen.  **
+**Try to display ~3–5 cycles and ~50%  height on screen.**
 
 ##### 🧷 Step 2: Stabilize the signal
 
@@ -112,7 +113,7 @@ Scope has 3 measurement tools:
 3. **Cursor**  
    
 
-Try all these 3 tools to measure the period of your signal (the distance between two peaks).
+Try all these 3 tools to measure the period of your signal (the distance between two nearest peaks).
 
 
 #### :pencil2:  Report Item 2-c
@@ -132,5 +133,6 @@ Try all these 3 tools to measure the period of your signal (the distance between
 ---------
 
 ### ✅ Check Point 2 — Final picture in Jupyter Notebook
+
 
 Show to your instructor/TA.
