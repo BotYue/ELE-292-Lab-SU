@@ -21,6 +21,7 @@ Thus we need to specify the following:
 
 - **System Model:** To be calculated
 
+----------
 ### 📌 Task 2.1 Derive the System Model
 
 Analyze the circuit, we have:
@@ -44,7 +45,7 @@ V_{out}(s) = I(s)R
 $$
 
 #### :pencil2:  Report Item 1-a
-> **Find the system model in Laplace domain (known as Transfer Function):**
+Find the system model in Laplace domain (known as Transfer Function):
  
 $$
 \frac{V_{out}(s)}{V_{in}(s)} = ???
@@ -53,3 +54,33 @@ $$
 *Note: For typing math answers in the report, you need to type the entire
 equation and a short text description, not only type the part corresponding to ???.
 This rubric applies to all math answers in the semester.*
+
+-----------
+### 📌 Task 2.2 Caculate Impulse Response in Theory
+
+Today, our input will be an impulse signal. Let's write it as
+
+$$
+V_{in}(t) = A \delta(t)
+$$
+
+Here, $A$ is a constant (scalar).
+
+This impulse input $V_{in}(t)=A\delta(t)$ converts to Laplace domain as $V_{in}(s)=A\cdot 1=A$. 
+
+Then we can obtain the system output (also called response) by multiplying the Transfer Function and input in Laplace domain.
+
+#### :pencil2:  Report Item 1-b
+
+In Laplace domain, the output is
+
+$$V_{out}(s) = ???$$
+
+Transform back to the time domain, the output is 
+
+$$V_{out}(t) = ???$$
+
+---------
+
+### ✅ Proceed to Task 2. No Check Point in this part.
+
