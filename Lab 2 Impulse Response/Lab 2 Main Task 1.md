@@ -1,4 +1,4 @@
-# Lab 1 Impulse Response
+# Lab 2 Impulse Response
 
 
 ## :dart: Task 1 – System Modeling
@@ -83,4 +83,5 @@ $$V_{out}(t) = ???$$
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
