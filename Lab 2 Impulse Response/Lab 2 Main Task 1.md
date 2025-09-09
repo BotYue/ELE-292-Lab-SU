@@ -14,6 +14,10 @@ We want to treat the circuit as a **System** .
 
 Thus we need to specify the following:
 
-- **System input:** We set the voltage of the power source, $V_{in}(t)$, as the system input. This can be set-up via Wavegen in the WaveForms.
-- **System output:** We set the voltage of the resistor $V_{R}(t)$ as the system output. This can be measured via Scope in the WaveForms.
-- **System model:** To be calculated
+- **System Input:** We set the voltage of the power source, $V_{in}(t)$, as the system input.  
+  This can be set-up via Wavegen in the WaveForms.
+- **System Output:** We set the voltage of the resistor $V_{R}(t)$ as the system output.  
+  This can be measured via Scope in the WaveForms.
+
+- **System Model:** To be calculated
+
