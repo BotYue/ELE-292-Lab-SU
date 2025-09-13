@@ -37,3 +37,31 @@ $$
 $$
 V_{out}(s) = \frac{1}{C}\frac{I(s)}{s}
 $$
+
+
+#### :pencil2:  Report Item 1-a
+Find the system model in Laplace domain (known as Transfer Function):
+ 
+$$
+\frac{V_{out}(s)}{V_{in}(s)} = ???
+$$
+
+*Make coefficient of the highest order term in the denominator equal to 1.*
+
+*Note again: For typing math answers in the report, you need to type the entire
+equation and a short text description, not only type the part corresponding to ???.
+This rubric applies to all math answers in the semester.*
+
+---
+
+### 📌 Task 1.2 Caculate Step Response in Theory (Individual)
+
+Today, our input will be a unit step signal. Let's write it as
+
+$$
+V_{in}(t) = u(t)
+$$
+
+Convert to Laplace domain is:
+
+$$V_{in}(s)=\mathcal{L} (u(t))=\frac{1}{s}$$
