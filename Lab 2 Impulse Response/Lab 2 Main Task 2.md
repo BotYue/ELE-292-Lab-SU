@@ -50,18 +50,18 @@ Run the Scope to measure the voltage across the resistor.
 
 Adjust the scope to get a clear, readable display. You should get **2~5 exponential decays** clearly in the display.
   
-**🔧 Scope Adjustment Tip**  
-- If the signal is not stable, adjust the **Trigger Level** until the display locks.  
-- If the signal looks too compressed or stretched in Time axis, adjust the **Time-Base**.  
-- If the signal looks too compressed or stretched in Voltage axis, adjust the **Channel 1-Range**.  
-- If the entire signal is off-screen (up or below), adjust the **Channel 1-Offset**.
+> [!TIP]
+> 1. the signal is not stable, adjust the **Trigger Level** until the display locks.  
+> 2. If the signal looks too compressed or stretched in Time axis, adjust the **Time-Base**.  
+> 3. If the signal looks too compressed or stretched in Voltage axis, adjust the **Channel 1-Range**.  
+> 4. If the entire signal is off-screen (up or below), adjust the **Channel 1-Offset**.
 
 #### :pencil2:  Report Item 2-a
 
 Provide the screenshot of the display of your Scope. 
 
+> [!NOTE]
 > Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
-
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
 -------------
@@ -75,7 +75,8 @@ Use either the Quick Memasure tool or Cursor tool to measure the peak voltagef t
 |-----------------|----|
 | **Peak Voltage**| ?? |
 
-*Always record experiment data in 3 or more [significant digits (figures)](https://en.wikipedia.org/wiki/Significant_figures)!*  
+> [!NOTE]
+> Always record experiment data in 3 or more [significant digits (figures)](https://en.wikipedia.org/wiki/Significant_figures)! 
 
 ---------
 
@@ -85,3 +86,4 @@ Use either the Quick Memasure tool or Cursor tool to measure the peak voltagef t
 Show to your instructor/TA.
 
 Keep the circuit and WaveForms software. We still need them in the next task.
+
