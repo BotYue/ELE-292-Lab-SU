@@ -1,6 +1,7 @@
 ## Report 
 
-Submit individually as a PDF file.
+> [!IMPORTANT]
+> Submit individually as a PDF file.
 
 To do so, export Jupyter Notebook as .html. Then convert .html to .pdf. 
 
