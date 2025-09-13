@@ -65,3 +65,23 @@ Provide the screenshot of the display of your Scope.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
 -------------
+### 📌 Task 2.4 Measure
+
+Use either the Quick Memasure tool or Cursor tool to measure the peak voltagef the output signal.
+
+#### :pencil2:  Report Item 2-b
+
+| **Tool**        | ?? |
+|-----------------|----|
+| **Peak Voltage**| ?? |
+
+*Always record experiment data in 3 or more [significant digits (figures)](https://en.wikipedia.org/wiki/Significant_figures)!*  
+
+---------
+
+### ✅ Check Point 1 — Scope Display and Peak Voltage
+
+
+Show to your instructor/TA.
+
+Keep the circuit and WaveForms software. We still need them in the next task.
