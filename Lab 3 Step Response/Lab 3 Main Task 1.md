@@ -83,8 +83,10 @@ Transform back to the time domain, the output is
 
 $$V_{out}(t) = ???$$
 
-*Hint:* result should be in terms of $R, C$
+> [!TIP]
+> Result should be in terms of $R, C$
 
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
