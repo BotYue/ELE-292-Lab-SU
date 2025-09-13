@@ -22,7 +22,7 @@ Thus we need to specify the following:
 - **System Model:** To be calculated
 
 ----------
-### 📌 Task 2.1 Derive the System Model
+### 📌 Task 2.1 Derive the System Model (Individual)
 
 Analyze the circuit, we have:
 
@@ -44,7 +44,7 @@ $$
 V_{out}(s) = I(s)R
 $$
 
-#### :pencil2:  Report Item 1-a (Individual)
+#### :pencil2:  Report Item 1-a
 Find the system model in Laplace domain (known as Transfer Function):
  
 $$
@@ -56,7 +56,7 @@ equation and a short text description, not only type the part corresponding to ?
 This rubric applies to all math answers in the semester.*
 
 -----------
-### 📌 Task 2.2 Caculate Impulse Response in Theory
+### 📌 Task 2.2 Caculate Impulse Response in Theory (Individual)
 
 Today, our input will be an impulse signal. Let's write it as
 
@@ -70,7 +70,7 @@ This impulse input $V_{in}(t)=A\delta(t)$ converts to Laplace domain as $V_{in}(
 
 Then we can obtain the system output (also called response) by multiplying the Transfer Function and input in Laplace domain.
 
-#### :pencil2:  Report Item 1-b (Individual)
+#### :pencil2:  Report Item 1-b
 
 In Laplace domain, the output is
 
@@ -80,9 +80,12 @@ Transform back to the time domain, the output is
 
 $$V_{out}(t) = ???$$
 
+*Hint: result should be in terms of $R, L, A$ *
+
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
