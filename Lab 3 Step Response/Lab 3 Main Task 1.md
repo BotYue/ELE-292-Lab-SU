@@ -15,3 +15,25 @@ We want to treat the circuit as a **System** .
 - **System input:** $V_{in}(t)$ 
 - **System output:** $V_{out}(t)=V_{C}(t)$ 
 - **System model:** To be calculated
+
+### 📌 Task 1.1 Derive the System Model (Individual)
+
+Analyze the circuit, we have:
+
+$$
+V_{in}(t) =  V_C(t) + V_R(t) = \frac{1}{C}\int I(t)dt + I(t)R 
+$$
+
+$$
+V_{out}(t) = V_C(t) = \frac{1}{C}\int i(t)dt
+$$
+
+Apply Laplace Transform:
+
+$$
+V_{in}(s) =  \frac{1}{C}\frac{I(s)}{s} + I(s)R 
+$$
+
+$$
+V_{out}(s) = \frac{1}{C}\frac{I(s)}{s}
+$$
