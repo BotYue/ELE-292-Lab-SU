@@ -14,4 +14,5 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 
 For Lab 2 report, You can request a **re-submit & re-grade** within 7 days after grades are posted. Email the instructor, Yue Cao, to submit your request.
 
-The requirement for conclusion writing can be found on README.md in Lab 1.
+The requirement for conclusion writing can be found on [Lab 1 README](../Lab%201%20Step%20Response/README.md)
+.
