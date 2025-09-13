@@ -33,3 +33,12 @@ $$
 = 2 \times 10^{-5}~\mathrm{V \cdot s}
 $$
 
+This signal can be approximately treated as an **impulse** with the such area (scalar value):
+
+$$
+A = 2 \times 10^{-5}
+$$
+
+Thus, input signal will be $2 \times 10^{-5}\delta(t)$
+
+
