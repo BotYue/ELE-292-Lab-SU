@@ -44,7 +44,7 @@ $$
 V_{out}(s) = I(s)R
 $$
 
-#### :pencil2:  Report Item 1-a
+#### :pencil2:  Report Item 1-a (Individual)
 Find the system model in Laplace domain (known as Transfer Function):
  
 $$
@@ -70,7 +70,7 @@ This impulse input $V_{in}(t)=A\delta(t)$ converts to Laplace domain as $V_{in}(
 
 Then we can obtain the system output (also called response) by multiplying the Transfer Function and input in Laplace domain.
 
-#### :pencil2:  Report Item 1-b
+#### :pencil2:  Report Item 1-b (Individual)
 
 In Laplace domain, the output is
 
@@ -83,5 +83,6 @@ $$V_{out}(t) = ???$$
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
