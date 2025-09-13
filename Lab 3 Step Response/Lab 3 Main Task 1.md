@@ -12,6 +12,6 @@ We want to treat the circuit as a **System** .
 
 <img src="Pic/system1.png" width="400"> 
 
-- **System input:** $V_{in}(t)$, . 
-- **System output:** $V_{C}(t)$ 
+- **System input:** $V_{in}(t)$ 
+- **System output:** $V_{out}(t)=V_{C}(t)$ 
 - **System model:** To be calculated
