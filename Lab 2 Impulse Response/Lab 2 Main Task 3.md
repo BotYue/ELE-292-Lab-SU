@@ -6,7 +6,7 @@
 ----------
 ### 📌 Task 3.1 Export Scope Data
 
-In your Scope, click the **Export** to save data as .csv format.
+In your Scope, with the result from the last task displayed, click the **Export** to save data as .csv format.
 
 For the export setting,
 
@@ -14,5 +14,6 @@ For the export setting,
 * Check **Header**
 * Check **Labels**
 
+<img src="Pic/exportdata.png" width="500"> 
 
 
