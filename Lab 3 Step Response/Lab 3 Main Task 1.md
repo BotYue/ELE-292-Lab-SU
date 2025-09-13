@@ -16,6 +16,7 @@ We want to treat the circuit as a **System** .
 - **System output:** $V_{out}(t)=V_{C}(t)$ 
 - **System model:** To be calculated
 
+---
 ### 📌 Task 1.1 Derive the System Model (Individual)
 
 Analyze the circuit, we have:
@@ -65,3 +66,4 @@ $$
 Convert to Laplace domain is:
 
 $$V_{in}(s)=\mathcal{L} (u(t))=\frac{1}{s}$$
+
