@@ -13,7 +13,7 @@ We want to treat the circuit as a **System** .
 <img src="Pic/system1.png" width="400"> 
 
 - **System input:** $V_{in}(t)$ 
-- **System output:** $V_{out}(t)=V_{C}(t)$ 
+- **System output:** $V_{out}(t)=V_{C}(t)$, voltage across the capacitor
 - **System model:** To be calculated
 
 ---
@@ -26,7 +26,7 @@ V_{in}(t) =  V_C(t) + V_R(t) = \frac{1}{C}\int I(t)dt + I(t)R
 $$
 
 $$
-V_{out}(t) = V_C(t) = \frac{1}{C}\int i(t)dt
+V_{out}(t) = V_C(t) = \frac{1}{C}\int I(t)dt
 $$
 
 Apply Laplace Transform:
@@ -47,11 +47,14 @@ $$
 \frac{V_{out}(s)}{V_{in}(s)} = ???
 $$
 
-*Make coefficient of the highest order term in the denominator equal to 1.*
+> [!NOTE]
+> Make coefficient of the highest order term in the denominator equal to 1.
 
-*Note again: For typing math answers in the report, you need to type the entire
+> [!NOTE]
+> For typing math answers in the report, you need to type the entire
 equation and a short text description, not only type the part corresponding to ???.
-This rubric applies to all math answers in the semester.*
+This rubric applies to all math answers in the semester
+
 
 ---
 
@@ -65,5 +68,23 @@ $$
 
 Convert to Laplace domain is:
 
-$$V_{in}(s)=\mathcal{L} (u(t))=\frac{1}{s}$$
+```math
+V_{in}(s) = \mathcal{L}\{u(t)\} = \frac{1}{s}
+```
 
+
+#### :pencil2:  Report Item 1-b
+
+In Laplace domain, the output is
+
+$$V_{out}(s) = ???$$
+
+Transform back to the time domain, the output is 
+
+$$V_{out}(t) = ???$$
+
+*Hint:* result should be in terms of $R, C$
+
+---------
+
+### ✅ Proceed to Task 2. No Check Point in this part.
