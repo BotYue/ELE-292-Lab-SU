@@ -51,7 +51,8 @@ $$
 \frac{V_{out}(s)}{V_{in}(s)} = ???
 $$
 
-*Note: For typing math answers in the report, you need to type the entire
+> [!NOTE]
+> For typing math answers in the report, you need to type the entire
 equation and a short text description, not only type the part corresponding to ???.
 This rubric applies to all math answers in the semester.*
 
@@ -85,6 +86,7 @@ $$V_{out}(t) = ???$$
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
