@@ -28,7 +28,8 @@
 For such setting, the area of this signal is,
 
 $$
-2~\mathrm{V} \times 1~\mathrm{ms} \times 1\% 
+2~\mathrm{V} \times 1~\mathrm{ms} \times 1\mathrm{percent} 
 = 2 \times 10^{-3}~\mathrm{V \cdot s} \times 0.01
 = 2 \times 10^{-5}~\mathrm{V \cdot s}
 $$
+
