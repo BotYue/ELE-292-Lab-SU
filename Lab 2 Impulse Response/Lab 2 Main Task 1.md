@@ -80,11 +80,12 @@ Transform back to the time domain, the output is
 
 $$V_{out}(t) = ???$$
 
-*Hint: result should be in terms of $R, L, A$*
+*Hint:* result should be in terms of $R, L, A$
 
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
