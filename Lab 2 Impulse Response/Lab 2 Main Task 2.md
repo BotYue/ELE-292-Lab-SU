@@ -14,7 +14,8 @@
 - $R = 22~\Omega$ resistor, (color code: red red black gold)
 - $L = 1~\mathrm{mH}$ inductor  
 
-### 📌 Task 2.1 Input Setup
+-------------
+### 📌 Task 2.2 Input Setup
 **Input Signal is setup by Wavegen setup:**
 | Setting   | Value |
 | --------- | ----- |
@@ -41,4 +42,26 @@ $$
 
 Thus, input signal will be $2 \times 10^{-5}\delta(t)$
 
+-------------
+### 📌 Task 2.3 Obtain Output
+Run the Wavegen to generate the signal.
 
+Run the Scope to measure the voltage across the resistor.
+
+Adjust the scope to get a clear, readable display. You should get **2~5 exponential decays** clearly in the display.
+  
+**🔧 Scope Adjustment Tip**  
+- If the signal is not stable, adjust the **Trigger Level** until the display locks.  
+- If the signal looks too compressed or stretched in Time axis, adjust the **Time-Base**.  
+- If the signal looks too compressed or stretched in Voltage axis, adjust the **Channel 1-Range**.  
+- If the entire signal is off-screen (up or below), adjust the **Channel 1-Offset**.
+
+#### :pencil2:  Report Item 2-a
+
+Provide the screenshot of the display of your Scope. 
+
+> Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
+
+> Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
+
+-------------
