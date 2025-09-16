@@ -54,3 +54,20 @@ We will measure a special metric known as **Time Constant**.
 
 Recall in Task 1, you final result for step response of first order system may look like:
 
+
+$$
+\mathrm{Output} = K \bigl(1 - e^{-\frac{1}{\tau}t}\bigr)u(t)
+$$
+
+**$K$ (called statedy-state value)** and **$\tau$ (called Time Constant)** are two constants that depend on **input amplitude $A$** and the **system model parameters $R$ and $C$**.
+
+* **When $t=\infty$:**
+  $\mathrm{Output}=K$,
+  (reaches a steady-state value).
+
+* **When $t=\tau$:**
+  $\mathrm{Output}=K\bigl(1-e^{-1}\bigr)\approx 0.632\cdot K$,
+  (63.2% of the steady-state value).
+
+To measure them graphically, we need to use the **Cursor Tool** as these steps:
+
