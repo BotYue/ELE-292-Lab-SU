@@ -60,18 +60,19 @@ This rubric applies to all math answers in the semester
 
 ### 📌 Task 1.2 Caculate Step Response in Theory (Individual)
 
-Today, our input will be a unit step signal. Let's write it as
+Today, our input will be a step signal with an amplitude $A$. Let's write it as
 
 $$
-V_{in}(t) = u(t)
+V_{in}(t) = A\cdot u(t)
 $$
 
 Convert to Laplace domain is:
 
 ```math
-V_{in}(s) = \mathcal{L}\{u(t)\} = \frac{1}{s}
+V_{in}(s) = \mathcal{L}\{A\cdot u(t)\} = A\cdot \frac{1}{s}=\frac{A}{s}
 ```
 
+<img src="Pic/utexample.png" width="400"> 
 
 #### :pencil2:  Report Item 1-b
 
@@ -84,9 +85,10 @@ Transform back to the time domain, the output is
 $$V_{out}(t) = ???$$
 
 > [!TIP]
-> Result should be in terms of $R, C$
+> Result should be in terms of $A, R, C$
 
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
