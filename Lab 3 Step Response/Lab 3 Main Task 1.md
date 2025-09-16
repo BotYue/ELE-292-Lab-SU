@@ -72,7 +72,8 @@ Convert to Laplace domain is:
 V_{in}(s) = \mathcal{L}\{A\cdot u(t)\} = A\cdot \frac{1}{s}=\frac{A}{s}
 ```
 
-<img src="Pic/utexample.png" width="400"> 
+| <img src="Pic/utexample.png" width="700"> |
+|-------------------------------------------|
 
 #### :pencil2:  Report Item 1-b
 
@@ -90,5 +91,6 @@ $$V_{out}(t) = ???$$
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
