@@ -49,9 +49,6 @@ Adjust the scope to get a clear, readable display. You should get **only 1 expon
 
 -------------
 ### 📌 Task 2.4 Measure
-
-We will measure a special metric known as **Time Constant**.
-
 Recall in Task 1, you final result for step response of first order system may look like:
 
 
@@ -59,15 +56,27 @@ $$
 \mathrm{Output} = K \bigl(1 - e^{-\frac{1}{\tau}t}\bigr)u(t)
 $$
 
-**$K$ (called statedy-state value)** and **$\tau$ (called Time Constant)** are two constants that depend on **input amplitude $A$** and the **system model parameters $R$ and $C$**.
+**$K$ (called statedy-state amplitude)** and **$\tau$ (called Time Constant)** are two constants that depend on **input amplitude $A$** and the **system model parameters $R$ and $C$**.
 
 * **When $t=\infty$:**
   $\mathrm{Output}=K$,
-  (reaches a steady-state value).
+  (reaches a steady-state amplitude).
 
 * **When $t=\tau$:**
   $\mathrm{Output}=K\bigl(1-e^{-1}\bigr)\approx 0.632\cdot K$,
   (63.2% of the steady-state value).
 
-To measure them graphically, we need to use the **Cursor Tool** as these steps:
+To measure $K$ and $\tau$ graphically, we need to use the **Cursor Tool** as these steps:
 
+##### 🧷 Step 1:
+Use a Y-cursor to measure the Steady-State amplitude on the scope. This is recorded as **statedy-state amplitude $K$**
+
+##### 🧷 Step 2: 
+Calculate the value $0.632\times K$
+
+##### 🧷 Step 3: 
+Use a pair of X and Y cursor to locate the point on the signal where the amplitude is equal to $0.632\times K$
+
+##### 🧷 Step 4: 
+Once you have identified this point, use 2 X cursors to measure the horizontal distance from the start of the cycle to this point. This distance is the **Time
+Constant $\tau$.**
