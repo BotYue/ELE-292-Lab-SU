@@ -68,7 +68,7 @@ Show the result your peak voltage in Python.
 #### :pencil2:  Report Item 3-c
 Theoretical response calculation.
 
-Baed on the experiment, plug in the numbers of $R$, $L$, $A$ into the equation you got back in Task 1:
+Baed on the experiment, plug in the values of $R$, $L$, $A$ into the equation you got back in Task 1:
 
 $$V_{out}(t) = ???$$
 
@@ -77,9 +77,14 @@ The theoretical peak value of $V_{out}(t)$ for $t\geq0$ is $???$
 
 #### :pencil2:  Report Item 3-d
 
-Compare the peak voltage you obtained from experiment versus the one from calculation. Fill:
+Compare the peak voltage you obtained from experiment versus the one from 3-c calculation. Fill:
 
 | **Tool**        | Experimental Peak Voltage | Percent Error |
 |-----------------|----|----|
 | **Scope**| ?? |?? |
 | **Python**| ?? |?? |
+
+> [!TIP]
+> Scope Experimental is from Report Item 2-b; Python Experimental is from Report Item 3-b;
+> 
+> Percent Error is Experimental versus Theoretical.
