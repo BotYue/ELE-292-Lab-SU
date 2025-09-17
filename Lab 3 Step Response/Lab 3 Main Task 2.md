@@ -80,3 +80,11 @@ Use a pair of X and Y cursor to locate the point on the signal where the amplitu
 ##### 🧷 Step 4: 
 Once you have identified this point, use 2 X cursors to measure the horizontal distance from the start of the cycle to this point. This distance is the **Time
 Constant $\tau$.**
+
+| **Step 1: align Y cursor to top** | **Step 3: Move Y cursor to $0.632\times K$** |
+|---------------------|-------------------|
+| <img src="Pic/step1.png" width="400"> | <img src="Pic/step3a.png" width="400"> |
+
+| **Step 3: Move X cursor to the location** | **Step 4: 2 X cursors for horizontal distance** |
+|---------------------|-------------------|
+| <img src="Pic/step3b.png" width="400"> | <img src="Pic/step4.png" width="400"> |
