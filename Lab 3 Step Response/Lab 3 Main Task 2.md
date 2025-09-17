@@ -105,9 +105,10 @@ Record your experimental results.
 |-----------------|----|
 | **Steady-State Amplitude $K$**        | ?? |
 | **$0.632\times K$**        | ?? |
-|**Time Constant**|??|
+|**Time Constant $\tau$**|??|
 
 
 ### ✅ Check Point 1 — Scope Display and Table Result
 
 Show to your instructor/TA.
+
