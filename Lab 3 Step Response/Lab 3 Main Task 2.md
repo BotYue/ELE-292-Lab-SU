@@ -60,11 +60,11 @@ $$
 
 * **When $t=\infty$:**
   $\mathrm{Output}=K$,
-  (reaches a steady-state amplitude).
+  (reaches a Steady-State Amplitude).
 
 * **When $t=\tau$:**
   $\mathrm{Output}=K\bigl(1-e^{-1}\bigr)\approx 0.632\cdot K$,
-  (63.2% of the steady-state value).
+  (63.2% of the Steady-State Amplitude).
 
 To measure $K$ and $\tau$ graphically, we need to use the **Cursor Tool** as these steps:
 
@@ -88,3 +88,26 @@ Constant $\tau$.**
 | **Step 3: Move X cursor to the location** | **Step 4: 2 X cursors for horizontal distance** |
 |---------------------|-------------------|
 | <img src="Pic/step3b.png" width="400"> | <img src="Pic/step4.png" width="400"> |
+
+#### :pencil2:  Report Item 2-b
+
+Provide the screenshot of the display of your Scope. With final cursors and reading displayed.
+
+> [!NOTE]
+> Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
+> Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
+
+#### :pencil2:  Report Item 2-c
+
+Record your experimental results.
+
+|||
+|-----------------|----|
+| **Steady-State Amplitude $K$**        | ?? |
+| **$0.632\times K$**        | ?? |
+|**Time Constant**|??|
+
+
+### ✅ Check Point 1 — Scope Display and Table Result
+
+Show to your instructor/TA.
