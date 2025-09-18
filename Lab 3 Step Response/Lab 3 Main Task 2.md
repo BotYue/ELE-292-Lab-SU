@@ -13,12 +13,6 @@
 - $R = 100~\mathrm{k}\Omega$ resistor 
 - $L = 0.22~\mu\mathrm{F}$ capacitor
 
-  
-#### :pencil2:  Report Item 2-a
-Provide a clear photo of your breadboard connection. 
-
-It will better to compress the photo to less than 1 MB before pasting into Notebook. Any online image compressor should work.
-
 -------------
 ### 📌 Task 2.2 Input Setup
 **Input Signal is setup by Wavegen setup:**
@@ -89,7 +83,7 @@ Constant $\tau$.**
 |---------------------|-------------------|
 | <img src="Pic/step3b.png" width="400"> | <img src="Pic/step4.png" width="400"> |
 
-#### :pencil2:  Report Item 2-b
+#### :pencil2:  Report Item 2-c
 
 Provide the screenshot of the display of your Scope. With final cursors and reading displayed.
 
@@ -97,7 +91,7 @@ Provide the screenshot of the display of your Scope. With final cursors and read
 > Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
-#### :pencil2:  Report Item 2-c
+#### :pencil2:  Report Item 2-b
 
 Record your experimental results.
 
@@ -111,4 +105,5 @@ Record your experimental results.
 ### ✅ Check Point 1 — Scope Display and Table Result
 
 Show to your instructor/TA.
+
 
