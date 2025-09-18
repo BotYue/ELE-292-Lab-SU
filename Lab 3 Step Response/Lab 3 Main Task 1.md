@@ -88,9 +88,27 @@ $$V_{out}(t) = ???$$
 > [!TIP]
 > Result should be in terms of $A, R, C$
 
+> \[!TIP]
+> **Inverse Laplace Formula**
+> >
+> For
+>
+> $$
+> F(s)=\frac{N}{s(s+p)}, \quad (N,p \text{ are constants})
+> $$
+>
+> The inverse Laplace is
+>
+> $$
+> \mathcal{L}^{-1}\big[F(s)\big]
+> =\frac{N}{p}\Big[1-e^{-pt}\Big]u(t).
+> $$
+
+
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
