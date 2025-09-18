@@ -83,7 +83,7 @@ Constant $\tau$.**
 |---------------------|-------------------|
 | <img src="Pic/step3b.png" width="400"> | <img src="Pic/step4.png" width="400"> |
 
-#### :pencil2:  Report Item 2-c
+#### :pencil2:  Report Item 2-a
 
 Provide the screenshot of the display of your Scope. With final cursors and reading displayed.
 
@@ -105,5 +105,6 @@ Record your experimental results.
 ### ✅ Check Point 1 — Scope Display and Table Result
 
 Show to your instructor/TA.
+
 
 
