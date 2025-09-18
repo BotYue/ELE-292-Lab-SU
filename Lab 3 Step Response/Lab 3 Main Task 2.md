@@ -101,10 +101,13 @@ Record your experimental results.
 | **$0.632\times K$**        | ?? |
 |**Time Constant $\tau$**|??|
 
+> [!NOTE]
+> Always record experiment data in 3 or more [significant digits (figures)](https://en.wikipedia.org/wiki/Significant_figures)! 
 
 ### ✅ Check Point 1 — Scope Display and Table Result
 
 Show to your instructor/TA.
+
 
 
 
