@@ -24,15 +24,18 @@ plt.plot(t_theo, V_theo, label="...")
 ```
 > [!TIP]
 > If their starting points no aligned, you can shift the Time-Axis of experimental output.
+> 
 > For example
+> 
 > ```plt.plot(my_data['Time (s)'] -2.7, my_data['Channel 1 (V)'])``` will shift left 2.7 seconds
+> 
 > ```plt.plot(my_data['Time (s)'] +3.1, my_data['Channel 1 (V)'])``` will shift right 3.1 seconds
 
 #### :pencil2:  Report Item 3-a
 
 Show both code and generated plot in the report. Use Python to display the plot of your Scope data. 
 
-Plots should have proper title, legend, x/y axis labels..
+Plots should have proper title, legend, x/y axis labels, units.
 
 ---
 ### ✅ Check Point 2 — Python Plot
@@ -53,7 +56,9 @@ You may now disconnect and put away all hardware.
 | **Percent Error**| ?? |
 
 > [!TIP]
-> Experimental Time Constant is from Report Item 2-c
-> Theoretical Time Constant is by comparing Report Item 1-c result versus the definition in Task 2.4
-> 
-> Percent Error is Experimental versus Theoretical.
+>
+> * **Experimental Time Constant:** Take the value in **Report Item 2-c**.
+> * **Theoretical Time Constant:** Use the result from **Report Item 1-c**, compare it with the definition given in **Task 2.4**. Then substitute the component values from your circuit.
+> * **Percent Error:** Compare Experimental Time Constant vs. Theoretical Time Constant.
+
+
