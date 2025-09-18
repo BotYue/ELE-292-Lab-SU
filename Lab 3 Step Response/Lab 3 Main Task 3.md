@@ -58,8 +58,9 @@ You may now disconnect and put away all hardware.
 > [!TIP]
 >
 > * **Experimental Time Constant:** Take the value in **Report Item 2-b**.
-> * **Theoretical Time Constant:** Use the result from **Report Item 1-c**, compare it with the definition given in **Task 2.4**. Then substitute the component values from your circuit.
+> * **Theoretical Time Constant:** Use the result from **Report Item 1-b**, compare it with the definition given in **Task 2.4**. Then substitute the component values from your circuit.
 > * **Percent Error:** Compare Experimental Time Constant vs. Theoretical Time Constant.
+
 
 
 
