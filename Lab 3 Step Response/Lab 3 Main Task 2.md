@@ -10,8 +10,8 @@
 | <img src="Pic/RCdiagram.png" width="380"> | <img src="Pic/breadboardRC.png" width="380"> |
 
 **Components Used:**
-- $R = 100~\mathrm{k}\Omega$ resistor 
-- $L = 0.22~\mu\mathrm{F}$ capacitor
+- $R = 100~\mathrm{k}\Omega$ resistor, (color code: brown black yellow gold)
+- $C = 0.22~\mu\mathrm{F}$ capacitor
 
 -------------
 ### 📌 Task 2.2 Input Setup
@@ -107,6 +107,7 @@ Record your experimental results.
 ### ✅ Check Point 1 — Scope Display and Table Result
 
 Show to your instructor/TA.
+
 
 
 
