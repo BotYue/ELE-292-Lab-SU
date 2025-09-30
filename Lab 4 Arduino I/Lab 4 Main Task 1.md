@@ -60,7 +60,11 @@ Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 127);```. 
 
 Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 63);```. Upload again, Observe the LED.
 
+> [!TIP]
+> Double check your `Tools-Board` and `Tools-Port` settings before uploading  
+
 ----
+
 ### 📌 Task 1.3 Measure Pin Voltage
 Now, use your Analog Discovery's Scope to measure the voltage of the Arduino PWM Pin. For example, if use Channel 1 on Scope:
 * Connect Analog Discovery's **1+** Pin to Arduino's **PWM** Pin
@@ -96,6 +100,7 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 ### ✅ Check Point 1 — Table Completed
 
 Show to your instructor/TA.
+
 
 
 
