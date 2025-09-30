@@ -25,8 +25,8 @@ For the pinout,
 * **True analog output**: **Pin A0** is the only true analog output pin. It is labeled by **VOUT**
 * **PWM output**: Most pins labeled with **D** can do PWM output. We recommend use from **Pin 9** to **Pin 13** 
 
+----
 ## :dart: Task 1 – LED and PWM output
----
 ### 📌 Task 1.1 Arduino Circuit Setup
 Components Used:
 * one LED
@@ -36,6 +36,8 @@ Components Used:
 
 * Arduino G is the Ground Pin
 * Arduino PWM: pick any PWM pin indicated in the previous introduction 
+
+---------
 
 ### 📌 Task 1.2 Arduino Code
 The Arduino coding of ItsyBitsy is a little different from classic AVR Arduino (such as Uno,
@@ -58,7 +60,7 @@ Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 127);```. 
 
 Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 63);```. Upload again, Observe the LED.
 
-
+----
 ### 📌 Task 1.3 Measure Pin Voltage
 Now, use your Analog Discovery's Scope to measure the voltage of the Arduino PWM Pin. For example, if use Channel 1 on Scope:
 * Connect Analog Discovery's **1+** Pin to Arduino's **PWM** Pin
@@ -82,10 +84,8 @@ For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);```
 | ```analogWrite(PWMPin, 63);```       |                               |                    |                     |        %     |
 
 > [!NOTE]
-> Unit!
-> 
-> At least 3 significant figures (digits)!
-
+> Unit!&nbsp;&nbsp;&nbsp;&nbsp; At least 3 significant figures (digits)!
+ 
 
 #### :pencil2:  Report Item 1-2
 
@@ -96,6 +96,7 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 ### ✅ Check Point 1 — Table Completed
 
 Show to your instructor/TA.
+
 
 
 
