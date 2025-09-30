@@ -27,9 +27,61 @@ For the pinout,
 
 ## :dart: Task 1 – LED and PWM output
 ---
-
+### 📌 Task 1.1 Arduino Circuit Setup
 Components Used:
 * one LED
 * one 220 Ω resistor (color code: red red brown gold)
 
 <img src="Pic/ledplace.png" width="400">
+
+* Arduino G is the Ground Pin
+* Arduino PWM: pick any PWM pin indicated in the previous introduction 
+
+### 📌 Task 1.2 Arduino Code
+The Arduino coding of ItsyBitsy is a little different from classic AVR Arduino (such as Uno,
+Nano). When dealing with PWM in ItsyBitsy, we do not use ```pinMode(..., ...)```
+
+Here is the code to drive your LED in full brightness. It is super simple!
+```c
+const int PWMPin = 10;
+// Suppose use Pin 10.
+void setup() {
+}
+
+void loop() {
+analogWrite(PWMPin, 255);
+}
+```
+Upload the code to Arduino. Observe the LED.
+
+Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 127);```. Upload again, Observe the LED.
+
+Then adjust ```analogWrite(PWMPin, 255);``` to ```analogWrite(PWMPin, 63);```. Upload again, Observe the LED.
+
+
+### 📌 Task 1.3 Measure Pin Voltage
+Now, use your Analog Discovery's Scope to measure the voltage of the Arduino PWM Pin. For example, if use Channel 1 on Scope:
+* Connect Analog Discovery's **1+** Pin to Arduino's **PWM** Pin
+* Connect Analog Discovert's **1-** Pin to Arduino's **G** Pin
+
+> [!TIP]
+> If Scope signal is not stable, adjust the **Trigger Level** until the display locks.  
+> Display 5-10 cycles on the Scope.
+
+#### :pencil2:  Report Item 1-1
+
+For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);``` 
+* Perform measurement for one cycle, record its High Time ($t_{H}$), Period ($T$).
+* Then calculate the duty cycle:
+
+$$D=\frac{t_{H}}{T}\times 100 \%$$
+
+| Setting | High Time  | Period | Duty Cycle |
+| ------- | ---------------------------- | ----------------- | ------------- |
+| ```analogWrite(PWMPin, 127);```      |                               |                    |                |
+| ```analogWrite(PWMPin, 63);```       |                               |                    |                |
+
+
+
+
+
