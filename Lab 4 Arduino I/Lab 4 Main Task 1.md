@@ -71,15 +71,15 @@ Now, use your Analog Discovery's Scope to measure the voltage of the Arduino PWM
 #### :pencil2:  Report Item 1-1
 
 For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);``` 
-* Perform measurement for one cycle, record its High Time ($t_{H}$), Period ($T$).
-* Then calculate the duty cycle:
+* Perform measurement for one cycle, record its High-level Voltage, High Time ($H$), Period ($T$).
+* Then calculate the Duty Cycle $D = (H / T) $× 100 %
 
-$$D=\frac{t_{H}}{T}\times 100 \%$$
 
-| Setting | High Time  | Period | Duty Cycle |
-| ------- | ---------------------------- | ----------------- | ------------- |
-| ```analogWrite(PWMPin, 127);```      |                               |                    |                |
-| ```analogWrite(PWMPin, 63);```       |                               |                    |                |
+| Setting | High-level Voltage | High Time  | Period | Duty Cycle |
+| ------- | ------- | ------- |  ------- |  ------- | 
+| ```analogWrite(PWMPin, 127);```      |                               |                    |                    |          %    |
+| ```analogWrite(PWMPin, 63);```       |                               |                    |                     |        %     |
+
 
 
 
