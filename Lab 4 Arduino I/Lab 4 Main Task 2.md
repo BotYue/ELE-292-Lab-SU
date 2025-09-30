@@ -28,6 +28,7 @@ In this task, we will use the **Analog Discovery** to study the TMP36 sensor cha
 > [!TIP]  
 > For easier checking, recommend to use a **red wire for Vin** and a **blue wire for Ground** when wiring the TMP36 sensor.
 
+----
 ### 📌 Task 2.2 Sensor Reading
 
 In WaveForms software, configure the **Wavegen** setup and run:
@@ -42,7 +43,7 @@ Next in WaveForms software, open the **Voltmeter** and run.
 
 <img src="Pic/voltmeter.png" width="150">
 
-
+---
 #### :pencil2:  Report Item 2-a
 
 Record three voltage readings from Channel 1, taking a measurement every 30 seconds.
@@ -50,6 +51,8 @@ Record three voltage readings from Channel 1, taking a measurement every 30 seco
 
 > [!CAUTION]  
 > If the reading **exceeds 1.0 V**: Something is wrong. **Power down immediately**. **Do not touch the TMP36 sensor**.
+
+---
 
 #### :pencil2:  Report Item 2-b
 
@@ -61,8 +64,9 @@ Use your three voltmeter readings from 2-a, compute the corresponding temperatur
 
 Do your values make sense?
 
-
+---
 ### ✅ Proceed to Task 3. No Check Point in this part.
 
 Unless the temperature values make no sense.
+
 
