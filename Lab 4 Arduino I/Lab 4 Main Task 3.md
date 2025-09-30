@@ -97,3 +97,9 @@ Provide your modified code inside ```void loop()```
 
 #### :pencil2:  Report Item 3-3
 Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
+
+### ✅ Check Point 2 — Arduino Print Temperature
+
+- Return resistor, Arduino, TMP 36 sensor to their proper bins.
+- Place the blue workbench on the shelf in the correct order:  
+  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
