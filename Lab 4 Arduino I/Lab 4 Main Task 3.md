@@ -42,3 +42,6 @@ void loop() {
 
 }
 ```
+
+> [!TIP]
+> Double check your `Tools-Board` and `Tools-Port` settings before uploading  
