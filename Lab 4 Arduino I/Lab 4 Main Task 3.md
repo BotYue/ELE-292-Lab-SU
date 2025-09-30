@@ -21,6 +21,8 @@ For Arduino Analog input Pin, you can pick any one indicated in the pre-Task 1 i
 
 -------
 ### 📌 Task 3.2 Arduino Code
+
+Read thru and upload the given code.
 ```c
 const int   PIN_TEMP = A1;
 // If your TMP36 is connected to A1 Pin.
@@ -45,3 +47,22 @@ void loop() {
 
 > [!TIP]
 > Double check your `Tools-Board` and `Tools-Port` settings before uploading  
+
+-------
+### 📌 Task 3.3 Monitor Sensor Reading
+
+Once `Done uploading.`
+
+In Arudino IDE, open “Tools → Serial Monitor”.
+- Click “AutoScrolling”
+- Un-click “Show timestamps“
+- Make sure the baud value in Serial Monitor matches the one we type in Code – 9600.
+- 
+Now, you should see the Serial Monitor is showing TMP36 sensor voltages line by line.
+
+#### :pencil2:  Report Item 3-1
+Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
+
+```text
+<paste your 10 lines here>
+```
