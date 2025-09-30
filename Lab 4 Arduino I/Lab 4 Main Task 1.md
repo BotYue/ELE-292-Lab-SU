@@ -28,7 +28,7 @@ For the pinout,
 ----
 ## :dart: Task 1 – LED and PWM output
 ### 📌 Task 1.1 Arduino Circuit Setup
-Components Used:
+**Components Used:**
 * one LED
 * one 220 Ω resistor (color code: red red brown gold)
 
@@ -96,6 +96,7 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 ### ✅ Check Point 1 — Table Completed
 
 Show to your instructor/TA.
+
 
 
 
