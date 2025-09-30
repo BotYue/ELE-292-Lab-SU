@@ -35,8 +35,6 @@ void setup() {
 void loop() {
   float tmp36_raw_reading = analogRead(PIN_TEMP);
   float tmp36_voltage = tmp36_raw_reading/1023.0*3.3;
-  
-// your work later
 
   Serial.print(millis()); // Print Time
   Serial.print(", ");
@@ -74,3 +72,28 @@ Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive outpu
 > Use **triple grave accents** as a fenced block. Use `text` as the language tag. Then paste inside
 > 
 ><img src="Pic/fenceblock.png" width="350">
+
+-------
+### 📌 Task 3.4 Print Temperature
+The provided code prints the TMP36 voltage only.
+
+Now it is your job to modify it and print the TMP36 temperature.
+
+You should modify the code inside ```void loop()```.
+
+Upload your code and check whether it works.
+
+#### :pencil2:  Report Item 3-2
+Provide your modified code inside ```void loop()```
+
+> [!TIP]
+> How to provide code
+> 
+> Switch the notebook cell to Markdown
+> 
+> Use **triple grave accents** as a fenced block. Use `c` as the language tag. Then paste inside
+> 
+><img src="Pic/fenceblock2.png" width="350">
+
+#### :pencil2:  Report Item 3-3
+Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
