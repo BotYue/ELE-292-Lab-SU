@@ -66,3 +66,9 @@ Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive outpu
 ```text
 <paste your 10 lines here>
 ```
+> [!TIP]
+> How to paste
+> 
+> Switch the notebook cell to Markdown
+> 
+> Use **triple grave accents** as a fenced block. Use `text` as the language tag. Then paste inside
