@@ -40,7 +40,7 @@ In WaveForms software, configure the **Wavegen** setup and run:
 Next in WaveForms software, open the **Voltmeter** and run.
 
 
-<img src="Pic/voltmeter.png" width="350">
+<img src="Pic/voltmeter.png" width="150">
 
 
 #### :pencil2:  Report Item 2-a
@@ -49,7 +49,7 @@ Record three voltage readings from Channel 1, taking a measurement every 30 seco
 
 
 > [!CAUTION]  
-> If the reading **exceeds 1.0 V**: Something is wrong. **Power down immediately**. **Do not touch the sensor**.
+> If the reading **exceeds 1.0 V**: Something is wrong. **Power down immediately**. **Do not touch the TMP36 sensor**.
 
 #### :pencil2:  Report Item 2-b
 
@@ -64,4 +64,5 @@ Do your values make sense?
 
 ### ✅ Proceed to Task 3. No Check Point in this part.
 
-unless the temperature values make no sense.
+Unless the temperature values make no sense.
+
