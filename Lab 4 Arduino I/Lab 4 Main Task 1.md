@@ -87,8 +87,8 @@ For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);```
 | ```analogWrite(PWMPin, 127);```      |                               |                    |                    |          %    |
 | ```analogWrite(PWMPin, 63);```       |                               |                    |                     |        %     |
 
-> [!NOTE]
-> Unit!&nbsp;&nbsp;&nbsp;&nbsp; At least 3 significant figures (digits)!
+
+*Don’t forget the units!*  &nbsp;&nbsp;&nbsp;&nbsp; *At least 3 significant figures (digits)!*
  
 
 #### :pencil2:  Report Item 1-2
@@ -100,6 +100,7 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 ### ✅ Check Point 1 — Table Completed
 
 Show to your instructor/TA.
+
 
 
 
