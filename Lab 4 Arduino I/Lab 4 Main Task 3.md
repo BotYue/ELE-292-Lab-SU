@@ -72,3 +72,5 @@ Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive outpu
 > Switch the notebook cell to Markdown
 > 
 > Use **triple grave accents** as a fenced block. Use `text` as the language tag. Then paste inside
+> 
+><img src="Pic/fenceblock.png" width="350">
