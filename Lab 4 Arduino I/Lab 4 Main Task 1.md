@@ -87,6 +87,11 @@ For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);```
 > At least 3 significant figures (digits)!
 
 
+#### :pencil2:  Report Item 1-2
+
+Provide 2 screenshots of the display of your Scope, for
+* ```analogWrite(PWMPin, 127);```
+* ```analogWrite(PWMPin, 63);``` 
 
 
 
