@@ -101,6 +101,8 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 
 Show to your instructor/TA.
 
+Disconnect your LED circuit and remove jumpwires from the breadboard.
+
 
 
 
