@@ -80,7 +80,7 @@ For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);```
   
 <img src="Pic/pwmmeasure.png" width="400">
 
-#### :pencil2:  Report Item 1-1
+#### :pencil2:  Report Item 1-a
 
 | Setting | High-level Voltage | High Time  | Period | Duty Cycle |
 | ------- | ------- | ------- |  ------- |  ------- | 
@@ -91,7 +91,7 @@ For ```analogWrite(PWMPin, 127);``` and ```analogWrite(PWMPin, 63);```
 *Don’t forget the units!*  &nbsp;&nbsp;&nbsp;&nbsp; *At least 3 significant figures (digits)!*
  
 
-#### :pencil2:  Report Item 1-2
+#### :pencil2:  Report Item 1-b
 
 Provide 2 screenshots of the display of your Scope corresponding to these two PWM settings:
 * ```analogWrite(PWMPin, 127);```
@@ -100,6 +100,7 @@ Provide 2 screenshots of the display of your Scope corresponding to these two PW
 ### ✅ Check Point 1 — Table Completed
 
 Show to your instructor/TA.
+
 
 
 
