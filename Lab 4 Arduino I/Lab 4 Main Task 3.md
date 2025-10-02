@@ -58,7 +58,7 @@ In Arudino IDE, open “Tools → Serial Monitor”.
 - 
 Now, you should see the Serial Monitor is showing TMP36 sensor voltages line by line.
 
-#### :pencil2:  Report Item 3-1
+#### :pencil2:  Report Item 3-a
 Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
 
 ```text
@@ -83,7 +83,7 @@ You should modify the code inside ```void loop()```.
 
 Upload your code and check whether it works.
 
-#### :pencil2:  Report Item 3-2
+#### :pencil2:  Report Item 3-b
 Provide your modified code inside ```void loop()```
 
 > [!TIP]
@@ -95,7 +95,7 @@ Provide your modified code inside ```void loop()```
 > 
 ><img src="Pic/fenceblock2.png" width="350">
 
-#### :pencil2:  Report Item 3-3
+#### :pencil2:  Report Item 3-c
 Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
 
 ### ✅ Check Point 2 — Arduino Print Temperature
@@ -103,3 +103,4 @@ Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive outpu
 - Return resistor, Arduino, TMP 36 sensor to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
   *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
