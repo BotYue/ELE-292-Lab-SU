@@ -58,7 +58,7 @@ Configue your **Wavegen** to provide 5 V DC.
 
 Open your **Scope**, 
 * Change the Mode from **Repeated** to **Screen**
-* Use 1 s/div or 2 s/div for Time Base
+* Use 2 s/div for Time Base
 * Make sure both Channels are ticked.
 
 Move the joystick in different directions, observe and understand the voltage.
@@ -83,3 +83,22 @@ Based on the joystick direction in the picture, measure and fill the table.
 
 > [!NOTE]
 > Leftmost position may be blocked by the breadboard. You don't need to add this in table.
+
+
+### 📌 Task 1.3 Record 2-Channel Data
+
+Record the scope voltages corresponding to the following continuous movement sequence:
+1. Use 1 second to slowly move the joystick from center to the topmost position
+2. Hold it there for 1 second
+3. Use 1 second to slowly move it back to the center.
+4. Use 1 second to slowly move the joystick from center to the rightmost position
+5. Hold it there for 1 second
+6. Use 1 second to slowly move it back to the center.
+
+#### :pencil2:  Report Item 1-b
+
+Provide the screenshot of the display of your Scope. Showing the full movement sequence.
+
+> [!NOTE]
+> Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
+> Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
