@@ -20,6 +20,7 @@ Get:
 * Use another Analog input pin to measure the voltage (**VRY**) for Y-position of the joystick. 
 * Ensure Arduino `G` is connected to the joystick Ground
 
+---
 ### 📌 Task 2.2 Arduino Code
 
 Write Arduino Code to
@@ -41,3 +42,16 @@ Open the Serial Monitor.
 <paste your 10 lines here>
 ```
 
+### 📌 Task 2.3 The 3.3 V Saturation Issue 
+
+From your Task 1 measurement, you can see the actuall Pin voltage is 5 V. 
+
+But in Task 2.2, your Arduino only gives you 3.3 V print-out. 
+
+This is a **3.3 V Saturation Issue** in Arduino:<br> Arduino’s ADC reference is 3.3 V. Any analog input above 3.3 V saturates and gets read as 3.3 V.
+
+To measure higher voltages on an analog pin, you must place an intermediate circuit between the sensor and the Arduino. We commonly use a **Voltage Divider**.
+
+
+
+<img src="Pic/voltagdiv.png" width="300">
