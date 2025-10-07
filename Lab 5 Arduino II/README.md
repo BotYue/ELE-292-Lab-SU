@@ -7,7 +7,7 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 
 **Grading (20 pts total):**  
 - Format (3)  
-- Item 1-a, 1-b (2+3)  
+- Item 1-a, 1-b, 1-c (1+2+2)  
 - Item 2-a, 2-b, 2-c, 2-d (2+1+3+3)
 - Conclusion (3)  
 
