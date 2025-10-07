@@ -30,6 +30,8 @@ Write Arduino Code to
 > [!TIP]
 > You can re-visit the Lab 4 Main Task 3 code to understand how to obtain pin voltage and print.
 
+<img src="Pic/joystickorit.png" width="400">
+
 #### :pencil2:  Report Item 2-a
 Open the Serial Monitor. 
 
@@ -94,3 +96,4 @@ Open the Serial Monitor.
 - Return components to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
   *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
