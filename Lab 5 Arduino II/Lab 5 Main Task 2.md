@@ -24,7 +24,7 @@ Get:
 ### 📌 Task 2.2 Arduino Code
 
 Write Arduino Code to
-* Read the voltages (**VRX**, **VRY**)from both analog input pins
+* Read the voltages (**VRX**, **VRY**) from both analog input pins
 * Print out both voltages via Serial Monitor
 
 > [!TIP]
@@ -62,3 +62,35 @@ This means that even the max 5 V of VRX/VRY Pin, the divided output becomes 2.5 
 
 <img src="Pic/voltagdiv.png" width="400">
 
+---------
+It is your job to build the extra voltage divider and modify the Arduino code. Such that you can get 5 V print-out when at Rightmost position.
+
+#### :pencil2:  Report Item 2-b
+Indicate your resistor values. (In case you forget which bin to return)
+
+
+#### :pencil2:  Report Item 2-c
+Provide the full Arduino code.
+
+```c
+your code
+```
+
+
+#### :pencil2:  Report Item 2-d
+Open the Serial Monitor. 
+
+* Make sure your joystick is in **Center position**. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below.
+```text
+<paste your 10 lines here>
+```
+* Make sure your joystick is in **Rightmost position**. Un-click “AutoScrolling”. Copy 10 consecutive output lines and paste them below. 
+```text
+<paste your 10 lines here>
+```
+
+### ✅ Check Point 2 — Arduino Print Voltage
+
+- Return components to their proper bins.
+- Place the blue workbench on the shelf in the correct order:  
+  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
