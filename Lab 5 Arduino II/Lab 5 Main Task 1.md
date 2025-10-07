@@ -1,6 +1,6 @@
 # Lab 5 Arduino II
 
-The 5 continues the introduction on Arduino basics, with emphasis on I/O.
+The Lab 5 continues the introduction on Arduino basics, with emphasis on I/O.
 
 Recall the pinout of **Adafruit ItsyBitsy M0 Express**,
 
@@ -125,3 +125,4 @@ Show both code and generated plot in the report.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
