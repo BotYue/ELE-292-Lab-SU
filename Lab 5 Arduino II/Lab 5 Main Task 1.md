@@ -64,3 +64,22 @@ Open your **Scope**,
 Move the joystick in different directions, observe and understand the voltage.
 
 * You may need to adjust the Channel Offset and Range to observe the full signal.
+
+---
+Based on the joystick direction in the picture, measure and fill the table.
+
+<img src="Pic/joystickorit.png" width="400">
+
+#### :pencil2:  Report Item 1-a
+
+
+
+| Joystick Direction |  VRX Voltage (X-axis)  |  VRY Voltage (Y-axis)  |
+| :----------------- | :--------------------: | :--------------------: |
+| Center             |         ≈ 2.50 V        |         ≈ 2.50 V        |
+| Move Rightmost          |  ?? V|         ??  V     |
+| Move Upmost            |   ??   V   | ?? V|
+| Move Downmost          |    ??  V     | ?? V|
+
+> [!NOTE]
+> Leftmost position may be blocked by the breadboard. You don't need to add this in table.
