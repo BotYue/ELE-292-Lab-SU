@@ -48,3 +48,17 @@ The **VRX** and **VRY** pins output analog voltages for the X- and Y-axis positi
 > You have completed multiple labs already. This time you are expected to handle the wiring **by yourself**.
 > 
 > No detailed pin-to-pin connection will be provided.
+
+> [!TIP]  
+> If you have too many ground wires, organize them to the blue rail of your breadboard.
+
+### 📌 Task 1.2 Scope Reading
+
+Configue your **Wavegen** to provide 5 V DC.
+
+Open your **Scope**, 
+* Change the Mode from **Repeated** to **Screen**
+* Use 1 s/div or 2 s/div for Time Base
+* Make sure both Channels are ticked.
+
+Move the joystick in different directions, observe and understand the voltage.
