@@ -62,3 +62,5 @@ Open your **Scope**,
 * Make sure both Channels are ticked.
 
 Move the joystick in different directions, observe and understand the voltage.
+
+* You may need to adjust the Channel Offset and Range to observe the full signal.
