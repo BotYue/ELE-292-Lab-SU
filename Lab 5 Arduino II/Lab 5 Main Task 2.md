@@ -44,7 +44,7 @@ Open the Serial Monitor.
 
 ### 📌 Task 2.3 The 3.3 V Saturation Issue 
 
-From your Task 1 measurement, you can see the actuall Pin voltage is 5 V. 
+From your Task 1 measurement, you can see the actuall VRX/VRY Pin voltage is 5 V. 
 
 But in Task 2.2, your Arduino only gives you 3.3 V print-out. 
 
@@ -52,6 +52,13 @@ This is a **3.3 V Saturation Issue** in Arduino:<br> Arduino’s ADC reference i
 
 To measure higher voltages on an analog pin, you must place an intermediate circuit between the sensor and the Arduino. We commonly use a **Voltage Divider**.
 
+----
 
+Here is an example circuit.
 
-<img src="Pic/voltagdiv.png" width="300">
+If you use 2 identical resistors for a voltage divider, the output voltage will be half of the input voltage.
+
+This means that even the max 5 V of VRX/VRY Pin, the divided output becomes 2.5 V, which stays within the Arduino’s 3.3 V ADC range.
+
+<img src="Pic/voltagdiv.png" width="400">
+
