@@ -84,7 +84,7 @@ Based on the joystick direction in the picture, measure and fill the table.
 > [!NOTE]
 > Leftmost position may be blocked by the breadboard. You don't need to add this in table.
 
-
+---
 ### 📌 Task 1.3 Record 2-Channel Data
 
 Record the scope voltages corresponding to the following continuous movement sequence:
@@ -95,6 +95,8 @@ Record the scope voltages corresponding to the following continuous movement seq
 5. Hold it there for 1 second
 6. Use 1 second to slowly move it back to the center.
 
+Then export as .csv for later use.
+
 #### :pencil2:  Report Item 1-b
 
 Provide the screenshot of the display of your Scope. Showing the full movement sequence.
@@ -102,3 +104,24 @@ Provide the screenshot of the display of your Scope. Showing the full movement s
 > [!NOTE]
 > Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
+
+----
+### 📌 Task 1.4 Plot Movement Trajectory (Individual)
+
+**Clean-up Data:**
+
+When exporting data in Screen Mode, the first recorded data row is often inaccurate due to buffer.
+
+So, open your exported .csv, deleta the first data row.
+
+
+#### :pencil2:  Report Item 1-c (Individual)
+In Jupyter Notebook, use Python to plot **the trajectory of the joystick movement**:
+* Plot one Channel voltage as X-axis
+* Plot the other Channel voltage as Y-axis
+* You can name axis labels as "left-right direction" or "up-down direction" without unit.
+
+Show both code and generated plot in the report.
+
+---
+### ✅ Check Point 1 — Scope Screenshot and Python Plot
