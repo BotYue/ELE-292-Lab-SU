@@ -46,9 +46,9 @@ Open the Serial Monitor.
 
 ### 📌 Task 2.3 The 3.3 V Saturation Issue 
 
-From your Task 1 measurement, you can see the actuall VRX/VRY Pin voltage is 5 V. 
+From your Task 1 measurement, you can see the actuall Pin voltages are 2.5 V & 5 V. 
 
-But in Task 2.2, your Arduino only gives you 3.3 V print-out. 
+But in Task 2.2, your Arduino gives you 2.5 V & 3.3 V print-out. 
 
 This is a **3.3 V Saturation Issue** in Arduino:<br> Arduino’s ADC reference is 3.3 V. Any analog input above 3.3 V saturates and gets read as 3.3 V.
 
@@ -96,5 +96,6 @@ Open the Serial Monitor.
 - Return components to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
   *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
 
 
