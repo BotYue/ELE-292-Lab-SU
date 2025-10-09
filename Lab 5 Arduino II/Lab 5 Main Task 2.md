@@ -67,6 +67,14 @@ This means that even the max 5 V of VRX/VRY Pin, the divided output becomes 2.5 
 ---------
 It is your job to build the extra voltage divider and modify the Arduino code. Such that you can get 5 V print-out when at Rightmost position.
 
+> [!TIP]
+> **Pick appropriate values for voltage divider resistors.**
+>
+> (Joystick internal resistance = 10 kΩ; Arduino ADC internal resistance ≈ 1 MΩ)
+>
+> To avoid effects from either side, choose your divider resistors between these two values.
+
+
 #### :pencil2:  Report Item 2-b
 Indicate your resistor values. (In case you forget which bin to return)
 
@@ -96,6 +104,7 @@ Open the Serial Monitor.
 - Return components to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
   *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
 
 
 
