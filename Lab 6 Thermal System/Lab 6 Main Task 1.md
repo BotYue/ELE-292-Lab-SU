@@ -59,13 +59,13 @@ Overall, the board can be simply considered as such connection:
 <img src="Pic/schematic.png" width="600">
 
 ▪ The **+5 V DC** is drawn from the **Pin Vhi** of the ItsyBitsy M0 Express.
- This 5 V DC supplies power to heat up the resistor.
+ <br>This 5 V DC supplies power to heat up the resistor.
 
 ▪ The **PWM signal** is controlled by the **PWM pin** of the Arduino.
- It adjusts the heat-power input to the heated resistor.
+ <br>It adjusts the heat-power input to the heated resistor.
 
 ▪ The resistor’s temperature is measured by a chip underneath it.
- The chip outputs a voltage to the **Temp Pin**, following the relation:
+ <br>The chip outputs a voltage to the **Temp Pin**, following the equation:
 
 $$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
 
@@ -74,12 +74,15 @@ Use the **Analog Discovery** to measure this sensor voltage.
 
 **Pin Connection:**
 
-| **Function**       | **Board** | **Analog Discovery** | **Arduino** |
-| :----------------- | :-------- | :------------------- | :---------- |
-| +5 V Supply        | Pin Vhi   | —                    | —           |
-| Temperature Output | —         | Pin 1+               | —           |
-| PWM Control        | —         | —                    | PWM Pin ?   |
-| Ground             | —         | Pin ↓ / Pin 1-       | Pin G       |
+| **The Borad**        | **Analog Discovery** | **Arduino** |
+| :-----------------| :------------------- | :---------- |
+| +5V DC         | —                    | Pin Vhi          |
+| Temp         | Pin 1+               | —           |
+| PWM               | —                    | PWM Pin ?   |
+| Gnd                    | Pin ↓, Pin 1-       | Pin G       |
+
+PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
