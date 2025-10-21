@@ -32,7 +32,7 @@ $$T_{chip}(t)=\frac{bA}{a}(1-e^{-at})+T_{room}$$
 
 Since $A$, $a$, $b$ are unknow constants, we can simply the writting as:
 
-$$T_{rel}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
+$$T_{chip}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
 
 * $T_{ss} = \dfrac{bA}{a}$ is the **steady-state temperature rise** above room temperature, (unit: °C) 
 * $\tau = \dfrac{1}{a}$ is the **Time Constant**. (unit: second) 
@@ -113,6 +113,7 @@ PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
 
 
 
