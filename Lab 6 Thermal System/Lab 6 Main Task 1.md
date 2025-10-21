@@ -9,7 +9,7 @@ Specifically, we will focus the **step response** of this system.
 
 We will also continue to practice the usage of Analog Discovery and Arduino.
 
-
+---
 ### 📌 Task 1.1 Pre Setup
 > [!IMPORTANT]  
 > you must do this first.
@@ -19,11 +19,22 @@ it.
 
 Connect USB to Arduino without any jump wires. 
 
-Run this code first to erase the previously uploaded code.
+Run this code first to reset the commonly used PWN pins.
 
 After completion, unplug the USB.
 
-
+```c
+// This code resets PWM pins 7,9,10,11,12 to 0 duty cycle
+void setup() {
+analogWrite(12, 0);
+analogWrite(11, 0);
+analogWrite(10, 0);
+analogWrite(9, 0);
+analogWrite(7, 0);
+}
+void loop() {
+}
+```
 
 ### 📌 Task 1.2 Actual System
 
@@ -41,7 +52,8 @@ So the switch will be on when PWM signal is High, will be off when PWM is Zero.
 * The +5 V DC is the voltage of the main circuit loop.
 
 Overall, the board can be simply considered as such connection:
-<img src="Pic/boardsystem.png" width="300">
+<img src="Pic/schematic.png" width="300">
+
 
 
 
