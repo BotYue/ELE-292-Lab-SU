@@ -36,7 +36,7 @@ void loop() {
 }
 ```
 
-### 📌 Task 1.2 Actual System
+### 📌 Task 1.2 Actual System Introduction
 
 The actual system is this board named "Temperature Control":
 
@@ -51,20 +51,35 @@ will be fully turned on if a gate signal is above 3 V.
 So the switch will be on when PWM signal is High, will be off when PWM is Zero.
 * The +5 V DC is the voltage of the main circuit loop.
 
+
+### 📌 Task 1.3 Wiring Explained
+
 Overall, the board can be simply considered as such connection:
 
 <img src="Pic/schematic.png" width="600">
 
-▪ The **+5 V DC** will be drawn from the Pin Vhi of ItsyBitsy M0 Express. This 5V DC heats up the resistor.
+▪ The **+5 V DC** is drawn from the **Pin Vhi** of the ItsyBitsy M0 Express.
+ This 5 V DC supplies power to heat up the resistor.
 
-▪ The **PWM** will be controlled by the PWM pin of Arduino. It controls the heat-power input towards the heated resistor.
+▪ The **PWM signal** is controlled by the **PWM pin** of the Arduino.
+ It adjusts the heat-power input to the heated resistor.
 
-▪ The resistor’s temperature is measured by a chip under it. The chip outputs a voltage to the **Temp Pin**:
+▪ The resistor’s temperature is measured by a chip underneath it.
+ The chip outputs a voltage to the **Temp Pin**, following the relation:
 
 $$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
 
-For example, if temperature is 23 °C, the chip outputs 2.3 V voltage.
+For example, if the temperature is 23 °C, the chip outputs 2.3 V.
+Use the **Analog Discovery** to measure this sensor voltage.
 
-We use Analog Discovery to measure this sensor voltage.
+**Pin Connection:**
 
+| **Function**       | **Board** | **Analog Discovery** | **Arduino** |
+| :----------------- | :-------- | :------------------- | :---------- |
+| +5 V Supply        | Pin Vhi   | —                    | —           |
+| Temperature Output | —         | Pin 1+               | —           |
+| PWM Control        | —         | —                    | PWM Pin ?   |
+| Ground             | —         | Pin ↓ / Pin 1-       | Pin G       |
 
+> [!TIP]
+> If you have too many ground wires, organize them to the blue rail of your breadboard.
