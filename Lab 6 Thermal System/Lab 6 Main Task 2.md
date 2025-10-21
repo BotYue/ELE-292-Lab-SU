@@ -75,3 +75,10 @@ Open your exported .csv, scroll to the bottom, and check whether the DateTime su
 **Pandas Timestamp:**
 
 In Python Pandas, the function [`pandas.to_datetime()`](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html) can parse and handle **datetime strings** such as `2025-10-21 10:30:25`, for time-based analysis.
+
+```python
+# After read_csv, suppose my DataFrame object is named as cao_lab6_data  
+cao_lab6_data["DateTime"] = pd.to_datetime(cao_lab6_data["DateTime"])
+cao_lab6_data["t_sec"] = (cao_lab6_data["DateTime"] - cao_lab6_data["DateTime"].min()).dt.total_seconds()
+print(cao_lab6_data)
+```
