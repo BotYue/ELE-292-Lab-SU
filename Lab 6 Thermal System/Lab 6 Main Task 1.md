@@ -98,7 +98,7 @@ Overall, the board can be simply considered as such connection:
 $$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
 
 For example, if the temperature is 23 °C, the chip outputs 2.3 V.
-Use the **Analog Discovery** to measure this sensor voltage.
+Use the **Analog Discovery** to measure this sensor chip voltage.
 
 **Pin Connection:**
 
@@ -113,6 +113,7 @@ PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
 
 
 
