@@ -12,7 +12,7 @@ Duty Cycle is 100%
 
 Wire everyhing up. 
 
-Re-run the Arduino code given in the Pre Setup.
+Re-run the Arduino code given in the Task 1.1 Pre Setup.
 
 In Analog Discovery, open **Logger**. <br>This is a new tool to you. It is mainly used to record
 signals in very long time period.
@@ -84,7 +84,7 @@ print(cao_lab6_data)
 ```
 
 > [!IMPORTANT]  
-> Once `.csv` saved. Disconnect the Arduino USB to let the system cool down.
+> Once `.csv` saved. Disconnect the Arduino USB and all jumpwires to Arduino to let the system cool down.
 
 
 #### :pencil2:  Report Item 2-c (Individual)
@@ -103,5 +103,6 @@ In Jupyter Notebook, use Python to plot tempature of the system:
 
 ---
 ### ✅ Check Point 1 — Logger Screenshot and Python Plot
+
 
 
