@@ -8,7 +8,7 @@ In this task, you will analyze the system based on the **theoretical model in Ta
 
 Based on your Task 2 experimental data and plot, estimate the parameters related with Temperature-axis, based on:
 
-$$T_{rel}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
+$$T_{chip}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
 
 #### :pencil2:  Report Item 3-a (Individual)
 
@@ -25,7 +25,7 @@ $$T_{rel}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
 
 In this theoretical response equation,
 
-$$T_{rel}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
+$$T_{chip}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
 
 You can see the Time Constant of the system is $\tau$ (Unit: seconds) in the theoretical model.
 
@@ -45,6 +45,7 @@ Indicate your final estimated Time Constant.
 Provide a single figure showing both the experimental data and the theoretical response (show both code and generated plot).
 
 Your figure should have proper title, legend, x/y axis labels, units.
+
 
 
 
