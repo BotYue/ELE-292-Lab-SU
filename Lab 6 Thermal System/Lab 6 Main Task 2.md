@@ -17,7 +17,7 @@ Duty Cycle is 100%
 ----
 ### 📌 Task 2.1 Configuration
 
-Wire everyhing up. 
+Wire everything up. 
 
 Re-run the Arduino code given in the Task 1.1 Pre Setup.
 
@@ -111,6 +111,7 @@ In Jupyter Notebook, use Python to plot temperature of the system:
 
 ---
 ### ✅ Check Point 2 — Python Plot
+
 
 
 
