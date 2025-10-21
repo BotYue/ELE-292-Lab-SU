@@ -6,18 +6,19 @@ Once your resistor is fully cooled down (been cooled down for at least 10 minute
 
 Task 3 will basically repeat the same procedures as in Task 2, except it will use a different PWM signal.
 
+---
 ### 📌 Task 3.1 Configuration
 
-Connect back the USB to Arduino, but keep all jumpwires to Arduino disconnected.
+**Connect back the USB to Arduino, but keep all jumpwires to Arduino disconnected.**
 
 Re-run the Arduino code given in the Task 1.1 Pre Setup to reset all PWM pins.
 
 Then connect back all jumpwires to Arduino.
 
-Once done, continue to run Analog Discovery **Logger**. Click the broom symbol  to erase previous log. Then let it log the room temperature for 1 minute.
+Once done, continue to run Analog Discovery **Logger**. Click the broom symbol  to erase previous log. Then let it log the room temperature for at least 1 minute.
 
 ----
-### 📌 Task 2.2 Heat and Log
+### 📌 Task 3.2 Heat and Log
 
 **Keep the Logger running. Don’t stop it.**
 
@@ -29,7 +30,7 @@ Upload the Arduino code. Patiently wait for the response on Logger.
 
 On the logger, you should observe the signal gradually increasing in an exponential manner, eventually reaching a steady state.
 
-#### :pencil2:  Report Item 2-a
+#### :pencil2:  Report Item 3-a
 
 Provide the screenshot of your Logger showing the heating process. Make sure your plot show both initial state and steady state.
 
@@ -44,11 +45,12 @@ Note: Change the "**Relative Time**" to "**DateTime sec**" when exporting.
 
 <img src="Pic/DateTime.png" width="400"> 
 
-### 📌 Task 2.3 Data Visualization (Individual)
+---
+### 📌 Task 3.3 Data Visualization (Individual)
 
 In this task, you will use Python to plot the saved .csv file.
 
-#### :pencil2:  Report Item 2-b (Individual)
+#### :pencil2:  Report Item 3-b (Individual)
 
 In Jupyter Notebook, use Python to plot temperature of the system:
 * Plot Time (seconds) as X-axis
@@ -64,4 +66,5 @@ In Jupyter Notebook, use Python to plot temperature of the system:
 
 ---
 ### ✅ Check Point 2 — Logger Screenshot and Python Plot
+
 
