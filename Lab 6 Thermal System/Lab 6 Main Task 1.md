@@ -1,6 +1,6 @@
 # Lab 6 Thermal System
 
-## :dart: Task 1 –Introduction
+## :dart: Task 1 –Setup
 
 
 In Lab6, we will study a **first order thermal system**.
@@ -106,5 +106,6 @@ PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
 
 
