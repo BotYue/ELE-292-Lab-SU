@@ -4,8 +4,15 @@
 
 In the prelab, you studied the relationship between Power and Duty Cycle. In fact, they are
 **proportional** !
+
 In this task, we will test the heating power using Full Power, in other words, PWM
 Duty Cycle is 100%
+
+> [!CAUTION]
+> If you want to **re-do the heating process** described in next Task 2.1 & 2.2,
+> you have to disconnect all wires and let the system to cool down for at least 10 minutes.
+>
+> So, carefully follow each step.
 
 ----
 ### 📌 Task 2.1 Configuration
@@ -104,6 +111,7 @@ In Jupyter Notebook, use Python to plot temperature of the system:
 
 ---
 ### ✅ Check Point 2 — Python Plot
+
 
 
 
