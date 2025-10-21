@@ -82,3 +82,12 @@ cao_lab6_data["DateTime"] = pd.to_datetime(cao_lab6_data["DateTime"])
 cao_lab6_data["t_sec"] = (cao_lab6_data["DateTime"] - cao_lab6_data["DateTime"].min()).dt.total_seconds()
 print(cao_lab6_data)
 ```
+
+#### :pencil2:  Report Item 2-c (Individual)
+
+In Jupyter Notebook, use Python to plot tempature of the system:
+* Plot Time (seconds) as X-axis
+* Plot Temperature (degree C) as Y-axis
+
+---
+### ✅ Check Point 1 — Logger Screenshot and Python Plot
