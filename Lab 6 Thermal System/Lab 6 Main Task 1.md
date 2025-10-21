@@ -9,6 +9,27 @@ Specifically, we will focus the **step response** of this system.
 
 We will also continue to practice the usage of Analog Discovery and Arduino.
 
+----
+The system can be modeled as such:
+
+<img src="Pic/systemmodel.png" width="450">
+
+* **System Input:** the power $P_{in}(t)$ (Unit: Watt) delivered to the resistor. <br>It is set to be a **step input**: $Au(t)$
+* **System Output:** relative temperature $T_{rel}(t)$ (unit: °C) of the resistor. <br>It is the difference
+between the heated temperature readed by the sensing chip $T_{chip}(t)$, and the room temperature $T_{room}$<br>$T_{rel}(t)=T_{chip}(t)-T_{room}(t)$
+
+First order system **Transfer Function**:
+
+$$\frac{T_{rel}(t)}{P_{in}(t)}=\frac{b}{s+a}$$
+
+$A$, $a$, $b$, $T_{room}$ are unknown constants.
+
+If we apply inverse Laplace, we can derive its **Time-Domain Response** as:
+
+$$T_{rel}(t)=\frac{bA}{a}(1-e^{-at})$$
+
+$$T_{chip}(t)=\frac{bA}{a}(1-e^{-at})+T_{room}$$
+
 ---
 ### 📌 Task 1.1 Pre Setup
 > [!IMPORTANT]  
@@ -85,4 +106,5 @@ PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
 
