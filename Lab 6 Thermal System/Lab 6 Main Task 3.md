@@ -29,9 +29,9 @@ In this theoretical response equation,
 
 $$T_{chip}(t)=\frac{bA}{a}(1-e^{-at})+T_{room}$$
 
-You can see the Time Constant of the system is $1/a$ (Unit: seconds) in the theoretical model.
+You can see the Time Constant of the system is $\frac{1}{a}$ (Unit: seconds) in the theoretical model.
 
-* First, make a **rough estimate** of the Time Constant value $1/a$.
+* First, make a **rough estimate** of the Time Constant value $\frac{1}{a}$.
 
 * Then, use the theoretical response equation, plugging your previously estimated parameters $T_{room}$ and $\frac{bA}{a}$, to **plot the theoretical response** on the same figure as your experimental data.
 
@@ -47,6 +47,7 @@ Indicate your final estimated Time Constant.
 Provide a single figure showing both the experimental data and the theoretical response (show both code and generated plot).
 
 Your figure should have proper title, legend, x/y axis labels, units.
+
 
 
 
