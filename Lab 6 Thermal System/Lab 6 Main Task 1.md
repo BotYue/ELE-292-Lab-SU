@@ -38,7 +38,7 @@ void loop() {
 
 ### 📌 Task 1.2 Actual System
 
-The actual system is this board named "Tmeperature Control":
+The actual system is this board named "Temperature Control":
 
 <img src="Pic/boardsystem.png" width="300">
 
@@ -54,7 +54,13 @@ So the switch will be on when PWM signal is High, will be off when PWM is Zero.
 Overall, the board can be simply considered as such connection:
 <img src="Pic/schematic.png" width="300">
 
+▪ The **+5 V DC** will be drawn from the Pin Vhi of ItsyBitsy M0 Express. This 5V DC heats up the resistor.
 
+▪ The **PWM** will be controlled by the PWM pin of Arduino. It controls the heat-power input towards the heated resistor.
+
+▪ The resistor’s temperature is measured by a chip under it. The chip outputs a voltage to the **Temp Pin**:
+
+$$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
 
 
 
