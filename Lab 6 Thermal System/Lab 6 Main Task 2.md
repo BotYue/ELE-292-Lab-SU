@@ -54,6 +54,8 @@ Provide the screenshot of your Logger showing the heating process. Make sure you
 > Include the device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
+### ✅ Check Point 1 — Screenshot
+
 ----
 Then, save the Logger display to .csv. 
 
@@ -101,7 +103,8 @@ In Jupyter Notebook, use Python to plot temperature of the system:
 
 
 ---
-### ✅ Check Point 1 — Logger Screenshot and Python Plot
+### ✅ Check Point 2 — Python Plot
+
 
 
 
