@@ -52,7 +52,8 @@ So the switch will be on when PWM signal is High, will be off when PWM is Zero.
 * The +5 V DC is the voltage of the main circuit loop.
 
 Overall, the board can be simply considered as such connection:
-<img src="Pic/schematic.png" width="300">
+
+<img src="Pic/schematic.png" width="600">
 
 ▪ The **+5 V DC** will be drawn from the Pin Vhi of ItsyBitsy M0 Express. This 5V DC heats up the resistor.
 
@@ -62,7 +63,8 @@ Overall, the board can be simply considered as such connection:
 
 $$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
 
+For example, if temperature is 23 °C, the chip outputs 2.3 V voltage.
 
-
+We use Analog Discovery to measure this sensor voltage.
 
 
