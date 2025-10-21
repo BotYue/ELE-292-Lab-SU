@@ -54,9 +54,8 @@ Provide the screenshot of your Logger showing the heating process. Make sure you
 > Include the device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
-#### :pencil2:  Report Item 2-b
-
-Save the Logger display to .csv. 
+----
+Then, save the Logger display to .csv. 
 
 Note: Change the "**Relative Time**" to "**DateTime sec**" when exporting.
 
@@ -87,9 +86,9 @@ print(cao_lab6_data)
 > Once `.csv` saved. Disconnect the Arduino USB and all jumpwires to Arduino to let the system cool down.
 
 
-#### :pencil2:  Report Item 2-c (Individual)
+#### :pencil2:  Report Item 2-b (Individual)
 
-In Jupyter Notebook, use Python to plot tempature of the system:
+In Jupyter Notebook, use Python to plot temperature of the system:
 * Plot Time (seconds) as X-axis
 * Plot Temperature (degree C) as Y-axis
 
@@ -103,6 +102,7 @@ In Jupyter Notebook, use Python to plot tempature of the system:
 
 ---
 ### ✅ Check Point 1 — Logger Screenshot and Python Plot
+
 
 
 
