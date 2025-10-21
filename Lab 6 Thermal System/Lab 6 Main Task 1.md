@@ -40,7 +40,7 @@ it.
 
 Connect USB to Arduino without any jump wires. 
 
-Run this code first to reset the commonly used PWN pins.
+Run this code first to reset the commonly used PWM pins.
 
 After completion, unplug the USB.
 
@@ -106,6 +106,7 @@ PWM Pin ? can be selected from any pin you reset in the Task 1.1 code.
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
 
 
 
