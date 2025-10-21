@@ -18,7 +18,7 @@ $$T_{chip}(t) = T_{ss}\left(1 - e^{-t/\tau}\right)+T_{room}$$
 | $T_{ss}$ |                    |           |     
 
 > [!TIP]
-> You can use vertical lines on your Python plot [`plt.axhline(y=??)`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axhline.html) to visually fine-tune the parameter estimation.
+> You can use vertical lines on your Python plot [`plt.axhline(y=??, color='??')`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axhline.html) to visually fine-tune the parameter estimation.
 
 
 ### 📌 Task 3.2 Time-axis Parameter Estimation (Individual)
@@ -45,6 +45,7 @@ Indicate your final estimated Time Constant.
 Provide a single figure showing both the experimental data and the theoretical response (show both code and generated plot).
 
 Your figure should have proper title, legend, x/y axis labels, units.
+
 
 
 
