@@ -83,11 +83,25 @@ cao_lab6_data["t_sec"] = (cao_lab6_data["DateTime"] - cao_lab6_data["DateTime"].
 print(cao_lab6_data)
 ```
 
+> [!IMPORTANT]  
+> Once `.csv` saved. Disconnect the Arduino USB to let the system cool down.
+
+
 #### :pencil2:  Report Item 2-c (Individual)
 
 In Jupyter Notebook, use Python to plot tempature of the system:
 * Plot Time (seconds) as X-axis
 * Plot Temperature (degree C) as Y-axis
 
+
+> [!NOTE]
+> The column names in the `.csv` file are different from the previous labs. You can open the `.csv` to inspect.
+>
+> The temperature–voltage relationship was provided earlier.
+
+
+
 ---
 ### ✅ Check Point 1 — Logger Screenshot and Python Plot
+
+
