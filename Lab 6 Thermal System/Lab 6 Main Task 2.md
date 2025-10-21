@@ -28,3 +28,19 @@ Run the Logger, make sure that you can see a flat line. The voltage reading shou
 reasonable value that corresponds to the room temperature:
 
 $$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)}}{0.100}$$
+
+----
+### 📌 Task 2.2 Start Heating
+
+**Keep the Logger running. Don’t stop it.**
+
+Now, go to Arduino IDE, adjust the value in analogWrite(PWMPin, 255). So that make the PWM
+to be 100% Duty Cycle (fully HIGH).
+
+Upload the Arduino code. Patiently wait for the response on Logger.
+
+On the logger, you should observe the signal gradually increasing in an exponential manner, eventually reaching a steady state.
+
+| **This is an example plot I got. Make sure your plot show both initial state and steady state** | 
+|---------------------|
+| <img src="Pic/mylogger.png" width="800"> | 
