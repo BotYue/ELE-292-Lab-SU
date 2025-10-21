@@ -61,3 +61,17 @@ Save the Logger display to .csv.
 Note: Change the "**Relative Time**" to "**DateTime sec**" when exporting.
 
 <img src="Pic/DateTime.png" width="400"> 
+
+### 📌 Task 2.3 Data Visualization (Individual)
+
+In this task, you will use Python to plot the saved .csv file.
+
+**Clean-up Data:**
+
+For Logger .csv, a few buffer rows may appear at the end.
+
+Open your exported .csv, scroll to the bottom, and check whether the DateTime suddenly jumps (out of order). If it does, delete those rows.
+
+**Pandas Timestamp:**
+
+In Python Pandas, the function [`pandas.to_datetime()`](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html) can parse and handle **datetime strings** such as `2025-10-21 10:30:25`, for time-based analysis.
