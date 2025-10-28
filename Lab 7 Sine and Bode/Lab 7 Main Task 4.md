@@ -1,0 +1,35 @@
+# Lab 7 Sine & Bode
+
+## :dart: Task 4 – Data Visualization (Individual)
+
+------
+
+### 📌 **Task 4.1 – Manual Bode vs. Theory**
+
+In Jupyter Notebook, use Python to plot **on the same figure**:
+1) the manually obtained Bode plot from Task 2
+2) the theoretical Bode plot using the Transfer Function in Task 1
+
+The figure should use Frequency (Hz) as X-axis, use Magnitude (dB) as Y-axis.
+
+The figure should have proper title, legend, x/y axis labels, units.
+
+#### :pencil2:  Report Item 4-a (Individual)
+
+Show both code and generated plot in the report.
+
+
+---
+### 📌 **Task 4.2 – Auto Bode vs. Theory**
+
+In Jupyter Notebook, use Python to plot **on the same figure**:
+1) the automatically obtained Bode plot from Task 3. (load your save `.csv` and plot)
+2) the theoretical Bode plot using the Transfer Function in Task 1
+
+The figure should use Frequency (Hz) as X-axis, use Magnitude (dB) as Y-axis.
+
+The figure should have proper title, legend, x/y axis labels, units.
+
+#### :pencil2:  Report Item 4-b (Individual)
+
+Show both code and generated plot in the report.
