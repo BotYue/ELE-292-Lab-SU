@@ -20,7 +20,13 @@ We will use a RC circuit as a second order system.
 - Both resistors $R = 33~\mathrm{k}\Omega$, (color code: orange orange orange gold)
 - $C_1 = 220~\mathrm{nF}$ capacitor
 - $C_2 = 22~\mathrm{nF}$ capacitor
+- W1 will be configure to Sine signal in Wavengen later.
+  
+> [!TIP]
+> If you have too many ground wires, organize them to the blue rail of your breadboard.
 
+---
+### 📌 Task 1.2 System Transfer Function
 
 
 
