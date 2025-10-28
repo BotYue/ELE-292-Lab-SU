@@ -87,8 +87,8 @@ Based on your table result, plot the Bode using this code piece.
 
 ```python
 
-freq_manual = [1, 2, 5, 8, 10, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 200, 500, 800, 1000]
-mag_manual = [] 
+freq_manual = np.array([1, 2, 5, 8, 10, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 200, 500, 800, 1000])
+mag_manual = np.array([.........]) 
 # enter your Magnitude (dB) into this array
 
 plt.semilogx(freq_manual, mag_manual, '-o', label="Manual Frequency Sweep")
@@ -107,4 +107,5 @@ If you have an outlier data point in Bode plot, go back to the experiment and re
 ### ✅ Check Point 1 — Table and Plot
 
 Show to your instructor/TA.
+
 
