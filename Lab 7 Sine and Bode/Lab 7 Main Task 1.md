@@ -51,5 +51,9 @@ Combine these 2 analyzed equations and subtitute $V_1$:
 
 $$\left(\frac{1}{R}+sC_1+\frac{sC_2}{1+sRC_2} \right)\frac{1+sRC_2}{sRC_2}V_{out}=\frac{1}{R}V_{in}$$
 
+$$\frac{R^2C_1C_2s^2+R(C_1+2C_2)+1}{RC_2s}V_{out}=V_{in}$$
 
+Thus, the system Transfer Function will be
+
+$$H(s)=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
 
