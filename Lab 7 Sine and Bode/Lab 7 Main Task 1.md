@@ -41,3 +41,15 @@ $$\frac{V_{in}-V_1}{R}=\frac{V_1}{1/sC_1}+\frac{V_1}{1/sC_2+R}$$
 
 $$\left(\frac{1}{R}+sC_1+\frac{sC_2}{1+sRC_2} \right)V_1=\frac{1}{R}V_{in}$$
 
+Analyze the branch only with $C_2$ and $R$:
+
+$$\frac{V_{out}}{V_{1}}=\frac{R}{R+1/sC_2}=\frac{sRC_2}{1+sRC_2}$$
+
+$$V_{1}=\frac{1+sRC_2}{sRC_2}V_{out}$$
+
+Combine these 2 analyzed equations and subtitute $V_1$:
+
+$$\left(\frac{1}{R}+sC_1+\frac{sC_2}{1+sRC_2} \right)\frac{1+sRC_2}{sRC_2}V_{out}=\frac{1}{R}V_{in}$$
+
+
+
