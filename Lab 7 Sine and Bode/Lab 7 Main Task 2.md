@@ -1,4 +1,4 @@
-# Lab 6 Sine & Bode
+# Lab 7 Sine & Bode
 
 ## :dart: Task 2 – Manually Obtain Bode
 
@@ -28,7 +28,7 @@ Now, start your data collecting:
 
 * Set input frequency $f$ at different values.
 * For each selected frequency $f$, measure the amplitude of corresponding output signal using the **Scope**.
-* To get a complete Bode plot, you need to sweep over many freqs in different decades.
+* To get a complete Bode plot, you need to sweep over many freqs across multiple decades.
 
 > [!TIP]
 > As you learned in ELE 251, a Sine signal passing thru a system will retain its frequency.
@@ -107,3 +107,4 @@ If you have an outlier data point in Bode plot, go back to the experiment and re
 ### ✅ Check Point 1 — Table and Plot
 
 Show to your instructor/TA.
+
