@@ -10,7 +10,7 @@ The WaveForms of Analog Discovery includes a network analyzer tool. <br> To open
 
 ------
 
-### 📌 Task 3.1 Frequency Sweep
+### 📌 Task 3.1 Automatically Frequency Sweep
 
 Configure your Network Analyze as such:
 
@@ -47,3 +47,4 @@ Use Notepad/TextEditor to double check your saved `.csv`. Make sure there are 51
 ### ✅ Check Point 2 — Bode in Network Analyzer
 
 Show to your instructor/TA.
+
