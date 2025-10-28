@@ -91,6 +91,7 @@ freq_manual = np.array([1, 2, 5, 8, 10, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100,
 mag_manual = np.array([.........]) 
 # enter your Magnitude (dB) into this array
 
+plt.figure(figsize=(10, 5))
 plt.semilogx(freq_manual, mag_manual, '-o', label="Manual Frequency Sweep")
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Magnitude (dB)")
@@ -107,5 +108,6 @@ If you have an outlier data point in Bode plot, go back to the experiment and re
 ### ✅ Check Point 1 — Table and Plot
 
 Show to your instructor/TA.
+
 
 
