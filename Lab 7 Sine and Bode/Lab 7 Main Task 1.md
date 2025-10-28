@@ -62,9 +62,16 @@ $$H(s)=\frac{V_{out}}{V_{in}}=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
 In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy.signal.TransferFunction` to create the system model.<br> Finally print out the system model.
 
 
+
+> [!TIP]
+> Regarding to power term typing in Python
+> 
+> $5\times10^3$ can be typed as `5E3` in Python. $5\times10^{-3}$ can be typed as `5E-3` in Python. 
+
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
