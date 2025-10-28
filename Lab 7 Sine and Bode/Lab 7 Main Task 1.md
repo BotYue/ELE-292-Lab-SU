@@ -28,9 +28,16 @@ We will use a RC circuit as a second order system.
 ---
 ### 📌 Task 1.2 System Transfer Function
 
+<img src="Pic/nodal_imp.png" width="600"> 
 
+We can analyze the system transfer function using impedance and Nodal Analysis.
 
+- The impedance of $C_1$ is $1/sC_1$
+- The impedance of $C_2$ is $1/sC_2$
 
+Nodal Analysis applied to Noda $V_1$:
 
+$$\frac{V_{in}-V_1}{R}=\frac{V_1}{1/sC_1}+\frac{V_1}{1/sC_2+R}$$
 
+$$\left(\frac{1}{R}+sC_1+\frac{sC_2}{1+sRC_2} \right)V_1=\frac{1}{R}V_{in}$$
 
