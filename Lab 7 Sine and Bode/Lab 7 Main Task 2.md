@@ -8,7 +8,7 @@ Using the collected data, we will then manually create a Bode Magnitude plot for
 
 ------
 
-### 📌 Task 2.1 Frequency Sweep
+### 📌 Task 2.1 Manually Frequency Sweep
 
 **Input Signal is setup by Wavegen setup:**
 | Setting   | Value |
@@ -68,6 +68,8 @@ Then calculate the corresponding Magnitude (dB) for each input–output data pai
 
 
 ---
+> [!NOTE]
+> Always record experiment data in 3 or more [significant digits (figures)](https://en.wikipedia.org/wiki/Significant_figures)!
 
 > [!Note]
 > $\text{Magnitude (dB)} = 20 \log_{10}\left(\frac{V_{\text{out}}}{V_{\text{in}}}\right)$
@@ -77,6 +79,31 @@ Then calculate the corresponding Magnitude (dB) for each input–output data pai
 > [!Note]
 > If one single table is too long in display, you can split in multiple tables
 
+------
 
+### 📌 Task 2.2 Plot as Bode
 
+Based on your table result, plot the Bode using this code piece.
 
+```python
+
+freq_manual = [1, 2, 5, 8, 10, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 200, 500, 800, 1000]
+mag_manual = [] 
+# enter your Magnitude (dB) into this array
+
+plt.semilogx(freq_manual, mag_manual, '-o', label="Manual Frequency Sweep")
+plt.xlabel("Frequency (Hz)")
+plt.ylabel("Magnitude (dB)")
+plt.title("Bode Magnitude Plot")
+plt.grid(which="both", linestyle="--", linewidth=0.5)
+```
+
+#### :pencil2:  Report Item 2-b
+
+Show both Python code and generated plot in the report. 
+
+If you have an outlier data point in Bode plot, go back to the experiment and re-check.
+
+### ✅ Check Point 1 — Table and Plot
+
+Show to your instructor/TA.
