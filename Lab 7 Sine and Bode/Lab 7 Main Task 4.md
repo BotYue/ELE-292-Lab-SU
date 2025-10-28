@@ -20,6 +20,8 @@ Show both code and generated plot in the report.
 
 > [!TIP]
 > For how to plot Bode from a Transfer Function, you can refer to https://github.com/BotYue/ELE-251-25Sp-SU-Open/blob/main/Section%202/Notebook%202_7%20key.ipynb
+>
+> You should create a new array for the theoretical frequencies using: `np.logspace(?, ?, 1000)`
 
 ---
 ### 📌 **Task 4.2 – Auto Bode vs. Theory**
@@ -36,3 +38,4 @@ The figure should have proper title, legend, x/y axis labels, units.
 
 
 Show both code and generated plot in the report.
+
