@@ -47,7 +47,7 @@ $$\frac{V_{out}}{V_{1}}=\frac{R}{R+1/sC_2}=\frac{sRC_2}{1+sRC_2}$$
 
 $$V_{1}=\frac{1+sRC_2}{sRC_2}V_{out}$$
 
-Combine these 2 analyzed equations and subtitute $V_1$:
+Combine these 2 analyzed equations and substitute $V_1$:
 
 $$\left(\frac{1}{R}+sC_1+\frac{sC_2}{1+sRC_2} \right)\frac{1+sRC_2}{sRC_2}V_{out}=\frac{1}{R}V_{in}$$
 
@@ -57,3 +57,11 @@ Thus, the system Transfer Function will be
 
 $$H(s)=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
 
+#### :pencil2:  Report Item 1-a
+
+In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy.signal.TransferFunction` to create the system model.<br> Finally print out the system moded.
+
+
+---------
+
+### ✅ Proceed to Task 2. No Check Point in this part.
