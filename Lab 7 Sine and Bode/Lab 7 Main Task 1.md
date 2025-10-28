@@ -59,9 +59,10 @@ $$H(s)=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
 
 #### :pencil2:  Report Item 1-a
 
-In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy.signal.TransferFunction` to create the system model.<br> Finally print out the system moded.
+In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy.signal.TransferFunction` to create the system model.<br> Finally print out the system model.
 
 
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
