@@ -28,5 +28,22 @@ Configure your Network Analyze as such:
 * Channel 1 only
 * Others as default  
 
+After completing the configuration, click **Run** to start.
 
+You will see it starts the analysis: Step 1/51; Step 2/51; Step 3/51; ...
 
+After a while, it will finish all analysis and show a Bode plot.
+
+#### :pencil2:  Report Item 3-a
+
+Provide the screenshot of the display of your Bode. Include device Serial Number in the screenshot.
+
+------
+
+Export your Bode data as `.csv` for later use.
+
+Use Notepad/TextEditor to double check your saved `.csv`. Make sure there are 51 lines of data (suppose set Steps as 51 in Network Analyzer)
+
+### ✅ Check Point 2 — Bode in Network Analyzer
+
+Show to your instructor/TA.
