@@ -38,7 +38,7 @@ After a while, it will finish all analysis and show a Bode plot.
 
 #### :pencil2:  Report Item 3-a
 
-Provide the screenshot of the display of your Bode. Include device Serial Number in the screenshot.
+Provide the screenshot of the display of your Bode Maganitude plot. Include device Serial Number in the screenshot.
 
 ------
 
@@ -49,5 +49,6 @@ Use Notepad/TextEditor to double check your saved `.csv`. Make sure there are 51
 ### ✅ Check Point 2 — Bode in Network Analyzer
 
 Show to your instructor/TA.
+
 
 
