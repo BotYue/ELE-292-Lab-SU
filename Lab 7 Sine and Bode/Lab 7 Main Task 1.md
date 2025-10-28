@@ -14,7 +14,7 @@ We will use a RC circuit as a second order system.
 
 | **Circuit Diagram** | **Schematic Syle (Equivalent)** |
 |---------------------|------------------------------|
-| <img src="Pic/RC1.png" width="400"> | <img src="Pic/RC2.png" width="300"> |
+| <img src="Pic/RC1.png" width="400"> | <img src="Pic/RC2.png" width="350"> |
 
 **Components Used:**
 - Both resistors $R = 33~\mathrm{k}\Omega$, (color code: orange orange orange gold)
@@ -65,4 +65,5 @@ In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
