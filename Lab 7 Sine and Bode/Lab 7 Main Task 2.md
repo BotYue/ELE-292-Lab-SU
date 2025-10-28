@@ -37,5 +37,46 @@ Now, start your data collecting:
 > 
 > Simply set **“Time-Base”** in Scope to match to the **“Period”** in the Wavegen. 
 
+---
+#### :pencil2:  Report Item 2-a
+
+Measure the output amplitude (V) at these freqs in Table.
+
+Then calculate the corresponding Magnitude (dB) for each input–output data pairs:
+
+| **Freq (Hz)** | **Input Amplitude (V)** | **Output Amplitude (V)** | **Magnitude (dB)** |
+| :-----------: | :------------------------: | :--------------------------: | :----------------: |
+|       1       |            5                |                              |                    |
+|       2       |            5                |                              |                    |
+|       5       |            5                |                              |                    |
+|       8       |            5                |                              |                    |
+|       10      |            5                |                              |                    |
+|       20      |            5                |                              |                    |
+|       25      |            5                |                              |                    |
+|       30      |            5                |                              |                    |
+|       40      |            5                |                              |                    |
+|       50      |            5                |                              |                    |
+|       60      |            5                |                              |                    |
+|       70      |            5                |                              |                    |
+|       80      |            5                |                              |                    |
+|       90      |            5                |                              |                    |
+|      100      |            5                |                              |                    |
+|      200      |            5                |                              |                    |
+|      500      |            5                |                              |                    |
+|      800      |            5                |                              |                    |
+|      1000     |            5                |                              |                    |
+
+
+---
+
+> [!Note]
+> $\text{Magnitude (dB)} = 20 \log_{10}\left(\frac{V_{\text{out}}}{V_{\text{in}}}\right)$
+>
+> In Python, $\log_{10}$ is `np.log10()`
+
+> [!Note]
+> If one single table is too long in display, you can split in multiple tables
+
+
 
 
