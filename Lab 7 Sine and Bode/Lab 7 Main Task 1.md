@@ -55,7 +55,7 @@ $$\frac{R^2C_1C_2s^2+R(C_1+2C_2)+1}{RC_2s}V_{out}=V_{in}$$
 
 Thus, the system Transfer Function will be
 
-$$H(s)=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
+$$H(s)=\frac{V_{out}}{V_{in}}=\frac{RC_2s}{R^2C_1C_2s^2 + R(C_1+2C_2)s + 1}$$
 
 #### :pencil2:  Report Item 1-a
 
@@ -65,5 +65,6 @@ In Python, enter all component values.<br> Then use `scipy.signal.lti` or `scipy
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
