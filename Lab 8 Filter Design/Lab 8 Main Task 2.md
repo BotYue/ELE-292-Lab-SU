@@ -41,9 +41,21 @@ Fill the table based on the FFT measurement.
 * **Mag (dB)** is obtained by X-cursor on FFT
 * **Signal Amplitude (V)** is obtained by calculating **Mag (dB)** as:
   
-  $$\mathrm{Amplitude\ (V)} = 1\times 10^{\frac{\text{Mag\ (dB)}}{20}} \ \text{\ V} \quad \text{(since Reference = 1 V)}$$
+  $$A\mathrm{\ (V)} = 1\times 10^{\frac{\text{Mag\ (dB)}}{20}} \ \text{\ (V)} \quad \text{(since Reference = 1 V)}$$
 
 |    | Freq (Hz) | Mag (dB)| Signal Amplitude (V)|
 | --------- | ----- |----- |----- |
-| highest peak |      |      |----- |
-| 2nd highest peak |     |      |----- |
+| highest peak |  $f_1=??$    |  $Mag_1=??$    |$A_1=??$ |
+| 2nd highest peak |  $f_2=??$   |    $Mag_2=??$  |$A_2=??$|
+
+#### 📝 Report Item 2-c (Individual)
+
+Use the frequency and amplitude values you found in **Table 2-b** to write down the **mathematical expression** of the measured signal:
+
+$$x(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
+
+Is it close to your **theoretical expression**, $x(t) = \sin(50t) + 0.2\sin(1000t)$? If not, re-check.
+
+
+
+### ✅ Check Point 1 — FFT Window and Table
