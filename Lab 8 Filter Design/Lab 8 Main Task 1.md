@@ -42,6 +42,8 @@ By doing so, you set up such signal:
 
 $$x(t) = \sin(50t)+0.2\sin(1000t)$$
 
+* The $\sin(50t)$ is the main signal
+* The $0.2\sin(1000t)$ is the noise
 
 
 
