@@ -24,6 +24,8 @@ Untick ``Normalize``
 
 Then click ``Generate``, Once you observe such graph, click `save`.
 
+<img src="Pic/custom_type.png" width="600">
+
 Then go back to the main page of Wavegen, set as follows.
 
 | Setting   | Value              |
@@ -34,9 +36,12 @@ Then go back to the main page of Wavegen, set as follows.
 | Offset    | 0 V                |
 | Symmetry  | 50 %               |
 
+<img src="Pic/custom_wavegen.png" width="700">
+
 By doing so, you set up such signal:
 
 $$x(t) = \sin(50t)+0.2\sin(1000t)$$
+
 
 
 
