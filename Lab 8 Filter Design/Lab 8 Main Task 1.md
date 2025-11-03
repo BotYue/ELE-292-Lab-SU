@@ -45,5 +45,24 @@ $$x(t) = \sin(50t)+0.2\sin(1000t)$$
 * The $\sin(50t)$ is the main signal
 * The $0.2\sin(1000t)$ is the noise
 
+### 📌 Task 1.2 Observe the Signal via Scope
 
+Now, use the Analog Discovery's Scope to directly observe the Wavegen Signal.
 
+For reference, **Pin Connection:**
+
+|         | **Analog Discovery** | **Analog Discovery** |
+| :-----------------| :------------------- | :---------- |
+| Jumpwire 1        | W1                    | Pin 1+         |
+| Jumpwire 2         | Pin 1-               | Pin ↓          |
+
+Adjust your scope to:
+* display about 10~20 cycles
+* clearly show the amplitude
+
+#### :pencil2:  Report Item 1-a
+
+Provide the screenshot of your Scope. Include time and device Serial Number.
+
+---
+### ✅ Proceed to Task 2. No Check Point in this part.
