@@ -56,7 +56,9 @@ For reference, **Pin Connection:**
 | Jumpwire 1        | W1                    | Pin 1+         |
 | Jumpwire 2         | Pin 1-               | Pin ↓          |
 
-Adjust your scope to:
+Run both Wavegen and Scope,
+
+Adjust your Scope to:
 * display about 10~20 cycles
 * clearly show the amplitude
 
@@ -65,4 +67,5 @@ Adjust your scope to:
 Provide the screenshot of your Scope. Include time and device Serial Number.
 
 ---
-### ✅ Proceed to Task 2. No Check Point in this part.
+### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
