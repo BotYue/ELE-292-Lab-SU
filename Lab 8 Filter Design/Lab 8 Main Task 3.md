@@ -8,11 +8,9 @@ Keep the Wavegen input from previous tasks.
 ### 📌 Task 3.1 Filter Design
 For the previous input signal, we can design an **active low-pass filter** to make it less noisy. 
 
-From a Linear System perspective, this means passing the input $x(t) = \sin(50t) + 0.2\sin(1000t)$ through a filter system,<br> so that the **main signal amplitude remains nearly unchanged**, while the **noise part gets attenuated**.
-
-In Filter Deisng, we will pick an cut-off frequency 
+From a linear system view, this means passing the **input** $x(t) = \sin(50t) + 0.2\sin(1000t)$ through a **filter system**,<br> so that the main signal amplitude **in output** remains nearly unchanged**, while the noise part **in output** gets attenuated.
 
 In the filter design process, we select a **cutoff frequency** that lies between the two frequency components of the signal
 
-* 
-
+* $f_{\text{cutoff}}\ (\text{Hz}) > 50/(2\pi) \approx 7.96~\text{Hz}$
+* $f_{\text{cutoff}}\ (\text{Hz}) < 1000/(2\pi) \approx 159.15~\text{Hz}$
