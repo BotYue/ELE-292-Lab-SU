@@ -23,6 +23,7 @@ In Task 3, you need to design a filter that satisfies both requirements:
 **Requirement 1.** cutoff frequency $f_{\text{cutoff}}$ will be around 15–30 Hz<br>
 **Requirement 2.** DC Gain, $H(0)$, to be 2.
 
+---
 ### 📌 Task 3.2 Select Resistors
 
 For circuit, we will build an **active low-pass filter** consists of two main stages:
@@ -57,7 +58,7 @@ Based on the design requirements stated in Task 3.1 and the resistor availabilit
 * $R_1 = ?? \mathrm{k}\Omega$
 * feeback resistor $R_f = ?? \mathrm{k}\Omega$
 
-
+---
 ### 📌 Task 3.3 Circuit Setup
 
 We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6022 Datasheet (TI)](https://www.ti.com/lit/ds/symlink/lmc6022.pdf?ts=1762179741020)
@@ -68,3 +69,4 @@ We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6
 |orange and green are pins from Analog Discovery 2.|
 |when placing Op-Amp, use the small notch (half circle) to identify its up-down side.|
 | <img src="Pic/filter_schematic.png" width="800"> |
+
