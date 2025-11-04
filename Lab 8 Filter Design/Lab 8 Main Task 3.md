@@ -70,3 +70,11 @@ We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6
 |when placing Op-Amp, use the small notch (half circle) to identify its up-down side.|
 | <img src="Pic/filter_schematic.png" width="800"> |
 
+> [!TIP]
+> To keep your circuit layout neat and easy to debug, we suggest you:
+> 
+> * Place $R_f$ and $R_g$ together in another section of the breadboard.
+> * Place $R_1$ and $C_1$ together in one section of the breadboard.
+
+> [!TIP]
+> If you have too many ground wires, organize them to the blue rail of your breadboard.
