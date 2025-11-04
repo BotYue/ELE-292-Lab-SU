@@ -52,13 +52,14 @@ Fill the table based on the FFT measurement.
 
 Use the frequency and amplitude values you found in **Table 2-b** to write down the **mathematical expression** of the measured signal:
 
-$$x(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
+$$V_{in}(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
 
-Is it close to your **theoretical expression**, $x(t) = \sin(50t) + 0.2\sin(1000t)$? If not, re-check.
+Is it close to your **theoretical expression**, $V_{in}(t) = \sin(50t) + 0.2\sin(1000t)$? If not, re-check.
 
 
 
 ### ✅ Check Point 1 — FFT Window and Table
+
 
 
 
