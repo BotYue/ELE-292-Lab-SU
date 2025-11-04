@@ -30,3 +30,8 @@ For circuit, we will build an **active low-pass filter** consists of two main st
 The Transfer Function of this entire circuit is:
 
 $$H(s) = \frac{V_{\text{out}}(s)}{V_{\text{in}}(s)}= \frac{1}{1 + sR_1C_1}\cdot (1 + \dfrac{R_f}{R_g})$$
+
+* $R_1 = 47 \mathrm{k}\Omega$
+* $C_1 = 220 \mathrm{nF}$
+
+This gives $f_{\text{cutoff}}\ (\text{Hz}) = 1/(2\pi \cdot 47E3 \cdot 220E-9) =15.39 Hz$, satisfying the Task 3.1 requirement.
