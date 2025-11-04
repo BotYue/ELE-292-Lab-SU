@@ -61,3 +61,10 @@ Based on the design requirements stated in Task 3.1 and the resistor availabilit
 ### 📌 Task 3.3 Circuit Setup
 
 We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6022 Datasheet (TI)](https://www.ti.com/lit/ds/symlink/lmc6022.pdf?ts=1762179741020)
+
+
+| **Filter Schematic** |
+|------------------------------|
+|orange and green are pins from Analog Discovery 2.|
+|when placing Op-Amp, use the small notch (half circle) to identify its up-down side.|
+| <img src="Pic/filter_schematic.png" width="800"> |
