@@ -18,4 +18,11 @@ In the filter design process, we select a **cutoff frequency** that lies between
 
 A practical choice for $f_{\text{cutoff}}$ will be around 15–30 Hz, nearly a decade left from 159.15 Hz.
 
+### 📌 Task 3.2 Filter Circuit
 
+For circuit, we will build an **active low-pass filter** consists of two main stages:
+
+* **Filter Stage:** Uses an **RC network** ($R_1, C_1$) to set the desired cutoff frequency
+* **Gain Stage:** Since the RC network naturally reduces the signal amplitude, we use an **Op-Amp network** to restore the signal amplitude.
+
+<img src="Pic/filter_diagram.png" width="600">
