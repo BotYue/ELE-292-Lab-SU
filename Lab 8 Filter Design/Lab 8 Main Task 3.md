@@ -16,7 +16,7 @@ In the filter design process, we select a **cutoff frequency** that lies between
 A practical choice for $f_{\text{cutoff}}$ will be around 15–30 Hz, nearly a decade left from 159.15 Hz.
 
 ---
-### 📌 Task 3.1 Filter Design Objective
+### 📌 Task 3.1 Filter Design Requirements
 
 In Task 3, you need to design a filter that satisfies both requirements:
 
@@ -51,4 +51,8 @@ $$f_{\text{cutoff}}\ (\text{Hz}) = 1/(2\pi R_1 C_1)$$
 
 $$|H(0)|=\frac{1/(R_1C_1)}{0 + 1/(R_1C_1)}\cdot (1 + \dfrac{R_f}{R_g})=1 + \dfrac{R_f}{R_g}$$
 
+#### :pencil2:  Report Item 3-a
 
+Based on the design requirements stated in Task 3.1 and the resistor availability in the lab bins, select appropriate resistors.
+* $R_1 = ?? \mathrm{k}\Omega$
+* feeback resistor $R_f = ?? \mathrm{k}\Omega$
