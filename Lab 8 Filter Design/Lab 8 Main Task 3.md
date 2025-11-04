@@ -10,8 +10,8 @@ From a linear system view, this means passing the **input** $x(t) = \sin(50t) + 
 
 In the filter design process, we select a **cutoff frequency** that lies between the two frequency components of the signal
 
-* $f_{\text{cutoff}}\ (\text{Hz}) > 50/(2\pi) \approx 7.96~\text{Hz}$
-* $f_{\text{cutoff}}\ (\text{Hz}) < 1000/(2\pi) \approx 159.15~\text{Hz}$
+* $f_{\text{cutoff}}\ (\text{Hz}) > 50\ (\text{rad/s})/(2\pi) \approx 7.96~\text{Hz}$
+* $f_{\text{cutoff}}\ (\text{Hz}) < 1000\ (\text{rad/s})/(2\pi) \approx 159.15~\text{Hz}$
 
 A practical choice for $f_{\text{cutoff}}$ will be around 15–30 Hz, nearly a decade left from 159.15 Hz.
 
@@ -121,4 +121,5 @@ $$V_{out}(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
 
 
 ### ✅ Check Point 2 — Scope Display, FFT Display
+
 
