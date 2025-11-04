@@ -92,7 +92,13 @@ After wiring up, go to your **WaveForms**
 * Open and Run Scope. Adjust your signal display
 
 ---
-In your Scope, you should see that the signal becomes much less noisy. And the max amplitude is around 2 V. That indicates your filter is working.
+In your Scope, you should see that the signal becomes much less noisy. That indicates your filter is working. 
+
+And if the max amplitude is around:
+
+$$|H(j50)| = 2\cdot\frac{1}{\sqrt{1 + \left(50 R_1 C_1\right)^2}}$$
+
+Your DC Gain is set correctly.
 
 #### :pencil2:  Report Item 3-b
 
@@ -121,5 +127,6 @@ $$V_{out}(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
 
 
 ### ✅ Check Point 2 — Scope Display, FFT Display
+
 
 
