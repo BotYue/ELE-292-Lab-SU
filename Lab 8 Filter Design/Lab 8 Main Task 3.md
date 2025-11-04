@@ -21,7 +21,7 @@ A practical choice for $f_{\text{cutoff}}$ will be around 15–30 Hz, nearly a d
 In Task 3, you need to design a filter that satisfies both requirements:
 
 **Requirement 1.** cutoff frequency $f_{\text{cutoff}}$ will be around 15–30 Hz<br>
-**Requirement 2.** DC Gain, $H(s)$, to be 2.
+**Requirement 2.** DC Gain, $H(0)$, to be 2.
 
 ### 📌 Task 3.2 Filter Circuit
 
@@ -40,12 +40,15 @@ For circuit, we will build an **active low-pass filter** consists of two main st
   
 The Transfer Function of this entire circuit is:
 
-$$H(s) = \frac{V_{\text{out}}(s)}{V_{\text{in}}(s)}= \frac{sR_1C_1}{1 + sR_1C_1}\cdot (1 + \dfrac{R_f}{R_g})$$
+$$H(s) = \frac{V_{\text{out}}(s)}{V_{\text{in}}(s)}= \frac{1/(R_1C_1)}{s + 1/(R_1C_1)}\cdot (1 + \dfrac{R_f}{R_g})$$
 
+Based on the Transfer Function, we can analyze:
+1. cutoff frequency:
 
-This gives $f_{\text{cutoff}}\ (\text{Hz}) = 1/(2\pi \cdot 47E3 \cdot 220E-9) =15.39 Hz$, satisfying the Task 3.1 requirement.
+$$f_{\text{cutoff}}\ (\text{Hz}) = 1/(2\pi R_1 C_1)$$
 
-The DC Gain of $H(s)$ is
+2. DC Gain:
 
-$$|H(0)|=\frac{0\cdot R_1C_1}{1 + 0\cdot R_1C_1}\cdot (1 + \dfrac{R_f}{R_g})=
+$$|H(0)|=\frac{1/(R_1C_1)}{0 + 1/(R_1C_1)}\cdot (1 + \dfrac{R_f}{R_g})=1 + \dfrac{R_f}{R_g}$$
+
 
