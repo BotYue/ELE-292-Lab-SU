@@ -18,3 +18,8 @@ In the filter design process, we select a **cutoff frequency** that lies between
 In RC-based first order filter, 
 
 $$f_{\text{cutoff}}\ (\text{Hz})  = \frac{1}{2\pi R_1C_1}$$
+
+Based on the components avaiable at lab bins, we choose
+
+* $R_1 = 47 \mathrm{k}\Omega$
+* $C_1 = 220 \mathrm{nF}$
