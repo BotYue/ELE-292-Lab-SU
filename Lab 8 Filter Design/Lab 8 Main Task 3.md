@@ -78,3 +78,11 @@ We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6
 
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
+
+After wiring up, go to your **WaveForms**
+* Keep the previous Wavegen running
+* Open **Supplies** on the Welcome Page.
+  * Set `V+` to be 5 V; 
+  * Set `V-` to be -5 V.
+  * Then Run the Supplies.
+* Open and Run Scope. Adjust your signal display
