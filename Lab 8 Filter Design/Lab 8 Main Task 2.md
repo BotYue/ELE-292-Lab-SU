@@ -11,15 +11,15 @@ signal.
 
 On the top bar of the Scope, click `FFT` and set it as:
 
-* Start: 0 Hz; Stop 500 Hz (or smaller)
+* Start: 0 Hz; Stop 500 Hz (or a bit smaller, 400 Hz, 300 Hz)
 * Top: 20 dB; Bottom -40 dB
 * Type: Sample; Window: Flat Top
 * Units: Peak (dB); Reference: 1 V
 
 Now, in the FFT display, you should see 2 significant peaks.
 
-* The highest peak corresponds to the main signal $sin(50t)$,
-* The 2nd highest peak corresponds to the noise part $0.2 \sin(1000t)$.
+* The **highest peak** corresponds to the **main signal** $sin(50t)$,
+* The **2nd highest peak** corresponds to the **noise part** $0.2 \sin(1000t)$.
 
 Any peak below -40 dB can be ignored, as $20 log_{10} 0.01 = −40 \mathrm{dB}$, 0.01 is a
 small enough ratio. This is why Buttom is -40 dB setup.
@@ -59,4 +59,5 @@ Is it close to your **theoretical expression**, $x(t) = \sin(50t) + 0.2\sin(1000
 
 
 ### ✅ Check Point 1 — FFT Window and Table
+
 
