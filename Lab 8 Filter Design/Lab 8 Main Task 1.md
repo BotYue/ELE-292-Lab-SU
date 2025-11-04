@@ -40,7 +40,7 @@ Then go back to the main page of Wavegen, set as follows.
 
 By doing so, you set up such signal:
 
-$$x(t) = \sin(50t)+0.2\sin(1000t)$$
+$$V_{in}(t) = \sin(50t)+0.2\sin(1000t)$$
 
 * The $\sin(50t)$ is the main signal
 * The $0.2\sin(1000t)$ is the noise
@@ -68,5 +68,6 @@ Provide the screenshot of your Scope. Include time and device Serial Number.
 
 ---
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
