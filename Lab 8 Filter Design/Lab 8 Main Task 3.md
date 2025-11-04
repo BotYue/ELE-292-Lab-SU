@@ -14,3 +14,7 @@ In the filter design process, we select a **cutoff frequency** that lies between
 
 * $f_{\text{cutoff}}\ (\text{Hz}) > 50/(2\pi) \approx 7.96~\text{Hz}$
 * $f_{\text{cutoff}}\ (\text{Hz}) < 1000/(2\pi) \approx 159.15~\text{Hz}$
+
+In RC-based first order filter, 
+
+$$f_{\text{cutoff}}\ (\text{Hz})  = \frac{1}{2\pi R_1C_1}$$
