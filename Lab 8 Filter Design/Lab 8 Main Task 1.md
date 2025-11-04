@@ -59,7 +59,7 @@ For reference, **Pin Connection:**
 Run both Wavegen and Scope,
 
 Adjust your Scope to:
-* display about 10~20 cycles
+* display about 8~15 cycles
 * clearly show the amplitude
 
 #### :pencil2:  Report Item 1-a
@@ -68,4 +68,5 @@ Provide the screenshot of your Scope. Include time and device Serial Number.
 
 ---
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
