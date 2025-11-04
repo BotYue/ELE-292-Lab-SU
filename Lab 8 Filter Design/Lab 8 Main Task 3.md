@@ -79,6 +79,10 @@ We select **MCP6022** as the Op-Amp. You can find its datasheet online at: [MCP6
 > [!TIP]
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
 
+
+---
+### 📌 Task 3.4 Obtain the Output
+
 After wiring up, go to your **WaveForms**
 * Keep the previous Wavegen running
 * Open **Supplies** on the Welcome Page.
@@ -86,3 +90,34 @@ After wiring up, go to your **WaveForms**
   * Set `V-` to be -5 V.
   * Then Run the Supplies.
 * Open and Run Scope. Adjust your signal display
+
+---
+In your Scope, you should see that the signal becomes much less noisy. And the max amplitude is around 2 V. That indicates your filter is working.
+
+#### :pencil2:  Report Item 3-b
+
+Provide the screenshot of your Scope. Include time and device Serial Number.
+
+---
+### 📌 Task 3.5 FFT Analysis for the Output
+
+Next, use the same FFT tool setting introduced in Task 2. Obtain the FFT measurement again. 
+
+#### :pencil2:  Report Item 3-c
+
+Provide the screenshot of your FFT. Include device Serial Number.
+
+#### :pencil2:  Report Item 3-d
+|    | Freq (Hz) | Mag (dB)| Signal Amplitude (V)|
+| --------- | ----- |----- |----- |
+| highest peak |  $f_1=??$    |  $Mag_1=??$    |$A_1=??$ |
+| 2nd highest peak |  $f_2=??$   |    $Mag_2=??$  |$A_2=??$|
+
+#### :pencil2: Report Item 3-e (Individual)
+
+Use the frequency and amplitude values you found in **Table 3-d** to write down the **mathematical expression** of the measured output signal:
+
+$$x(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
+
+
+### ✅ Check Point 2 — Scope Display, FFT Display
