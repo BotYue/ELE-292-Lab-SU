@@ -26,3 +26,7 @@ For circuit, we will build an **active low-pass filter** consists of two main st
 * **Gain Stage:** Since the RC network naturally reduces the signal amplitude, we use an **Op-Amp network** to restore the signal amplitude.
 
 <img src="Pic/filter_diagram.png" width="600">
+
+The Transfer Function of this entire circuit is:
+
+$$H(s) = \frac{V_{\text{out}}(s)}{V_{\text{in}}(s)}= \frac{1}{1 + sR_1C_1}\cdot (1 + \dfrac{R_f}{R_g})$$
