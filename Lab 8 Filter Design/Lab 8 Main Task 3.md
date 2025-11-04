@@ -117,7 +117,8 @@ Provide the screenshot of your FFT. Include device Serial Number.
 
 Use the frequency and amplitude values you found in **Table 3-d** to write down the **mathematical expression** of the measured output signal:
 
-$$x(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
+$$V_{out}(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
 
 
 ### ✅ Check Point 2 — Scope Display, FFT Display
+
