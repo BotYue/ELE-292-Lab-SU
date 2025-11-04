@@ -11,7 +11,7 @@ signal.
 
 On the top bar of the Scope, click `FFT` and set it as:
 
-* Start: 0 Hz; Stop 500 Hz (or a bit smaller, 400 Hz, 300 Hz)
+* Start: 0 Hz; Stop 200 Hz 
 * Top: 20 dB; Bottom -40 dB
 * Type: Sample; Window: Flat Top
 * Units: Peak (dB); Reference: 1 V
@@ -59,5 +59,6 @@ Is it close to your **theoretical expression**, $x(t) = \sin(50t) + 0.2\sin(1000
 
 
 ### ✅ Check Point 1 — FFT Window and Table
+
 
 
