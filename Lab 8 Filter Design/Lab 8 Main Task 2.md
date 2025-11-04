@@ -48,7 +48,7 @@ Fill the table based on the FFT measurement.
 | highest peak |  $f_1=??$    |  $Mag_1=??$    |$A_1=??$ |
 | 2nd highest peak |  $f_2=??$   |    $Mag_2=??$  |$A_2=??$|
 
-#### 📝 Report Item 2-c (Individual)
+#### :pencil2: Report Item 2-c (Individual)
 
 Use the frequency and amplitude values you found in **Table 2-b** to write down the **mathematical expression** of the measured signal:
 
@@ -59,3 +59,4 @@ Is it close to your **theoretical expression**, $x(t) = \sin(50t) + 0.2\sin(1000
 
 
 ### ✅ Check Point 1 — FFT Window and Table
+
