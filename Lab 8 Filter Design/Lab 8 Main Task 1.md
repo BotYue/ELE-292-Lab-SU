@@ -26,6 +26,9 @@ Then click ``Generate``, Once you observe such graph, click `save`.
 
 <img src="Pic/custom_type.png" width="600">
 
+> [!IMPORTANT]
+> Must untick `Normalize` first, then `Generate`.
+
 Then go back to the main page of Wavegen, set as follows.
 
 | Setting   | Value              |
@@ -68,6 +71,7 @@ Provide the screenshot of your Scope. Include time and device Serial Number.
 
 ---
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
