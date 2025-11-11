@@ -3,7 +3,7 @@
 ## :dart: Task 2 – Obtain Impulse Response
 
 ---
-### 📌 Task 1.1 Tap and Record
+### 📌 Task 2.1 Tap and Record
 
 ##### 🧷 Step 1: Configure Arduino code
 Let your Arduino continuously print the real-time voltage from your assigned analog pin to the Serial Monitor.
@@ -54,6 +54,22 @@ Finally, save the file as a `.txt` file using UTF-8 encoding.
 >
 > [Lab 0 (Software Installation)](../Lab%200%20Software%20Installation/Lab%200%20Main%20Task%202.md) has complete guidance on installing Arduino Legacy IDE 1.8.X
 
+---
+### 📌 Task 2.2 Visualize Data in Python
+
+Once you saved the .txt file, you can use Python to load and visualize the data.
+
+We will use the same `pandas.read_csv()` function that we previously used for `.csv` files. Even though the file extension is `.txt`, the data are still in comma-separated format (`time,voltage`), so `read_csv()` works.
+
+This is the simplease code that works:
+
+```python
+import pandas as pd
+
+file_path = '???.txt' 
+lab9_data = pd.read_csv(file_path, names=['Time', 'Voltage'])
+print (lab9_data)
+```
 
 
 
