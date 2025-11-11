@@ -71,9 +71,24 @@ lab9_data = pd.read_csv(file_path, names=['Time', 'Voltage'])
 print (lab9_data)
 ```
 
+#### :pencil2:  Report Item 2-a
+
+In Python, plot the **Pendulum Offset Angle (Deg)** versus **Time (s)** using your experimental data. 
+
+Show code and figure. The figure should have proper title, x/y axis labels, units.
+
+* Plot **Time (s)** on the x-axis.
+  * If you used `millis()` in your Arduino code, your time data are in **milliseconds (ms)**.  
+    Convert to seconds in Python by dividing by `1e3`:
+  * If you used `micros()` in your Arduino code, your time data are in **microseconds (μs)**.  
+    Convert to seconds in Python by dividing by `1e6`:
+* Plot **Pendulum Offset Angle (Deg)** on the y-axis.
+  * The offset angle is the recorded rotation angle you measure relative to the downward position (180 deg, $V_{out}=1.65$ V).
+  * If you tap to right, the offset angle (Deg) is: $\frac{V_{out}-1.65}{3.3}\cdot 360$
+  * if you tap to left, the offset angle (Deg) is: $-\frac{V_{out}-1.65}{3.3}\cdot 360$
 
 
+-------
+### ✅ Check Point 1 — Python Plot
 
-
-
-
+Show to your instructor/TA.
