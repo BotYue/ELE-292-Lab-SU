@@ -4,8 +4,10 @@
 
 --------
 
-From the last Report Item, you may get a plot in such shape.
+From the last Report Item, you will get a plot in the shape of impulse response of second order system.
 
-
+The next task is to measure the following 
+<img src="Pic/matplot_1.png" width="380">
 
 Now, We would like to measure the peaks in your Matplotlib plot.
+
