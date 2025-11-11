@@ -120,7 +120,9 @@ Now, use your 4-a Table data, perform calculation in Python:
   
 You need to show detailed calculation steps and understandable variable names to obtain full credit.
 
+You can use Python comment to make your code more clear.
 
 #### :pencil2:  Report Item 4-c (Individual Work)
 Create a Markdown cell to formally report the two sets of parameters $l$ and $b$ from your Python calculations. Include the units.
+
 
