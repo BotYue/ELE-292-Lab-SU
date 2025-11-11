@@ -6,8 +6,12 @@
 
 From the last Report Item, you will get a plot in the shape of impulse response of second order system.
 
-The next task is to measure the following 
-<img src="Pic/matplot_1.png" width="380">
+The next task is to measure the following on the plot:
 
-Now, We would like to measure the peaks in your Matplotlib plot.
+| $\Delta T$ is time difference (second), $\Delta \theta$ is angle difference (Deg) | 
+|---------------------|
+| <img src="Pic/matplot_1.png" width="650"> | 
+
+
+
 
