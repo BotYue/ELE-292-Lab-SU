@@ -37,6 +37,20 @@ $$l = \dfrac{g}{\omega_n^2},
 \qquad
 b = \dfrac{2 \zeta m g^2}{\omega_n^3}$$
 
+#### :pencil2:  Report Item 4-a (Individual Work)
+
+From your Report Item 3-a, convert all deg quantities into rad quantities. These will be used later for transfer function calculation.
+
+| **Quantity** | **Matplotlib Interactive Measurement** | 
+| :-----------: | :------------------------: |
+|     $\Delta \phi_{+1}$     |            ?? rad             |        
+|     $\Delta \phi_{+2}$        |        ?? rad                |                            
+|     $\Delta T_{+}$         |          ?? s  (same)                 |                           
+|     $\Delta \phi_{-1}$     |            ?? rad                |        
+|     $\Delta \phi_{-2}$        |        ?? rad                |                            
+|     $\Delta T_{-}$         |          ?? s    (same)              |    
+
+
 --------
 ### 📌 Task 4.2 Obtain system parameters from Experimental data
 
@@ -59,7 +73,7 @@ y_1 = A e^{-\zeta \omega_n t_1}, \qquad
 y_2 = A e^{-\zeta \omega_n t_2},
 $$
 
-and the time difference between them is:
+and the **time difference** between them is:
 
 $$
 \Delta T= t_2 - t_1  = \frac{2\pi}{\omega_n\sqrt{1-\zeta^2}}.
@@ -91,6 +105,7 @@ $$
 
 ---
 Now, use your
+
 
 
 
