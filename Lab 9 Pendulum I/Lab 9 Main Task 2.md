@@ -36,10 +36,13 @@ Now, tap the end of the pendulum to make it swing. This can be treated as an imp
 ##### 🧷  Step 3: Export and load data
 
 Once finished, open the **Serial Monitor** and select all data (`Ctrl + A`), then copy it (`Ctrl + C`).
-Open Notepad (Windows) or TextEditor (Mac), and paste (`Ctrl + V`) the data into a new empty file.
+Open Notepad (Windows) or TextEdit (Mac), and paste (`Ctrl + V`) the data into a new empty file.
 
-Sometimes the first few lines may appear corrupted or contain buffer noise—simply delete those lines.
-Finally, **save the file as a `.txt` file** using **UTF-8 encoding**.
+* Make sure your editor is in Plain Text mode. <br>(pay extra attention if on Mac. Mac TextEdit may defaultly set in Rich Text, not in Plain Text)
+* Sometimes the first few lines or last few lines may appear as buffer lines, you can check and delete them.
+  
+Finally, save the file as a `.txt` file using UTF-8 encoding.
+
 
 
 
