@@ -89,8 +89,8 @@ Measure the quantities marked on the graph. Keep at least 3 significant figures.
 
 Here:
 - $\Delta \theta_{+1}$, $\Delta \theta_{+2}$, $\Delta \theta_{-1}$, $\Delta \theta_{-2}$ are the absolute angle values (Deg) of the corresponding peaks, measured relative to the zero-angle line (0 Deg).
-- $\Delta T_{+}$ is the time difference (seconds)** between the 1st and 2nd positive peaks.
-- $\Delta T_{-}$ is the time difference (seconds)** between the 1st and 2nd negative peaks.
+- $\Delta T_{+}$ is the time difference (seconds) between the 1st and 2nd positive peaks.
+- $\Delta T_{-}$ is the time difference (seconds) between the 1st and 2nd negative peaks.
   
 > [!IMPORTANT]
 > This part is **individual work**, because everyone will have different mouse clicks.  
@@ -99,4 +99,5 @@ Here:
 ### ✅ Check Point 2 — Measurement Table
 
 Show to your instructor/TA.
+
 
