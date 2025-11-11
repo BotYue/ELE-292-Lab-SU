@@ -57,6 +57,8 @@ You should see that the readings gradually change from 0 V to 3.3 V as you compl
 
 #### :pencil2:  Report Item 1-a
 
+Record the measured $V_{out}$ in the table.
+
 | **Rotation**                      | **Theoretical $V_{out}$** | **Arduino Serial Monitor** | **Analog Discovery** |
 |:------------:|:--------------:|:--------:|:--------:|
 | 180° |               1.65 V                 |                            |                      |
@@ -64,6 +66,7 @@ You should see that the readings gradually change from 0 V to 3.3 V as you compl
 
 ---
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
