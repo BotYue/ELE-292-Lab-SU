@@ -73,7 +73,7 @@ voltage_data_slice = voltage_data[500:8000]
 ```
 
 ---
-#### :pencil2:  Report Item 2-a (Individual Work)
+#### :pencil2:  Report Item 3-a (Individual Work)
 
 Measure the quantities marked on the graph. Keep at least 3 significant figures.
 
@@ -99,3 +99,4 @@ Here:
 ### ✅ Check Point 2 — Measurement Table
 
 Show to your instructor/TA.
+
