@@ -22,15 +22,18 @@ You need to dis-assemble it at the end of class. So don’t tighten it very very
 The pendulum is equipped with a rotary potentiometer (Pot). This rotary potentiometer
 can act as an angle sensor.
 
-We connect the pendulum with ItsyBitsy M0 Express as follows:
+We mainly connect the pendulum system to the ItsyBitsy M0 Express. Also, Analog Discovery is added for extra debugging.
 
-| **Pnedulum** | **Arduino** |
-|---------------------|------------------------------|
-| Red wire ($V_{in}$) | Pin 3V (provides 3.3 V DC) |
-| Yellow wire ($V_{out}$) | Any Pin can do AnalogRead |
-| Black wire ($GND$) | Pin G |
+| **Pendulum**            | **ItsyBitsy M0 Express (Arduino)**      | **Analog Discovery** |
+| :---------------------- | :-------------------------------------- | :------------------- |
+| Red wire ($V_{in}$)     | 3V Pin (provides 3.3 V DC)          | --                   |
+| Yellow wire ($V_{out}$) | any Analog input pin  | Pin 1+      |
+| Black wire ($GND$)      | Pin G                             |Pin 1-,  Pin ↓      |
+
+*Note:*  For Analog input pin, you can review [Lab 4 Main Task 1 (Arduino I)](../Lab%204%20Arduino%20I/Lab%204%20Main%20Task%201.md)
 
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
