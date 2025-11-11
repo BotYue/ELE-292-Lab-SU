@@ -3,7 +3,7 @@
 ## :dart: Task 4 – System Analysis
 
 --------
-### 📌 Task 4.1 Understand the System
+### 📌 Task 4.1 Understand the System (Individual Work)
 The pendulum can be approximately considered as a **second order system**. 
 
 The tap action can be considered as an **impulse input** .
@@ -19,8 +19,8 @@ Where,
 $$\phi_{\text{rad}} = \theta_{\text{deg}} \times \frac{\pi}{180}$$
 
 We also assume two are unknown,
-- $l$: unknown pendulum length
-- $b$: unknown friction parameter
+- $l$: unknown pendulum length (unit: m)
+- $b$: unknown friction parameter (unit: N·m·s/rad)
 - 
 ---
 Compare the denominator of pendulum system model:
@@ -104,11 +104,23 @@ $$
 $$
 
 ---
-Now, use your
 
 
+#### :pencil2:  Report Item 4-b (Individual Work)
+
+Now, use your 4-a Table data, perform calculation in Python:
+
+- Based on the first 3 rows (positive +peaks) :
+  - Calculate a set of the system parameters $\zeta$ and $\omega_n$
+  - Based on these, then calculate a set the pendulum physical parameters, $l$ and $b$
+- Based on the last 3 rows (negative -peaks) :
+  - Calculate another set of the system parameters $\zeta$ and $\omega_n$
+  - Based on these, then calculate another set the pendulum physical parameters, $l$ and $b$
+-  These 2 sets of values should be close
+  
+You need to show detailed calculation steps and understandable variable names to obtain full credit.
 
 
-
-
+#### :pencil2:  Report Item 4-c (Individual Work)
+Create a Markdown cell to formally report the two sets of parameters $l$ and $b$ from your Python calculations. Include the units.
 
