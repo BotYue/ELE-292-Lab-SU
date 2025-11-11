@@ -1,6 +1,6 @@
 # Lab 9 Pendulum I
 
-## :dart: Task 1 – Set-up the Pendulum
+## :dart: Task 1 – Set up the Pendulum
 
 ---
 ### 📌 Task 1.1 Place the pendulum
@@ -45,8 +45,14 @@ So if you place pendulum in the following positions, you should get such $V_{out
 |---------------------|---------------------|---------------------|
 | <img src="Pic/pot1.png" width="280"> | <img src="Pic/pot2.png" width="280"> | <img src="Pic/pot3.png" width="280"> |
 
+Now, we will use both Arduino and Analog Discovery to measure and verify such $V_{out}$.
+
+* For Arduino, write a simple code the can  print out the real time voltage from your assigned analog pin to
+Serial Monitor.
+* For Analog Discovery, you can use either `Scope` or `Voltmeter` to measure it.
 
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
