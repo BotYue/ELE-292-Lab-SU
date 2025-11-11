@@ -4,14 +4,22 @@
 
 ---
 ### 📌 Task 1.1 Tap and Record
-Set up your Arduino code, such that it can keep printing out real-time and corresponding
-real-time voltage at each line in Serial Monitor.
 
-* Tap the end of pendulum to make it swing. This can be considered as an impulse input
-  $A\delta (t)$ in unknown amplitude $A$
-*  Make your pendulum’s first swing angle reach about 40 degrees.
-*  Clear the Serial Monitor about 2–3 seconds before tapping. This way, you can capture
-  some initial timing data, instead of capturing too long time.
-* Use Arduino’s Serial Monitor to record data and then load into Python.
-*  You can check your Lab 4 Report - Task 3 for reference.
+Let your Arduino continuously print the real-time voltage from your assigned Analog pin to the Serial Monitor.
+
+Do not add any `delay()` function inside your `loop()` function.
+
+Now, tap the end of the pendulum to make it swing. This can be treated as an impulse input $A\delta(t)$ with some unknown amplitude (A).
+
+* Make sure your pendulum is steady in the downward position before tapping.
+* Make your pendulum’s first swing angle reach about 40 Degrees.
+* Clear the Serial Monitor about 2–5 seconds before tapping. This helps you capture some initial-time data without recording an unnecessarily long time.
+* After the pendulum comes to rest (no longer moving), unplug the USB cable to stop the Serial Monitor recording.
+
+Once finished, open the **Serial Monitor** and select all data (`Ctrl + A`), then copy it (`Ctrl + C`).
+Open Notepad (Windows) or TextEditor (Mac), and paste (`Ctrl + V`) the data into a new empty file.
+
+Sometimes the first few lines may appear corrupted or contain buffer noise—simply delete those lines.
+Finally, **save the file as a `.txt` file** using **UTF-8 encoding**.
+
 
