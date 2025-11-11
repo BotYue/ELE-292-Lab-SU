@@ -90,8 +90,8 @@ $$
 $$
 
 ---
+Now, use your
 
-You can paste that directly in Markdown; GitHub’s MathJax will render it nicely.
 
 
 
