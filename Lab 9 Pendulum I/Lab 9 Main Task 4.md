@@ -69,8 +69,8 @@ $$ A e^{-\zeta \omega_n t} \sin\big(\omega_n\sqrt{1-\zeta^2} t\big)$$
 If you have **two consecutive positive peaks (or two consecutive negative peaks)** at times $t_1$ and $t_2$, their amplitudes are
 
 $$
-y_1 = A e^{-\zeta \omega_n t_1}, \qquad
-y_2 = A e^{-\zeta \omega_n t_2},
+\Delta \phi_1 = A e^{-\zeta \omega_n t_1}, \qquad
+\Delta \phi_2 = A e^{-\zeta \omega_n t_2},
 $$
 
 and the **time difference** between them is:
@@ -82,7 +82,7 @@ $$
 If we take the amplitude ratio:
 
 $$
-\frac{y_1}{y_2}
+\frac{\Delta \phi_1}{\Delta \phi_2}
 = e^{-\zeta \omega_n (t_1 - t_2)}
 = e^{\zeta \omega_n \Delta T}.
 $$
@@ -91,7 +91,7 @@ Based there, we can **solve for $\zeta$ firslty:**
 
 $$
 \zeta
-= \frac{\ln(y_1/y_2)}{\sqrt{4\pi^2 + \big[\ln(y_1/y_2)\big]^2}}.
+= \frac{\ln(\Delta \phi_1/\Delta \phi_2)}{\sqrt{4\pi^2 + \big[\ln(\Delta \phi_1/\Delta \phi_2)\big]^2}}.
 $$
 
 **Then solve for $\omega_n$:**
@@ -105,6 +105,7 @@ $$
 
 ---
 Now, use your
+
 
 
 
