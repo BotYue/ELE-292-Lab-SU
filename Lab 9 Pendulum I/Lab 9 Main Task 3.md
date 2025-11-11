@@ -1,6 +1,6 @@
 # Lab 9 Pendulum I
 
-## :dart: Task 3 – Matplotlib Interactive Measurement
+## :dart: Task 3 – Matplotlib Interactive Measurement (Individual Work)
 
 --------
 
@@ -72,5 +72,30 @@ time_data_slice = time_data[500:8000]
 voltage_data_slice = voltage_data[500:8000]
 ```
 
+---
+#### :pencil2:  Report Item 2-a (Individual Work)
+
+Measure the quantities marked on the graph. Keep at least 3 significant figures.
 
 
+| **Quantity** | **Matplotlib Interactive Measurement** | 
+| :-----------: | :------------------------: |
+|     $\Delta \theta_{+1}$     |            ?? Deg                |        
+|     $\Delta \theta_{+2}$        |        ?? Deg                |                            
+|     $\Delta T_{+}$         |          ?? s                  |                           
+|     $\Delta \theta_{-1}$     |            ?? Deg                |        
+|     $\Delta \theta_{-2}$        |        ?? Deg                |                            
+|     $\Delta T_{-}$         |          ?? s                  |                          
+
+Here:
+- $\Delta \theta_{+1}$, $\Delta \theta_{+2}$, $\Delta \theta_{-1}$, $\Delta \theta_{-2}$ are the absolute angle values (Deg) of the corresponding peaks, measured relative to the zero-angle line (0 Deg).
+- $\Delta T_{+}$ is the time difference (seconds)** between the 1st and 2nd positive peaks.
+- $\Delta T_{-}$ is the time difference (seconds)** between the 1st and 2nd negative peaks.
+  
+> [!IMPORTANT]
+> This part is **individual work**, because everyone will have different mouse clicks.  
+> If a same group submit exactly the same data, receive zero point.
+
+### ✅ Check Point 2 — Measurement Table
+
+Show to your instructor/TA.
