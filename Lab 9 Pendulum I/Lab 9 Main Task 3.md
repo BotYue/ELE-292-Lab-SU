@@ -55,5 +55,9 @@ Run this single code line only:
   This will turn off tkinter-GUI and switch back to normal.
 
 
+|This is a picture of example procedure. | 
+|---------------------|
+| <img src="Pic/matplotdemo_code.png" width="650"> | 
+
 
 
