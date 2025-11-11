@@ -32,19 +32,11 @@ Now, tap the end of the pendulum to make it swing. This can be treated as an imp
 * Clear the Serial Monitor about 2–5 seconds before tapping. This helps you capture some initial-time data without recording an unnecessarily long time.
 * After the pendulum comes to rest (no longer moving), unplug the USB cable to stop the Serial Monitor recording.
 
-<video width="640" height="360" controls>
-  <source src="Pic/office_test.mp4?raw=1" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-<video width="640" height="360" controls>
-  <source src="Pic/2025-11-11.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/43410443-7dfd-4b92-a2ab-d84c2f34f4f9
 
-<video width="640" height="360" controls>
-  <source src="https://github.com/USER/REPO/raw/BRANCH/Pic/office_test.mp4" type="video/mp4">
-</video>
+
+
 
 ---
 ##### 🧷  Step 3: Export and load data
@@ -56,6 +48,7 @@ Open Notepad (Windows) or TextEdit (Mac), and paste (`Ctrl + V`) the data into a
 * Sometimes the first few lines or last few lines may appear as buffer lines, you can check and delete them.
   
 Finally, save the file as a `.txt` file using UTF-8 encoding.
+
 
 
 
