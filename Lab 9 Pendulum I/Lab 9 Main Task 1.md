@@ -51,7 +51,20 @@ Now, we will use both Arduino and Analog Discovery to measure and verify such $V
 Serial Monitor. <br> You can review [Lab 4 Main Task 3 (Arduino I)](../Lab%204%20Arduino%20I/Lab%204%20Main%20Task%203.md) for code piece.
 * For Analog Discovery, you can use either `Scope` or `Voltmeter` to measure it.
 
+**Slowly move the pendulum in a full circle** and observe the measurements from both the Arduino Serial Monitor and the Analog Discovery.
+
+You should see that the readings gradually change from 0 V to 3.3 V as you complete a full circle.
+
+#### :pencil2:  Report Item 1-a
+
+| **Rotation**                      | **Theoretical $V_{out}$** | **Arduino Serial Monitor** | **Analog Discovery** |
+|:------------:|:--------------:|:--------:|:--------:|
+| 180° |               1.65 V                 |                            |                      |
+
+
+---
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
