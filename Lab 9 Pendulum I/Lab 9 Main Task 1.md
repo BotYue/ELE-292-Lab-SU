@@ -47,11 +47,12 @@ So if you place pendulum in the following positions, you should get such $V_{out
 
 Now, we will use both Arduino and Analog Discovery to measure and verify such $V_{out}$.
 
-* For Arduino, write a simple code the can  print out the real time voltage from your assigned analog pin to
-Serial Monitor.
+* For Arduino, write a simple code the can print out the real time voltage from your assigned Analog pin to
+Serial Monitor. <br> You can review [Lab 4 Main Task 3 (Arduino I)](../Lab%204%20Arduino%20I/Lab%204%20Main%20Task%203.md) for code piece.
 * For Analog Discovery, you can use either `Scope` or `Voltmeter` to measure it.
 
 ### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+
 
 
 
