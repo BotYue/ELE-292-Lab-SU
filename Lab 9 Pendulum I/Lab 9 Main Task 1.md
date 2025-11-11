@@ -9,9 +9,12 @@ Take a pendulum and set it on the workbench.
 Fix the pendulum to the blue surface using two nuts and bolts. Ensure that, when the
 pendulum swings, it has enough space and won’t collide with anything.
 
-You can use hand or this tool to tighten the nuts.
-
-You need to dis-assemble it at the end of class. So don’t tighten it very very firmly.
+> [!NOTE]
+> You can use your hand or the nut driver to tighten the nut.
+>
+> You need to disassemble the setup at the end of class, so do not over-tighten it.
+>
+> After use, return the nut driver to the front desk, so other groups can share it.
 
 |  |  |
 |---------------------|------------------------------|
@@ -23,7 +26,7 @@ You need to dis-assemble it at the end of class. So don’t tighten it very very
 The pendulum is equipped with a rotary potentiometer (Pot). This rotary potentiometer
 can act as an angle sensor.
 
-We mainly connect the pendulum system to the ItsyBitsy M0 Express. Also, Analog Discovery is added for extra debugging.
+We mainly connect the pendulum system to the ItsyBitsy M0 Express. Also, Analog Discovery is added for double check.
 
 | **Pendulum**            | **ItsyBitsy M0 Express (Arduino)**      | **Analog Discovery** |
 | :---------------------- | :-------------------------------------- | :------------------- |
@@ -41,9 +44,9 @@ As you learned in prelab, the Pot is:
 $$V_{out} = \frac{Rotation Deg}{360} \times V_{in}$$
 
 So if you place pendulum in the following positions, you should get such $V_{out}$:
-| downward center: $V_{out}\approx 1.65 \text{V}$ | upward to one side: $V_{out}\approx 3.3 \text{V}$ |  upward to the other side: $V_{out}\approx 0 \text{V}$ |
+| downward center: $V_{out}\approx 1.65 \text{V}$ | upward to one side: $V_{out}\approx 0 \text{V}$ |  upward to the other side: $V_{out}\approx 3.3 \text{V}$ |
 |---------------------|---------------------|---------------------|
-| <img src="Pic/pot1.png" width="280"> | <img src="Pic/pot2.png" width="280"> | <img src="Pic/pot3.png" width="280"> |
+| <img src="Pic/pot1.png" width="280"> | <img src="Pic/pot2.png" width="230"> | <img src="Pic/pot3.png" width="230"> |
 
 Now, we will use both Arduino and Analog Discovery to measure and verify such $V_{out}$.
 
@@ -65,7 +68,8 @@ Record the measured $V_{out}$ in the table.
 
 
 ---
-### ✅ Keep running and unchanged. Proceed to Task 2. No Check Point here.
+### ✅ You can disconnect all wires to Analog Discovery. Proceed to Task 2. No Check Point here.
+
 
 
 
