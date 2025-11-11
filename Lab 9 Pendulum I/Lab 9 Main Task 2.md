@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/43410443-7dfd-4b92-a2ab-d84c2f34f4f9
 
 
 ---
-##### 🧷  Step 3: Export and load data
+##### 🧷  Step 3: Export data
 
 Once finished, open the **Serial Monitor** and select all data (`Ctrl + A`), then copy it (`Ctrl + C`).
 Open Notepad (Windows) or TextEdit (Mac), and paste (`Ctrl + V`) the data into a new empty file.
@@ -92,4 +92,5 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
 
