@@ -86,12 +86,13 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
   * The offset angle is the recorded rotation angle you measure ($V_{out}$) relative to the downward position (180 deg, 1.65 V).
   * If you tap to right, the offset angle (Deg) is: $\frac{V_{out}-1.65}{3.3}\cdot 360$
   * if you tap to left, the offset angle (Deg) is: $-\frac{V_{out}-1.65}{3.3}\cdot 360$
-  * 1.65 should be adjust to your actual downward voltage obtained in Task 1
+  * 1.65 should be adjust to your actual downward voltage obtained in Task 1 Arduino Serial Monitor
 
 -------
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
 
 
 
