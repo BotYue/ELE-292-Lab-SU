@@ -59,5 +59,18 @@ Run this single code line only:
 |---------------------|
 | <img src="Pic/matplotdemo_code.png" width="650"> | 
 
+> [!NOTE]
+> If your exported data contains a long steady-state region where the angle remains 0 Deg,  
+> you can slice the data array.
+
+For example:
+```python
+# Keep only a slice of the data (such as from index 500 to 8000)
+time_data = lab9_data['Time']
+voltage_data = lab9_data['Voltage']
+time_data_slice = time_data[500:8000]
+voltage_data_slice = voltage_data[500:8000]
+```
+
 
 
