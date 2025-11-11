@@ -83,7 +83,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
   * If you used `micros()` in your Arduino code, your time data are in **microseconds (μs)**.  
     Convert to seconds in Python by dividing by `1e6`:
 * Plot **Pendulum Offset Angle (Deg)** on the y-axis.
-  * The offset angle is the recorded rotation angle you measure relative to the downward position (180 deg, $V_{out}=1.65$ V).
+  * The offset angle is the recorded rotation angle you measure ($V_{out}$) relative to the downward position (180 deg, 1.65 V).
   * If you tap to right, the offset angle (Deg) is: $\frac{V_{out}-1.65}{3.3}\cdot 360$
   * if you tap to left, the offset angle (Deg) is: $-\frac{V_{out}-1.65}{3.3}\cdot 360$
 
@@ -92,3 +92,4 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
