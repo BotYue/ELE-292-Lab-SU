@@ -25,12 +25,12 @@ Serial.println(your_voltage, 3);
 ---
 ##### 🧷  Step 2: Tap your pendulum
 
-Now, tap the end of the pendulum to make it swing. This can be treated as an impulse input $A\delta(t)$ with some unknown amplitude (A).
+Now, tap the end of the pendulum to make it swing. This can be treated as an impulse input $A\delta(t)$ with some unknown amplitude $A$
 
 * Make sure your pendulum is steady in the downward position before tapping.
 * Make your pendulum’s first swing angle reach about 40 Degrees.
 * Clear the Serial Monitor about 2–5 seconds before tapping. This helps you capture some initial-time data without recording an unnecessarily long time.
-* After the pendulum comes to rest (no longer moving), unplug the USB cable to stop the Serial Monitor recording.
+* After the pendulum comes to rest (no longer moving), quickly unplug the USB cable to stop the Serial Monitor recording.
 
 
 https://github.com/user-attachments/assets/43410443-7dfd-4b92-a2ab-d84c2f34f4f9
@@ -45,9 +45,14 @@ Once finished, open the **Serial Monitor** and select all data (`Ctrl + A`), the
 Open Notepad (Windows) or TextEdit (Mac), and paste (`Ctrl + V`) the data into a new empty file.
 
 * Make sure your editor is in Plain Text mode. <br>(pay extra attention if on Mac. Mac TextEdit may defaultly set in Rich Text, not in Plain Text)
-* Sometimes the first few lines or last few lines may appear as buffer lines, you can check and delete them.
+* Sometimes the first line or last line may appear as buffer lines, you can check and delete them.
   
 Finally, save the file as a `.txt` file using UTF-8 encoding.
+
+> [!IMPORTANT]
+> You should not use Arduino IDE 2.x. Its Serial Monitor is poorly configured and cannot copy full data.
+>
+> [Lab 0 (Software Installation)](../Lab%200%20Software%20Installation/Lab%200%20Main%20Task%202.md) has complete guidance on installing Arduino Legacy IDE 1.8.X
 
 
 
