@@ -94,10 +94,16 @@ Here:
   
 > [!IMPORTANT]
 > This part is **individual work**, because everyone will have different mouse clicks.  
-> If a same group submit exactly the same data, receive zero point.
+> If Students a same group submit exactly the same data, receive zero point.
+
+> [!TIP]
+> If you don't have Anaconda and in Google Colab
+> 
+> you use `plotly` tool. Refer to [a Sample Code here](../Lab%209%20Pendulum%20I/Pic/ifColab.pdf)
 
 ### ✅ Check Point 2 — Measurement Table
 
 Show to your instructor/TA.
+
 
 
