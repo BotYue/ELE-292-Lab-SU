@@ -47,9 +47,10 @@ In Python, plot the **Pendulum Offset Angle (Deg)** versus **Time (s)** using yo
 Show code and figure. The figure should have proper title, x/y axis labels, units.
 
 -------
-### ✅ Check Point 1 — Python Plot
+### ✅ No Check Point
 
-Show to your instructor/TA.
+You can still check your plot with instructor/TA if you want to.
+
 
 
 
