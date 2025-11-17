@@ -22,9 +22,34 @@ Record the measured $V_{out}$ in the table.
 |:------------:|:--------------:|:--------:|:--------:|
 | 180° |               1.65 V                 |                            |                      |
 
+---
+### 📌 Task 1.2 Data Record
 
+You can re-use your Arduino code from last week.
 
+Now, 
+* Bring to pendulum to **+120 Deg**. Make sure your pendulum is steady.
+* Clear the Serial Monitor about 2–5 seconds before releasing. This helps you capture some initial-time data without recording an unnecessarily long time.
+* Release the pendulum at +120 Deg. Let it swing freely,
+* After the pendulum comes to rest (no longer moving), quickly unplug the USB cable to stop the Serial Monitor recording.
 
+Once finished, export your Serial Monitor data from a `.txt` file, same as last week.
+
+---
+### 📌 Task 1.3 Visualize Data in Python
+
+Once you saved the .txt file, use Python to load and visualize the data.
+
+#### :pencil2:  Report Item 1-b
+
+In Python, plot the **Pendulum Offset Angle (Deg)** versus **Time (s)** using your experimental data. 
+
+Show code and figure. The figure should have proper title, x/y axis labels, units.
+
+-------
+### ✅ Check Point 1 — Python Plot
+
+Show to your instructor/TA.
 
 
 
