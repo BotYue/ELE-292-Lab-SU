@@ -26,7 +26,9 @@ $$A_{\text{init}} e^{-\zeta \omega_n t} = A_{\text{init}} e^{-\frac{b}{2 m l^2} 
    - Set $l = 0.271$
    - Set $b = 0.001$
 
-Once plotted, you may find the peaks of two plots are not well aligned.
-Fine-adjust your $b$ value in a small range until they are well aligned in a few beginning peaks.
+Once plotted, you may find the peaks of two traces are not well aligned.<br>
+Fine-adjust your $b$ value in a small range until they are well aligned in a few beginning peaks. You don't need to care about the tailing portion.
 
-Here is an example plot.
+| This is my example plot | 
+|---------------------|
+| <img src="Pic/pendulum_plot_F25.png" width="680"> | 
