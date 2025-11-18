@@ -112,9 +112,9 @@ Once you have the $A$, $B$, $C$, $D$ matrices and initial conditions, <br>you ca
 from scipy import signal as sig
 ## Enter system matrices
 A =
-B =
-C =
-D =
+B = np.array([[0.0], [0.0]])
+C = np.array([[1.0, 0.0]])
+D = np.array([[0.0]]) 
 ## Enter initial conditions
 phi_0 = ??            # initial angle (rad)
 phi_dot_0 = ??        # initial angular velocity (rad/s)
@@ -126,6 +126,9 @@ linear_system_response_deg = np.rad2deg(linear_system_response)
 
 plt.plot(t, linear_system_response_deg)
 ```
+
+> [!NOTE]
+> Type every numbers in A, B, C, D as float numbers, not int numbers. Otherwise `Scipy` may fail to generate response.
 
 #### :pencil2:  Report Item 3-b (Individual)
 
@@ -187,5 +190,6 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
 
 
