@@ -20,9 +20,13 @@ $$A_{\text{init}} e^{-\zeta \omega_n t} = A_{\text{init}} e^{-\frac{b}{2 m l^2} 
    where:
    - $$A_{\text{init}}$$ is the **initial angle (in degrees)** at the moment of release. You should inspect from the experimental data.
    - $A_{\text{init}}$ cannot be exactly 120.0 Deg in practice due to human error.
-   - Set $l = 0.271$ (always fixed)
    - Set $b = 0.001$ (to be adjusted later)
 
+   besides:
+   - $m = 0.038 \mathrm{kg}$ is the mass.
+   - $g = 9.81 \mathrm{m/s^2}$ is the gravitational constant
+   - $l = 0.271 \mathrm{m}$ is the pendulum length.
+     
 Once plotted, you may find the peaks of two traces are not well aligned.<br>
 Fine-adjust your $b$ value in a small range until they are well aligned in a few beginning peaks. You don't need to care about the tailing portion.
 
@@ -63,4 +67,5 @@ Create a Markdown cell, state your final values for
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
 
