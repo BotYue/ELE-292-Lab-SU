@@ -36,9 +36,57 @@ $$
 \qquad \frac{d\phi}{dt}(t=0) = 0  \text{ rad/s}
 $$
 
+------
+#### :pencil2:  Report Item 3-a
+Convert the Approximated Linear Model into a state space representation.
+
+Assume two state variables:
+
+* $x_1(t) = \phi(t) \quad \text{(angle, in rad)}$
+* $x_2(t) = \frac{d\phi(t)}{dt} \quad \text{(angular speed, in rad/s)}$
 
 
 
+$$
+\begin{bmatrix}
+\dot{x}_1 \
+\dot{x}_2
+\end{bmatrix}
+
+
+\begin{bmatrix}
+?? & ?? \
+?? & ??
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \
+x_2
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \
+0
+\end{bmatrix}
+u(t)
+$$
+
+The output equation is:
+
+$$
+y =
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \
+x_2
+\end{bmatrix}
++
+\begin{bmatrix}
+0
+\end{bmatrix}
+u(t)
+$$
 
 
 
