@@ -17,7 +17,7 @@ Initial Conditions:
 
 $$
 \phi(t=0) = 120 \text{ Deg} =\frac{2\pi}{3} \text{ rad}, 
-\qquad \frac{d\phi}{dt}(t=0) = 0  \text{ rad/s}
+\qquad \dot{\phi}(t=0) = 0  \text{ rad/s}
 $$
 
 
@@ -33,7 +33,7 @@ Initial Conditions:
 
 $$
 \phi(t=0) = 120 \text{ Deg} =\frac{2\pi}{3} \text{ rad}, 
-\qquad \frac{d\phi}{dt}(t=0) = 0  \text{ rad/s}
+\qquad \dot{\phi}(t=0) = 0  \text{ rad/s}
 $$
 
 ------
@@ -87,6 +87,7 @@ x_2
 u(t)
 $$
 ```
+
 
 
 
