@@ -36,5 +36,7 @@ Fine-adjust your $b$ value in a small range until they are well aligned in a few
 
 
 
-https://github.com/user-attachments/assets/697a0bbc-367e-419e-8eb7-3371924850a1
+https://github.com/user-attachments/assets/22d7338b-b631-41de-a610-c87ce21054ab
+
+
 
