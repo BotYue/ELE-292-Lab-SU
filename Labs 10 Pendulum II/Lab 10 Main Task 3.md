@@ -45,40 +45,39 @@ Assume two state variables:
 * $x_1(t) = \phi(t) \quad \text{(angle, in rad)}$
 * $x_2(t) = \frac{d\phi(t)}{dt} \quad \text{(angular speed, in rad/s)}$
 
-
-
+```math
 $$
 \begin{bmatrix}
-\dot{x}_1 \
-\dot{x}_2
+\dot{x}_1(t) \\
+\dot{x}_2(t)
 \end{bmatrix}
 
+=
 
 \begin{bmatrix}
-?? & ?? \
-?? & ??
+? & ? \\
+? & ?
 \end{bmatrix}
 \begin{bmatrix}
-x_1 \
-x_2
+x_1(t) \\
+x_2(t)
 \end{bmatrix}
 +
 \begin{bmatrix}
-0 \
+0 \\
 0
-\end{bmatrix}
-u(t)
+\end{bmatrix} u(t)
 $$
+```
 
-The output equation is:
-
+```math
 $$
 y =
 \begin{bmatrix}
 1 & 0
 \end{bmatrix}
 \begin{bmatrix}
-x_1 \
+x_1 \\
 x_2
 \end{bmatrix}
 +
@@ -87,6 +86,7 @@ x_2
 \end{bmatrix}
 u(t)
 $$
+```
 
 
 
