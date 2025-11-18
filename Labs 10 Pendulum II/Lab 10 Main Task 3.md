@@ -37,13 +37,17 @@ $$
 $$
 
 ------
-#### :pencil2:  Report Item 3-a
-Convert the Approximated Linear Model into a state space representation.
+
+Now, we convert the **Approximated Linear Model** into a state space representation.
 
 Assume two state variables:
 
 * $x_1(t) = \phi(t) \quad \text{(angle, in rad)}$
 * $x_2(t) = \frac{d\phi(t)}{dt} \quad \text{(angular speed, in rad/s)}$
+  
+And we are in the **Zero-Input** case, so the matrices associated with $u(t)$ are both zero.
+
+System Equations:
 
 ```math
 $$
@@ -72,13 +76,13 @@ $$
 
 ```math
 $$
-y =
+y(t) =
 \begin{bmatrix}
 1 & 0
 \end{bmatrix}
 \begin{bmatrix}
-x_1 \\
-x_2
+x_1(t) \\
+x_2(t)
 \end{bmatrix}
 +
 \begin{bmatrix}
@@ -87,6 +91,17 @@ x_2
 u(t)
 $$
 ```
+
+Initial Conditions:
+
+$$
+\phi(t=0) = 120 \text{ Deg} =\frac{2\pi}{3} \text{ rad}, 
+\qquad \dot{\phi}(t=0) = 0  \text{ rad/s}
+$$
+
+#### :pencil2:  Report Item 3-a
+
+Fill the 2 × 2 state matrix $A$ in the state space model.
 
 
 
