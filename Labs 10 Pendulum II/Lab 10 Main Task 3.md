@@ -116,13 +116,21 @@ B =
 C =
 D =
 ## Enter initial conditions
-phi_0 = ??            # initial angle
-phi_dot_0 = ??        # initial angular velocity
+phi_0 = ??            # initial angle (rad)
+phi_dot_0 = ??        # initial angular velocity (rad/s)
 
 t = np.linspace(???)
 linear_system = sig.lti(A, B, C, D)
 _, linear_system_response, _ = sig.lsim(linear_system, U=0, T=t, X0=[phi_0, phi_dot_0] )
+linear_system_response_deg = np.rad2deg(linear_system_response)
 
-plt.plot(t, linear_system_response/np.pi*180)
+plt.plot(t, linear_system_response_deg)
 ```
 
+#### :pencil2:  Report Item 3-b
+
+In Python, plot the two signals on the same figure:
+* Experimental: Pendulum Offset Angle (Deg) versus Time (s), using the experimental signal from the Task 2 (which has been shifted to 0-seconds release).
+* Theoretical: Pendulum Offset Angle (Deg) versus Time (s), based on the approximated linear model
+
+Show code and figure. The figure should have proper title, x/y axis labels, units.
