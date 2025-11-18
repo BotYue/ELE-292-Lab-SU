@@ -79,7 +79,7 @@ $$
 
 Fill the 2 × 2 state matrix $A$ in the state space model.
 
-*note: remove the ` ```math ` fence when you type in Jupyter Notebook Markdown.*
+*note: remove the ` ```math ` ` ``` ` fence if you copy matrix from Github to Jupyter Notebook Markdown.*
 
 ---
 ### 📌 Task 3.2 Visualize the Approximated Linear Model (Individual)
@@ -168,6 +168,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
 
 
 
