@@ -2,9 +2,6 @@
 
 ## :dart: Task 2 – Fine-adjust Physics Parameter (Individual)
 
----
-### 📌 Task 2.1 Fine-adjust Physics Parameter (Individual)
-
 You have calculated the physics parameters from the last lab.
 - $l$: pendulum length (unit: m)
 - $b$: friction parameter (unit: N·m·s/rad)
@@ -66,3 +63,4 @@ Create a Markdown cell, state your final values for
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
