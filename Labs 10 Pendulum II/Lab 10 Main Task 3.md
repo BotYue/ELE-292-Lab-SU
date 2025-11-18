@@ -51,43 +51,19 @@ System Equations:
 
 ```math
 $$
-\begin{bmatrix}
-\dot{x}_1(t) \\
-\dot{x}_2(t)
-\end{bmatrix}
-
-=
-
-\begin{bmatrix}
-? & ? \\
-? & ?
-\end{bmatrix}
-\begin{bmatrix}
-x_1(t) \\
-x_2(t)
-\end{bmatrix}
-+
-\begin{bmatrix}
-0 \\
-0
-\end{bmatrix} u(t)
+\begin{bmatrix}\dot{x}_1(t) \\ \dot{x}_2(t)\end{bmatrix} =
+\begin{bmatrix}? & ? \\? & ?\end{bmatrix}
+\begin{bmatrix}x_1(t) \\x_2(t)\end{bmatrix}+
+\begin{bmatrix}0 \\0\end{bmatrix} u(t)
 $$
 ```
 
 ```math
 $$
 y(t) =
-\begin{bmatrix}
-1 & 0
-\end{bmatrix}
-\begin{bmatrix}
-x_1(t) \\
-x_2(t)
-\end{bmatrix}
-+
-\begin{bmatrix}
-0
-\end{bmatrix}
+\begin{bmatrix}1 & 0\end{bmatrix}
+\begin{bmatrix}x_1(t) \\ x_2(t) \end{bmatrix}+
+\begin{bmatrix}0\end{bmatrix}
 u(t)
 $$
 ```
@@ -192,6 +168,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
 
 
 
