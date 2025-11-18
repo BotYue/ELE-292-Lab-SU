@@ -23,8 +23,8 @@ $$A_{\text{init}} e^{-\zeta \omega_n t} = A_{\text{init}} e^{-\frac{b}{2 m l^2} 
    where:
    - $$A_{\text{init}}$$ is the **initial angle (in degrees)** at the moment of release. You should inspect from the experimental data.
    - $A_{\text{init}}$ cannot be exactly 120.0 Deg in practice due to human error.
-   - Set $l = 0.271$
-   - Set $b = 0.001$
+   - Set $l = 0.271$ (always fixed)
+   - Set $b = 0.001$ (to be adjusted later)
 
 Once plotted, you may find the peaks of two traces are not well aligned.<br>
 Fine-adjust your $b$ value in a small range until they are well aligned in a few beginning peaks. You don't need to care about the tailing portion.
@@ -36,6 +36,7 @@ Fine-adjust your $b$ value in a small range until they are well aligned in a few
 
 https://github.com/user-attachments/assets/22d7338b-b631-41de-a610-c87ce21054ab
 
+------
 #### :pencil2:  Report Item 2-a
 
 In Python, plot the 2  required signals on the same figure.
@@ -54,3 +55,14 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 >
 > Instead, assign to a new variable `new_variable = 2 * yourdataframe['column_name']`, or create a new column `yourdataframe['new_column_name'] = 2 * yourdataframe['column_name']`
 
+
+------
+#### :pencil2:  Report Item 2-b
+Create a Markdown cell, state your final values for
+* $A_{\text{init}}$
+* $b$
+
+-------
+### ✅ Check Point 1 — Python Plot
+
+Show to your instructor/TA.
