@@ -3,7 +3,7 @@
 ## :dart: Task 3 – System Modeling (Individual)
 
 ---
-### 📌 Task 3.1 Linear & Nonlinear Models
+### 📌 Task 3.1 Linear & NonLinear Models
 
 In this experiment, the system can be modeled by a differential equation with initial conditions.
 
@@ -134,3 +134,29 @@ In Python, plot the two signals on the same figure:
 * Theoretical: Pendulum Offset Angle (Deg) versus Time (s), based on the approximated linear model
 
 Show code and figure. The figure should have proper title, x/y axis labels, units.
+
+---
+### 📌 Task 3.3 Visualize the NonLinear Model (Individual)
+
+For the nonlinear model, you can obtain its response by solving a Diff equation using the Runge–Kutta (RK45) method via `scipy`.
+
+```python
+from scipy.integrate import solve_ivp
+## Enter initial conditions
+phi_0 = ??            # initial angle (rad)
+phi_dot_0 = ??        # initial angular velocity (rad/s)
+
+def nonlinear_system(t, y):
+  phi, dphi_dt = y
+  dphi_dt_dt = ???  ## enter the diff equation
+  return [dphi_dt, dphi_dt_dt]
+
+t_span = (0, 15)
+t_eval = np.linspace(0, 15, 1000)
+X0 = [phi_0 , phi_dot_0]
+diffq_solution = solve_ivp(nonlinear_system, t_span, X0, t_eval=t_eval, method='RK45')
+nonlinear_system_time = diffq_solution.t
+nonlinear_system_response_deg = np.rad2deg(diffq_solution.y[0])
+
+plt.plot(nonlinear_system_time, nonlinear_system_response_deg)
+```
