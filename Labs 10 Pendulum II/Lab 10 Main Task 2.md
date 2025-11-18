@@ -31,4 +31,5 @@ Fine-adjust your $b$ value in a small range until they are well aligned in a few
 
 | This is my example plot | 
 |---------------------|
-| <img src="Pic/pendulum_plot_F25.png" width="680"> | 
+| <img src="Pic/pendulum_plot_F25.png" width="600"> | 
+
