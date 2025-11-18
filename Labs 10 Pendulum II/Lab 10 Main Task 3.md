@@ -140,6 +140,11 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 
 For the nonlinear model, you can obtain its response by solving a Diff equation using the Runge–Kutta (RK45) method via `scipy`.
 
+The system equation can be re-arranged as:
+
+$$\frac{d^{2}\phi(t)}{dt^{2}} = -\frac{b}{m l^{2}} \frac{d\phi(t)}{dt} - \frac{g}{l} \sin(\phi(t))$$
+
+
 ```python
 from scipy.integrate import solve_ivp
 ## Enter initial conditions
@@ -160,3 +165,4 @@ nonlinear_system_response_deg = np.rad2deg(diffq_solution.y[0])
 
 plt.plot(nonlinear_system_time, nonlinear_system_response_deg)
 ```
+
