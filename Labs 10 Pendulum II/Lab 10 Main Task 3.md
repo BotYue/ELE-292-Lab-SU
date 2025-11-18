@@ -152,7 +152,7 @@ phi_0 = ??            # initial angle (rad)
 phi_dot_0 = ??        # initial angular velocity (rad/s)
 
 def nonlinear_system(t, y):
-  phi, dphi_dt = y
+  phi_t, dphi_dt = y
   dphi_dt_dt = ???  ## enter the diff equation
   return [dphi_dt, dphi_dt_dt]
 
@@ -165,4 +165,5 @@ nonlinear_system_response_deg = np.rad2deg(diffq_solution.y[0])
 
 plt.plot(nonlinear_system_time, nonlinear_system_response_deg)
 ```
+
 
