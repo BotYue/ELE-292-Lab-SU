@@ -44,6 +44,9 @@ In Python, plot the 2  required signals on the same figure.
 
 Show code and figure. The figure should have proper title, x/y axis labels, units.
 
+> [!TIP]
+> You can use `plt.xlim( , )` to set up a certain display range for X-axis
+
 > [!NOTE]
 > When you plot experiment VS theory, do not use the experimental time array directly to your theoretical signal.
 >
@@ -67,5 +70,6 @@ Create a Markdown cell, state your final values for
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
 
 
