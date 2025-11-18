@@ -8,10 +8,10 @@ We will repeat the same set-up and wiring as the lab last week.
 
 You should refer to the details in [Lab 9 Main Task 1](../Lab%209%20Pendulum%20I/Lab%209%20Main%20Task%201.md)
 
-|  |  |
+|  |  We got a new nut driver! |
 |---------------------|------------------------------|
-| <img src="Pic/bench1.png" width="380"> | <img src="Pic/bench2.png" width="380"> |
-
+| <img src="Pic/bench1.png" width="380"> | <img src="Pic/new_nut_driver.jpg" width="380"> |
+-----
 Since you may get a different pendulum as last week. You should re-do the measurement for its downward center position.
 
 #### :pencil2:  Report Item 1-a
@@ -28,12 +28,15 @@ Record the measured $V_{out}$ in the table.
 You can re-use your Arduino code from last week.
 
 Now, 
-* Bring to pendulum to **+120 Deg 0ffset fronm the downward position**. Make sure your pendulum is steady.
+* Bring to pendulum to **+120 Deg 0ffset from the downward position**. Make sure your pendulum is steady.
 * Clear the Serial Monitor about 2–5 seconds before releasing. This helps you capture some initial-time data without recording an unnecessarily long time.
 * Release the pendulum at +120 Deg. Let it swing freely,
 * After the pendulum comes to rest (no longer moving), quickly unplug the USB cable to stop the Serial Monitor recording.
 
 Once finished, export your Serial Monitor data from a `.txt` file, same as last week.
+
+<img src="Pic/Deg120.png" width="300">
+
 
 ---
 ### 📌 Task 1.3 Visualize Data in Python
@@ -50,6 +53,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ### ✅ No Check Point
 
 You can still check your plot with instructor/TA if you want to.
+
 
 
 
