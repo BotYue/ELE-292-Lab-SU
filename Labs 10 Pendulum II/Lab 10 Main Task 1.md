@@ -28,7 +28,7 @@ Record the measured $V_{out}$ in the table.
 You can re-use your Arduino code from last week.
 
 Now, 
-* Bring to pendulum to **+120 Deg**. Make sure your pendulum is steady.
+* Bring to pendulum to **+120 Deg 0ffset fronm the downward position**. Make sure your pendulum is steady.
 * Clear the Serial Monitor about 2–5 seconds before releasing. This helps you capture some initial-time data without recording an unnecessarily long time.
 * Release the pendulum at +120 Deg. Let it swing freely,
 * After the pendulum comes to rest (no longer moving), quickly unplug the USB cable to stop the Serial Monitor recording.
@@ -50,6 +50,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ### ✅ No Check Point
 
 You can still check your plot with instructor/TA if you want to.
+
 
 
 
