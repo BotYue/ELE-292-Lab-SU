@@ -15,8 +15,11 @@ $$\frac{d^{2}\phi(t)}{dt^{2}} + \frac{b}{m l^{2}} \frac{d\phi(t)}{dt} + \frac{g}
 
 Initial Conditions:
 
-$$\phi(0) = 120^\circ = \frac{2\pi}{3} \text{ rad}, \quad
-\frac{d\phi}{dt}(0) = 0 \text{ rad/s}$$
+$$
+\phi(t=0) = 120 \text{ Deg} =\frac{2\pi}{3} \text{ rad}, 
+\qquad \frac{d\phi}{dt}(t=0) = 0  \text{ rad/s}
+$$
+
 
 ##### 🧷 ii) Approximated Linear Model (using [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) )
 
@@ -29,9 +32,10 @@ $$
 Initial Conditions:
 
 $$
-\phi(0) = 120^\circ = \frac{2\pi}{3} \text{ rad}, \quad
-\frac{d\phi}{dt}(0) = 0 \text{ rad/s}
+\phi(t=0) = 120 \text{ Deg} =\frac{2\pi}{3} \text{ rad}, 
+\qquad \frac{d\phi}{dt}(t=0) = 0  \text{ rad/s}
 $$
+
 
 
 
