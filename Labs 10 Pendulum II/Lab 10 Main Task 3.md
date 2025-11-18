@@ -180,10 +180,11 @@ In Python, plot the two signals on the same figure:
 Show code and figure. The figure should have proper title, x/y axis labels, units.
 
 ---
-### 📌 Task 3.4 comparison
+### 📌 Task 3.4 Model Comparison
 
 #### :pencil2:  Report Item 3-d
 
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
