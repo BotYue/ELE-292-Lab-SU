@@ -35,8 +35,11 @@ Now,
 
 Once finished, export your Serial Monitor data from a `.txt` file, same as last week.
 
-<img src="Pic/Deg120.png" width="300">
 
+|        | 
+|:------------:|
+| <img src="Pic/Deg120.png" width="300">|   
+|Tip: +120 Deg position is just the 2 o’clock on a clock face.    |
 
 ---
 ### 📌 Task 1.3 Visualize Data in Python
@@ -53,6 +56,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ### ✅ No Check Point
 
 You can still check your plot with instructor/TA if you want to.
+
 
 
 
