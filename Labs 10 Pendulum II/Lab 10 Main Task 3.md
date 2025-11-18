@@ -135,6 +135,11 @@ In Python, plot the two signals on the same figure:
 
 Show code and figure. The figure should have proper title, x/y axis labels, units.
 
+-------
+### ✅ Check Point 2 — Python Plot
+
+Show to your instructor/TA.
+
 ---
 ### 📌 Task 3.3 Visualize the NonLinear Model (Individual)
 
@@ -159,11 +164,26 @@ def nonlinear_system(t, y):
 t_span = (0, 15)
 t_eval = np.linspace(0, 15, 1000)
 X0 = [phi_0 , phi_dot_0]
+
 diffq_solution = solve_ivp(nonlinear_system, t_span, X0, t_eval=t_eval, method='RK45')
 nonlinear_system_time = diffq_solution.t
 nonlinear_system_response_deg = np.rad2deg(diffq_solution.y[0])
 
 plt.plot(nonlinear_system_time, nonlinear_system_response_deg)
 ```
+#### :pencil2:  Report Item 3-c
 
+In Python, plot the two signals on the same figure:
+* Experimental: Pendulum Offset Angle (Deg) versus Time (s), using the experimental signal from the Task 2 (which has been shifted to 0-seconds release).
+* Theoretical: Pendulum Offset Angle (Deg) versus Time (s), based on the nonlinear model
 
+Show code and figure. The figure should have proper title, x/y axis labels, units.
+
+---
+### 📌 Task 3.4 comparison
+
+#### :pencil2:  Report Item 3-d
+
+Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
+
+You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
