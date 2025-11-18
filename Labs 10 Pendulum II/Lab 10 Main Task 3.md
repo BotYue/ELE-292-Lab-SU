@@ -127,7 +127,7 @@ linear_system_response_deg = np.rad2deg(linear_system_response)
 plt.plot(t, linear_system_response_deg)
 ```
 
-#### :pencil2:  Report Item 3-b
+#### :pencil2:  Report Item 3-b (Individual)
 
 In Python, plot the two signals on the same figure:
 * Experimental: Pendulum Offset Angle (Deg) versus Time (s), using the experimental signal from the Task 2 (which has been shifted to 0-seconds release).
@@ -171,7 +171,7 @@ nonlinear_system_response_deg = np.rad2deg(diffq_solution.y[0])
 
 plt.plot(nonlinear_system_time, nonlinear_system_response_deg)
 ```
-#### :pencil2:  Report Item 3-c
+#### :pencil2:  Report Item 3-c (Individual)
 
 In Python, plot the two signals on the same figure:
 * Experimental: Pendulum Offset Angle (Deg) versus Time (s), using the experimental signal from the Task 2 (which has been shifted to 0-seconds release).
@@ -182,9 +182,10 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 ---
 ### 📌 Task 3.4 Model Comparison
 
-#### :pencil2:  Report Item 3-d
+#### :pencil2:  Report Item 3-d (Individual)
 
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
 
