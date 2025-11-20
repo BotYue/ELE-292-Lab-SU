@@ -35,8 +35,6 @@ Fine-adjust your $b$ value in a small range until they are well aligned in a few
 | <img src="Pic/pendulum_plot_F25.png" width="600"> | 
 
 
-https://github.com/user-attachments/assets/22d7338b-b631-41de-a610-c87ce21054ab
-
 ------
 #### :pencil2:  Report Item 2-a
 
@@ -70,6 +68,7 @@ Create a Markdown cell, state your final values for
 ### ✅ Check Point 1 — Python Plot
 
 Show to your instructor/TA.
+
 
 
 
