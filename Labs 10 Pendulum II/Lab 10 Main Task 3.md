@@ -94,7 +94,7 @@ B = np.array([[0.0], [0.0]])
 C = np.array([[1.0, 0.0]])
 D = np.array([[0.0]]) 
 ## Enter initial conditions
-phi_0 = ??            # initial angle (rad)
+phi_0 = ??            # initial angle (rad), better replaced by your own angle
 phi_dot_0 = ??        # initial angular velocity (rad/s)
 
 t = np.linspace(???)
@@ -134,7 +134,7 @@ $$\frac{d^{2}\phi(t)}{dt^{2}} = -\frac{b}{m l^{2}} \frac{d\phi(t)}{dt} - \frac{g
 ```python
 from scipy.integrate import solve_ivp
 ## Enter initial conditions
-phi_0 = ??            # initial angle (rad)
+phi_0 = ??            # initial angle (rad), better replaced by your own angle
 phi_dot_0 = ??        # initial angular velocity (rad/s)
 
 def nonlinear_system(t, y):
@@ -168,6 +168,7 @@ Show code and figure. The figure should have proper title, x/y axis labels, unit
 Based on your 3-b & 3-c figures, briefly comment on which one (nonlinear model/approximated linear model) gives better results. in 3 or more sentences.
 
 You can refer to the [Small-Angle Approximation](https://en.wikipedia.org/wiki/Small-angle_approximation) and think about the reason.
+
 
 
 
