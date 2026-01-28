@@ -8,10 +8,10 @@ This lab requires you to use Jupyter Notebook to write individual lab reports.
 So, before you start your lab work, open a new notebook in Jupyter Lab. Write down the following info in the header of your notebook:
 
 ```
-# Lab 1 Report: Lab Basic Skills  
-### Yue Cao.
-### Group member: Duane Marcy
-### Lab completed on: Jan 1, 2026
+### Lab 1 Report: Lab Basic Skills  
+#### Author: [Your own name]
+#### Group member: [another student's name]
+#### Lab completed on: Jan 1, 2026
 ```
 Enter Shift+Enter of your keyboard to display the text rendering.
 
@@ -86,6 +86,7 @@ Continue to explore the left-panel settings. Use  **Square** signal type. Set Sy
 
 
 Show the data of your 2 tables to your instructor/TA.
+
 
 
 
