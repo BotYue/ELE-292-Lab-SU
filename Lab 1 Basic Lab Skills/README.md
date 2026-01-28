@@ -4,8 +4,8 @@ Submit individually as a PDF file.
 
 To do so, export Jupyter Notebook as .html. Then convert .html to .pdf. 
 
-**Grading (20 pts total):**  
-- Format (5)  
+**Grading (25 pts total):**  
+- Format (10)  
 - Item 1-a, 1-b (2+2)  
 - Item 2-a, 2-b, 2-c (2+2+4)  
 - Conclusion (3)  
