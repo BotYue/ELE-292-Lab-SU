@@ -7,6 +7,7 @@ This lab requires you to use Jupyter Notebook to write individual lab reports.
 
 So, before you start your lab work, open a new notebook in Jupyter Lab. Write down the following info in the header of your notebook:
 
+**(Markdown cell)**
 ```
 ### Lab 1 Report: Lab Basic Skills  
 #### Author: [Your own name]
@@ -14,6 +15,17 @@ So, before you start your lab work, open a new notebook in Jupyter Lab. Write do
 #### Lab completed on: Jan 1, 2026
 ```
 Enter Shift+Enter of your keyboard to display the text rendering.
+
+Next, run this code piece to display your info in the report.
+
+**(Code cell)**
+```python
+import platform
+import socket
+print(f"  Hostname: {socket.gethostname()}")
+print(f"  Operating System: {platform.system()}")
+print(f"  OS Version: {platform.version()}")
+```
 
 
 ## :dart: Task 1 – Use Wavegen
@@ -86,6 +98,7 @@ Continue to explore the left-panel settings. Use  **Square** signal type. Set Sy
 
 
 Show the data of your 2 tables to your instructor/TA.
+
 
 
 
