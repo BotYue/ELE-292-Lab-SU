@@ -1,6 +1,11 @@
 # Lab 2 Impulse Response
 
 
+> [!IMPORTANT]
+> When you start a new lab report notebook,
+> 
+> Don't forget the Markdown cell header and Code cell header introduced in Lab 1 Lab Basic Skills
+
 ## :dart: Task 1 – System Modeling
 ---
 
@@ -87,6 +92,7 @@ $$V_{out}(t) = ???$$
 ---------
 
 ### ✅ Proceed to Task 2. No Check Point in this part.
+
 
 
 
