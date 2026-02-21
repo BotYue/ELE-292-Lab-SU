@@ -82,7 +82,7 @@ Based on the joystick direction in the picture, measure and fill the table.
 | Move Downmost          |    ??  V     | ?? V|
 
 > [!NOTE]
-> Leftmost position may be blocked by the breadboard. You can play with itm but no need to add this in table.
+> Leftmost position is blocked by the breadboard. 
 
 ---
 ### 📌 Task 1.3 Record 2-Channel Data
@@ -125,5 +125,6 @@ Show both code and generated plot in the report.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
