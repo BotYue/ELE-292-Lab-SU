@@ -47,12 +47,13 @@ Then, move your joystick around, measure and fill the table.
 Next, you repeat the same experiment as Task 1, but now with 3.3 V DC supply.
 
 Record the scope voltages corresponding to the following continuous movement sequence:
-1. Use 1 second to slowly move the joystick from center to the topmost position
-2. Hold it there for 1 second
-3. Use 1 second to slowly move it back to the center.
-4. Use 1 second to slowly move the joystick from center to the rightmost position
-5. Hold it there for 1 second
-6. Use 1 second to slowly move it back to the center.
+1. Slowly move the joystick from center to the upmost position
+2. Hold it there for 2 seconds
+3. Slowly move it back to the center.
+4. Hold it there for 2 seconds
+5. Slowly move the joystick from center to the rightmost position
+6. Hold it there for 2 seconds
+7. Slowly move it back to the center.
 
 #### :pencil2:  Report Item 2-b
 
@@ -65,3 +66,4 @@ Provide the screenshot of the display of your Scope. Showing the full movement s
 ---------
 
 ### ✅ Proceed to Task 3. No Check Point in this part.
+
