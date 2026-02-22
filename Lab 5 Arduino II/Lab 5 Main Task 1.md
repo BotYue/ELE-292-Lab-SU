@@ -88,12 +88,13 @@ Based on the joystick direction in the picture, measure and fill the table.
 ### 📌 Task 1.3 Record 2-Channel Data
 
 Record the scope voltages corresponding to the following continuous movement sequence:
-1. Use 1 second to slowly move the joystick from center to the upmost position
+1. Slowly move the joystick from center to the upmost position
 2. Hold it there for 1 second
-3. Use 1 second to slowly move it back to the center.
-4. Use 1 second to slowly move the joystick from center to the rightmost position
-5. Hold it there for 1 second
-6. Use 1 second to slowly move it back to the center.
+3. Slowly move it back to the center.
+4. Hold it there for 1 second
+5. Slowly move the joystick from center to the rightmost position
+6. Hold it there for 1 second
+7. Slowly move it back to the center.
 
 Then export as .csv for later use.
 
@@ -124,6 +125,7 @@ In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
 
