@@ -27,7 +27,7 @@ Now, let's use experiments to verify whether this works?
 
 Keep the exact same wiring and settings from Task 1. The only thing to change is reducing 5 V DC in Wavgen to 3.3 V DC.
 
-Move your joystick around, measure and fill the table.
+Then, move your joystick around, measure and fill the table.
 
 <img src="Pic/joystickorit.png" width="400">
 
@@ -44,7 +44,7 @@ Move your joystick around, measure and fill the table.
 
 ### 📌 Task 2.3 Record 2-Channel Data
 
-Next, you repeat the sam experiment as Task 1 with 3.3 V DC supply.
+Next, you repeat the same experiment as Task 1, but now with 3.3 V DC supply.
 
 Record the scope voltages corresponding to the following continuous movement sequence:
 1. Use 1 second to slowly move the joystick from center to the topmost position
@@ -62,3 +62,6 @@ Provide the screenshot of the display of your Scope. Showing the full movement s
 > Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
+---------
+
+### ✅ Proceed to Task 3. No Check Point in this part.
