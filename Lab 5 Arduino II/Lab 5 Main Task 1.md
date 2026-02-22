@@ -106,7 +106,7 @@ Provide the screenshot of the display of your Scope. Showing the full movement s
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
 ----
-### 📌 Task 1.4 Plot Movement Trajectory (Individual)
+### 📌 Task 1.4 Plot in Python (Individual)
 
 **Clean-up Data:**
 
@@ -116,15 +116,15 @@ So, open your exported .csv, deleta the first data row.
 
 
 #### :pencil2:  Report Item 1-c (Individual)
-In Jupyter Notebook, use Python to plot **the trajectory of the joystick movement**:
-* Plot one Channel voltage as X-axis
-* Plot the other Channel voltage as Y-axis
-* You can name axis labels as "left-right direction" or "up-down direction" without unit.
+In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
-Show both code and generated plot in the report.
+* Plots should have proper title, legend, x/y axis labels, units.
+
+* Show both code and generated plot in the report.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
 
