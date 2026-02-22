@@ -2,7 +2,7 @@
 
 ## :dart: Task 2 – Transition from Analog Discovery to Arduino
 
-### 📌 Task 2.1 The 3.3 V Saturation Issue
+### 📌 Task 2.1 Understand the 3.3 V Saturation Issue
 
 Lets say, if you want to use this joystick in an Arduino project. You will encounter a 3.3 V saturation issue.
 
@@ -16,7 +16,10 @@ To resolve this issue, we can modify the input side of the system to reduce the 
 
 --------
 
-In our lab case, a simple solution could be to change the joystick’s supply voltage (VCC). 
+
+### 📌 Task 2.2 Supply with 3.3 V DC
+
+In our lab case, a simple solution could be to change the joystick’s supply voltage. 
 
 **Instead of powering the joystick with 5 V, we power it with 3.3 V.** Since the joystick is essentially a potentiometer, its output voltage will now scale proportionally from 0 V to 3.3 V.
 
@@ -37,5 +40,25 @@ Move your joystick around, measure and fill the table.
 | Move Upmost            |   ??   V   | ?? V|
 | Move Downmost          |    ??  V     | ?? V|
 
+--------------
 
+### 📌 Task 2.3 Record 2-Channel Data
+
+Next, you repeat the sam experiment as Task 1 with 3.3 V DC supply.
+
+Record the scope voltages corresponding to the following continuous movement sequence:
+1. Use 1 second to slowly move the joystick from center to the topmost position
+2. Hold it there for 1 second
+3. Use 1 second to slowly move it back to the center.
+4. Use 1 second to slowly move the joystick from center to the rightmost position
+5. Hold it there for 1 second
+6. Use 1 second to slowly move it back to the center.
+
+#### :pencil2:  Report Item 2-b
+
+Provide the screenshot of the display of your Scope. Showing the full movement sequence.
+
+> [!NOTE]
+> Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
+> Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
