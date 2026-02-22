@@ -89,11 +89,11 @@ Based on the joystick direction in the picture, measure and fill the table.
 
 Record the scope voltages corresponding to the following continuous movement sequence:
 1. Slowly move the joystick from center to the upmost position
-2. Hold it there for 1 second
+2. Hold it there for 2 seconds
 3. Slowly move it back to the center.
-4. Hold it there for 1 second
+4. Hold it there for 2 seconds
 5. Slowly move the joystick from center to the rightmost position
-6. Hold it there for 1 second
+6. Hold it there for 2 seconds
 7. Slowly move it back to the center.
 
 Then export as .csv for later use.
@@ -125,6 +125,7 @@ In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
 
