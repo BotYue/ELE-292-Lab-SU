@@ -96,6 +96,10 @@ Record the scope voltages corresponding to the following continuous movement seq
 6. Hold it there for 2 seconds
 7. Slowly move it back to the center.
 
+This is an example that you expect.
+
+<img src="Pic/lab5_sample_signals.png" width="600">
+
 Then export as .csv for later use.
 
 #### :pencil2:  Report Item 1-b
@@ -125,6 +129,7 @@ In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
 
