@@ -64,7 +64,7 @@ Open your **Scope**,
 Move the joystick in different directions, observe and understand the voltage.
 
 * You may need to adjust the Channel Offset and Range to observe the full signal.
-
+* You should set the same offset for 2 channels, same range to 2 channels, overwise may create confusion in reading.
 ---
 Based on the joystick direction in the picture, measure and fill the table.
 
@@ -124,6 +124,7 @@ In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
 ---
 ### ✅ Check Point 1 — Scope Screenshot and Python Plot
+
 
 
 
