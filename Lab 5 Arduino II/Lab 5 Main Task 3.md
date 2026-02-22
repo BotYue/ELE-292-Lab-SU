@@ -1,6 +1,6 @@
 # Lab 5 Arduino II
 
-## :dart: Task 2 – Joystick with Arduino
+## :dart: Task 3 – Joystick with Arduino
 
 ### 📌 Task 2.1 Circuit Setup
 
@@ -104,6 +104,7 @@ Open the Serial Monitor.
 - Return components to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
   *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
 
 
 
