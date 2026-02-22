@@ -22,8 +22,20 @@ In our lab case, a simple solution could be to change the joystick’s supply vo
 
 Now, let's use experiments to verify whether this works?
 
+Keep the exact same wiring and settings from Task 1. The only thing to change is reducing 5 V DC in Wavgen to 3.3 V DC.
 
+Move your joystick around, measure and fill the table.
 
+<img src="Pic/joystickorit.png" width="400">
+
+#### :pencil2:  Report Item 2-a
+
+| Joystick Direction |  VRX Voltage (X-axis)  |  VRY Voltage (Y-axis)  |
+| :----------------- | :--------------------: | :--------------------: |
+| Center             |         ?? V        |         ?? V        |
+| Move Rightmost          |  ?? V|         ??  V     |
+| Move Upmost            |   ??   V   | ?? V|
+| Move Downmost          |    ??  V     | ?? V|
 
 
 
