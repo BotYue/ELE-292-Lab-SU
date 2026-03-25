@@ -125,6 +125,11 @@ Use the frequency and amplitude values you found in **Table 3-d** to write down 
 
 $$V_{out}(t) = A_1 \sin(2\pi f_1 t) + A_2 \sin(2\pi f_2 t)$$
 
+Also verify if your experimental amplitide align with the theoretical amplitide:
+
+$$|H(j50)| = 2\cdot\frac{1}{\sqrt{1 + \left(50 R_1 C_1\right)^2}}$$
+
+(For theoreical amplitide: plug the R, C values that you actually used)
 
 ### ✅ Check Point 2 — Scope Display, FFT Display
 
