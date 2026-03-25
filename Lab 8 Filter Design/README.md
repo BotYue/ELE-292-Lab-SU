@@ -9,7 +9,7 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 - Format (3)  
 - Item 1-a (2)
 - Item 2-a, 2-b, 2-c (1+3+2)
-- Item 3-a, 3-b, 3-c, 3-d, 3-e (3+3+2+2+1)
+- Item 3-a, 3-b, 3-c, 3-d, 3-e (2+3+2+2+2)
 - Conclusion (3)  
 
 No more **re-submit & re-grade** . If you have questions regarding to report, you can ask during class.
