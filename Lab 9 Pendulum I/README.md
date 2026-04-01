@@ -5,12 +5,12 @@
 
 To do so, export Jupyter Notebook as .html. Then convert .html to .pdf. 
 
-**Grading (20 pts total):**  
+**Grading (25 pts total):**  
 - Format (3)  
-- Item 1-a (1)
+- Item 1-a (2)
 - Item 2-a (3)
-- Item 3-a (3)
-- Item 4-a, 4-b, 4-c (1+4+2)
+- Item 3-a (4)
+- Item 4-a, 4-b, 4-c (2+5+3)
 - Conclusion (3)  
 
 No more **re-submit & re-grade** . If you have questions regarding to report, you can ask during class.
