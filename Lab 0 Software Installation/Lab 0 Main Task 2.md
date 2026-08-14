@@ -9,9 +9,7 @@
 
 Go to:  
  https://www.arduino.cc/en/software/  
-Download and install: **Arduino Legacy IDE 1.8.X**
-
-❗ If you already have Arduino IDE 2.X, uninstall it firstly.
+Download and install: **Arduino Legacy IDE 1.8.X** or **Arduino IDE 2.X**
 
 ##### 🧷 Step 2: Add Adafruit Board Manager URL
 
