@@ -16,3 +16,5 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 In the room, we have four benchtop oscilloscope available for use
 
 **Rigol Digital Oscilloscope DS1054Z**, https://www.amazon.com/dp/B012938E76
+
+<img src="Pic/DS1054Z1.jpg" width="800"> 
