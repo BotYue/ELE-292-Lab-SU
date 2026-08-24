@@ -4,7 +4,8 @@ Please find your group assignment on BlackBoard. It will be used for Lab 1-3.
 
 ## Report 
 
-Submit individually as a PDF file.
+> [!IMPORTANT]
+> Submit individually as a PDF file.
 
 To do so, export Jupyter Notebook as .html. Then convert .html to .pdf. 
 
