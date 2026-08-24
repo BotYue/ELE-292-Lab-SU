@@ -5,7 +5,7 @@
 
 This lab requires you to use Jupyter Notebook to write individual lab reports.  
 
-So, before you start your lab work, open a new notebook in Jupyter Lab. Write down the following info in the header of your notebook:
+So, before you start your lab work, open a new notebook in Jupyter Lab (or use Google Colab). Write down the following info in the header of your notebook:
 
 **(Markdown cell)**
 ```
