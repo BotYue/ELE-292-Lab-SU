@@ -1,3 +1,7 @@
+## Group
+
+Please find your group assignment on BlackBoard. It will be used for Lab 4-6.
+
 ## Report 
 
 > [!IMPORTANT]
