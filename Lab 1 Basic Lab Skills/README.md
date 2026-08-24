@@ -1,3 +1,7 @@
+## Group
+
+Please find your group assignment on BlackBoard. It will be used for Lab 1-3.
+
 ## Report 
 
 Submit individually as a PDF file.
@@ -10,7 +14,7 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 - Item 2-a, 2-b, 2-c (2+2+4)  
 - Conclusion (3)  
 
-For Lab 1 report, You can request a **re-submit & re-grade** within 7 days after grades are posted. Email the instructor, Yue Cao, to submit your request.
+For Lab 1 report, You can request a **re-submit & re-grade** within 7 days after grades are posted. Email the grader, to submit your request.
 
 ---
 #### Notes on Conclusion Writing
