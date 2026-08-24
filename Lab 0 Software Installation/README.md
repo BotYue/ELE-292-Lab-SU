@@ -4,7 +4,6 @@
 
 * There will be prelab and lab report for the next one -- Lab 1.
 
-* Please find you group assignment on BlackBoard. The group assignment will be used thru Lab 0 to Lab 4.
+* Please work individually for Lab 0. Everyone needs to install the software.
 
-* You are free to pick you group after Lab 4.
 
