@@ -12,7 +12,8 @@ So, before you start your lab work, open a new notebook in Jupyter Lab. Write do
 ### Lab 1 Report: Lab Basic Skills  
 #### Author: [Your own name]
 #### Group member: [another student's name]
-#### Lab completed on: Jan 1, 2026
+#### Workbench number: [1 - 15 ?]
+#### Lab completed on: Sept 1, 2026
 ```
 Enter Shift+Enter of your keyboard to display the text rendering.
 
