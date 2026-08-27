@@ -61,6 +61,15 @@ Upload and verify that the red light blinks every second.
 
 ❗ If cannot find the port, quickly double-press the RESET button. Then go back to the IDE and check.
 
+You will see the light blink every 1 second.
+
+##### 🧷 Step 4:
+Then go to the code, find two lines showing `delay(1000); `
+
+1000 here means 1000 milliseconds (1 second). Change these to another number such as 3000, 5000.
+
+Re-upload the modified code and observe what happens.
+
 -----
 
 ### ✅ Check Point 2 — Light blinking red and IDE version
