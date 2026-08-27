@@ -5,19 +5,23 @@
 
 This lab requires you to use Jupyter Notebook to write individual lab reports.  
 
-So, before you start your lab work, open a new notebook in Jupyter Lab (or use Google Colab). Write down the following info in the header of your notebook:
+You can get Jupyter Notebook by two approaches:
+
+1) Local installation: First download and install Anaconda, link: https://www.anaconda.com/download/success or https://repo.anaconda.com/archive/ .
+<br> Then open Anaconda Navigator, install Jupyter Lab inside.
+2) Cloud use: Direct use https://colab.research.google.com/ 
+
+Once you have it. Open a new notebook. Write down the following info in the header of your notebook:
 
 **(Markdown cell)**
 ```
 ### Lab 1 Report: Lab Basic Skills  
-#### Author: [Your own name]
-#### Group member: [another student's name]
-#### Workbench number: [1 - 15 ?]
-#### Lab completed on: Sept 1, 2026
+#### Author: [Your own name], Group member: [another student's name]
+#### Workbench number: [1 - 15 ?], Lab completed on: Sept 1, 2026
 ```
 Enter Shift+Enter of your keyboard to display the text rendering.
 
-Next, run this code piece to display your info in the report.
+Next, run this code piece to display your info in the report to guarantee the work is individual.
 
 **(Code cell)**
 ```python
@@ -38,7 +42,7 @@ Connect the Analog Discovery to your laptop. Make sure that you select an availa
 
 Open the WaveForms software in your laptop. Then on the left panel, open **Wavegen**. 
 
-**This Wavegen is essentially a function generator. It serves as the source of your circuit.**
+**This Wavegen is essentially a function generator. It serves as the source (input) of your circuit.**
 
 <img src="Pic/wavegenGUI.png" width="250"> 
 
@@ -58,7 +62,7 @@ Now, explore the left-panel settings. Use  **Sine** signal type. Set Symmetry as
 
 #### :pencil2:  Report Item 1-a
 > **Record these Wavegen settings in your Jupyter notebook.**  
-> To do so in Jupyterotebook, Start a new section using horizontal Rule and sub-Header ``### Report Item 1-a```.
+> To do so in Jupyter notebook, Start a new section using horizontal Rule and sub-Header ``### Report Item 1-a```.
 
 | Setting   | Value |
 | --------- | ----- |
