@@ -28,6 +28,8 @@ Wire up such a circuit:
 
 $\text{Measured Voltage} = \text{Signal}(1+) - \text{Signal}(1-) = \text{Signal(W1)} - 0 = \text{Signal(W1)}$
 
+This is called **differential measurement**.
+
 ------
 ### 📌 Task 2.2 Configure source
 
