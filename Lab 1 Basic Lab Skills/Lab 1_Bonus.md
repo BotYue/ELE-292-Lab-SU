@@ -33,3 +33,6 @@ One good start point is using the internal calibration signal. This is a quick c
 
 You can follow this short guide and try it: http://kofa.mmto.arizona.edu/electronics/rigol/tutorial/first.html
 
+------
+
+Once done, we suggest you scramble some settings of the Scope, so the next group students can practice and explore.
