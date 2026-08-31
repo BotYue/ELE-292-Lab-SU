@@ -9,9 +9,9 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 > [!NOTE]
 > 
-> In Lab 1, we will show you basic usage of the benchtop oscilloscope.
+> In Lab 1, you will explore the basic usage of the benchtop oscilloscope.
 >
-> There are **no bonus points for Lab 1**, but this lab is important because it provides the foundation for the oscilloscope bonus activities in later labs.
+> There are **no bonus points for Lab 1**, but this lab is important because it shows oscilloscope basics for later labs.
 
 ### Introduction 
 
@@ -23,7 +23,7 @@ In the room, we have four benchtop oscilloscope available for use
 
 Rigol produces entry-level oscilloscopes at affordable prices (under 1k).
 
-In the future, if you work in the EE industry, you may use oscilloscopes made by the Keysight company. Their oscilloscopes are high-end and significantly more expensive (price in 5-or-6 figures).
+In the future, if you work in the EE industry, you may use oscilloscopes made by the Keysight company. Their oscilloscopes are high-end and significantly more expensive (price in 5 or 6 figures).
 
 ------
 
@@ -31,4 +31,5 @@ In the future, if you work in the EE industry, you may use oscilloscopes made by
 
 One good start point is using the internal calibration signal. This is a quick check setup without using any external source.
 
-To be written http://kofa.mmto.arizona.edu/electronics/rigol/tutorial/first.html
+You can follow this short guide and try it: http://kofa.mmto.arizona.edu/electronics/rigol/tutorial/first.html
+
