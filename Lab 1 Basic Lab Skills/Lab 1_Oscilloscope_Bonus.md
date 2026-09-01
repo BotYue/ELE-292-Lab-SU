@@ -1,4 +1,4 @@
-## 🔵 Bonus Grade Policy
+## 🔵 Oscilloscope Bonus Grade Policy
 During this semester, there will be opportunities to earn bonus points in **Lab 2, 3, 4, 5, 7, 8**.
 
 All bonus activities are related to benchtop oscilloscope (Scope) usage.
@@ -13,7 +13,7 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 >
 > There are **no bonus points for Lab 1**, but this lab is important because it shows oscilloscope basics for later labs.
 
-### Introduction 
+### 🧷 Introduction 
 
 In the room, we have four benchtop oscilloscope available for use
 
@@ -21,13 +21,13 @@ In the room, we have four benchtop oscilloscope available for use
 
 <img src="Pic/DS1054Z1.jpg" width="600"> 
 
-Rigol produces entry-level oscilloscopes at affordable prices (under 1k).
+Rigol produces entry-level oscilloscopes at affordable prices (under $ 1k).
 
-In the future, if you work in the EE industry, you may use oscilloscopes made by the Keysight company. Their oscilloscopes are high-end and significantly more expensive (price in 5 or 6 figures).
+In the future, if you work in the EE industry, you may use oscilloscopes made by the Keysight company. Their oscilloscopes are high-end and significantly more expensive (in 5 or 6 figures $).
 
 ------
 
-### Start with the first signal
+### 🧷 Start with the first signal
 
 One good start point is using the internal calibration signal. This is a quick check setup without using any external source.
 
@@ -39,7 +39,7 @@ I also details here:
 - [ ] Set the probe at **10x**, instead of **1x** (1× probe: 1 MΩ input impedance; 10× probe: 10 MΩ input impedance. Higher input impedance draws less current from the original circuit, thus affect less to the circuit.)
 - [ ] Turn on the Scope.
 - [ ]  Look at the lower-right side of the oscilloscope. You will see two rectangular test terminals. These provide an internal reference signal for probe calibration or a quick oscilloscope check.
-- [ ] Connect the probe tip to the upper terminal; Connect the ground clip to the lower terminal.
+- [ ] Connect the probe hook to the upper terminal; Connect the ground clip to the lower terminal.
 
 <img src="Pic/Cao_probe.jpg" width="600"> 
 
@@ -48,16 +48,22 @@ I also details here:
 - [ ] Adjust the CH1 setting as: Coupling: DC; BW Limit: OFF; Probe: Match the actual probe (10×); Invert: OFF; Volts/Div: Coarse
 - [ ] Adjust the oscilloscope controls, playing with the knobs and buttons, until you can see a clear and stable 3V, 1 kHz square wave.  
 
-<img src="Pic/Cao_calib.jpg" width="600"> 
-
-------
-
-**The best way to learn the Scope usage is trial and error.** 
 
 > [!TIP]
 >  Don’t worry if you mess up the settings. You can ask the instructor/TA to reset it.
 >
 > Or you can reset on your own: press the "Storage" button, then select the "Default" option.
+
+<img src="Pic/Cao_calib.jpg" width="600"> 
+
+------
+
+### 🧷 Try previous Analog Discovery experiment, but now with benchtop Oscilloscope.
+
+Afterwards, you can try your previous Analog Discovery experiment with the benchtop Oscilloscope: <br> Connect the probe hook to Analog Discovery pins W1; Connect ground chip to Analog Discovery pins GND ↓ . And see if you can get a signal on the scope screen
+
+**The best way to learn the Scope usage is trial and error.** 
+
 
 
 Once done, you can scramble some settings of the Scope, so the next group students can practice and explore.
