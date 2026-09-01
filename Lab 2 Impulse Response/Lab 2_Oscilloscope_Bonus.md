@@ -9,9 +9,9 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 > [!NOTE]
 > 
-> You can go back to [Lab 1 Scope Intro](../Lab%201%20Basic%20Lab%20Skills/Lab%201_Oscilloscope_Bonus.md) to recap basic operations.
+> You can go back to [← Lab 1 Scope Intro](../Lab%201%20Basic%20Lab%20Skills/Lab%201_Oscilloscope_Bonus.md) to recap basic operations.
 
-Go back to your RL circuit in [Lab 2 Task 2](Lab%202%20Main%20Task%202.md).
+Go back to your RL circuit in [← Lab 2 Task 2](Lab%202%20Main%20Task%202.md).
 
 - [ ] Use the oscilloscope probe to obtain the same voltage $V_R$ in Task 2..
 
