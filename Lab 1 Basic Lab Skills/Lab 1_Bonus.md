@@ -45,15 +45,17 @@ I also details here:
 
 - [ ] Go to the Scope screen. In the CH1 settings, make sure the probe setting matches 10×.
 - [ ] Make sure the trigger level is set between the minimum and maximum voltage levels of the signal.
+- [ ] Adjust the CH1 setting as: Coupling: DC; BW Limit: OFF; Probe: Match the actual probe (10×); Invert: OFF; Volts/Div: Coarse
 - [ ] Adjust the oscilloscope controls, playing with the knobs and buttons, until you can see a clear and stable 3V, 1 kHz square wave.  
 
 <img src="Pic/Cao_calib.jpg" width="600"> 
 
 ------
 
-**The best way to learn is to try the different buttons and knobs and see what they do.** 
+**The best way to learn the Scope usage is trial and error.** 
 
-> Don’t worry if you mess up the settings. You can ask the instructor/TA to reset it.
+> [!TIP]
+>  Don’t worry if you mess up the settings. You can ask the instructor/TA to reset it.
 >
 > Or you can reset on your own: press the "Storage" button, then select the "Default" option.
 
