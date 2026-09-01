@@ -43,8 +43,7 @@ I also details here:
 
 <img src="Pic/Cao_probe.jpg" width="600"> 
 
-- [ ] Go to the Scope screen. In the CH1 settings, make sure the probe setting matches 10×.
-- [ ] Make sure the trigger level is set between the minimum and maximum voltage levels of the signal.
+- [ ] Turn on the CH1 light. Go to the Scope screen. Make sure the trigger level is set between the min and max voltage of the expected signal (0~3 V).
 - [ ] Adjust the CH1 setting as: Coupling: DC; BW Limit: OFF; Probe: Match the actual probe (10×); Invert: OFF; Volts/Div: Coarse
 - [ ] Adjust the oscilloscope controls, playing with the knobs and buttons, until you can see a clear and stable 3V, 1 kHz square wave.  
 
