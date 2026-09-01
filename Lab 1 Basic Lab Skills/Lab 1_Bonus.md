@@ -33,6 +33,19 @@ One good start point is using the internal calibration signal. This is a quick c
 
 You can follow this short guide and try it: http://kofa.mmto.arizona.edu/electronics/rigol/tutorial/first.html
 
+I also details here:
+
+- Connect a probe cable to CH1.
+- Set the probe at **10x**, instead of **1x** (1× probe: 1 MΩ input impedance; 10× probe: 10 MΩ input impedance. Higher input impedance draws less current from the original circuit, thus affect less to the circuit.)
+- Turn on the Scope.
+- Look at the lower-right side of the oscilloscope. You will see two rectangular test terminals. These provide an internal reference signal for probe calibration or a quick oscilloscope check.
+- Connect the probe tip to the upper terminal; Connect the ground clip to the lower terminal.
+
+- Go to the Scope screen. In the CH1 settings, make sure the probe setting matches 10×.
+- Make sure the trigger level is set between the minimum and maximum voltage levels of the signal.
+- Adjust the oscilloscope controls, playing with the knobs and buttons, until you can see a clear and stable 3V, 1 kHz square wave.
+  
+- 
 ------
 
 Once done, we suggest you scramble some settings of the Scope, so the next group students can practice and explore.
