@@ -39,6 +39,7 @@ void loop() {
   Serial.print(millis()); // Print Time
   Serial.print(", ");
   Serial.println(tmp36_voltage, 3);
+  delay(1000);
 
 }
 ```
