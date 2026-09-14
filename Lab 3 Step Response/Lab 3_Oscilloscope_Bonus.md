@@ -48,6 +48,7 @@ For a voltage drop across a component:
 - [ ] double check whether the probes are at 10x, and CH on scope are at 10x.
 - [ ] On Scope panel, adjust both CH1 and CH2 bandwith (BW Limit) to be 20 MHz, not "OFF"  
 - [ ] Use **Math = CH1 − CH2**               
+- [ ] Also set CH1, CH2, Math with the same Y scale (voltage scale per grid)
 
 $$
 V_{\text{component}}=\text{CH1}-\text{CH2}
