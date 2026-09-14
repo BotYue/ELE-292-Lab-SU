@@ -32,7 +32,7 @@ Go to WaveForms, open "Logic". This is logic analyzer, another instrument.
 
 <img src="Pic/scn147_cao.png" width="800">
 
-#### :pencil2:  Report Item 2-a
+#### :pencil2:  Report Item 3-a
 
 Provide a screenshot of your Logic Analyzer.
 
