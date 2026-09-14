@@ -74,7 +74,7 @@ Always record experiment data in 3 or more significant digits (figures).
 
 | Joystick Direction |  VRX Voltage   |  VRY Voltage   |
 | :----------------- | :--------------------: | :--------------------: |
-| Center             |         ≈ 0.500 V        |         ≈ 0.500 V        |
+| Center (initial)             |         ≈ 0.500 V        |         ≈ 0.500 V        |
 | Move Left          |  ?? V|         ??  V     |
 | Move Rightmost          |  ?? V|         ??  V     |
 | Move Upmost            |   ??   V   | ?? V|
