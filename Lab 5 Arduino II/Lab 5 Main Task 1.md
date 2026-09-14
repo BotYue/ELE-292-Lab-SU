@@ -83,7 +83,7 @@ Always record experiment data in 3 or more significant digits (figures).
 #### :pencil2:  Report Item 1-b
 
 Provide a screenshot of the display of your Scope with measurement on it.<br>
-You don't need 8 screenshots for 8 measurements in 1-a, just one screenshot that matches one of the eight measurements.
+You don't need 8 screenshots for 8 measurements in 1-a, just one screenshot that matches one of the eight measurements in table.
 
 ---
 ### 📌 Task 1.3 Record 2-Channel Data
@@ -101,7 +101,7 @@ Feel free to explore whatever interesting pattern that you can draw!
 |<img src="Pic/XYscope.png" width="800">|
 
 
-#### :pencil2:  Report Item 1-b
+#### :pencil2:  Report Item 1-c
 
 Provide the screenshot of the display of your Scope. Showing the Voltage-Time Scope and the new X-Y Scope at the same.
 
@@ -110,9 +110,9 @@ Provide the screenshot of the display of your Scope. Showing the Voltage-Time Sc
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
 
-#### :pencil2:  Report Item 1-c (Individual)
+#### :pencil2:  Report Item 1-d (Individual)
 
-Use text to describe the sequence of joystick movements you used to produce the pattern shown on the oscilloscope in X–Y mode.
+Use text to describe the sequence of joystick movements you used to produce the pattern shown on the 1-c.
 
 ---
 ### ✅ Check Point 1 — Scope Display and Movement
