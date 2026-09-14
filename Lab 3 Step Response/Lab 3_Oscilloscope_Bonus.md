@@ -45,8 +45,8 @@ For a voltage drop across a component:
 - [ ] Use **two probes / two channels**      
 - [ ] CH1 measures one side of the component 
 - [ ] CH2 measures the other side      
-- [ ] double check whether the probes are at 10x, and CH on scope are at 10x.
-- [ ] On Scope panel, adjust both CH1 and CH2 bandwith (BW Limit) to be 20 MHz, not "OFF"  
+- [ ] double check whether the probes are at 10x, and CH on scope are at **10x**.
+- [ ] On Scope panel, adjust both CH1 and CH2 bandwith (**BW Limit**) to be 20 MHz, not "OFF"  
 - [ ] Use **Math = CH1 − CH2**               
 - [ ] Also set CH1, CH2, Math with the same Y scale (voltage scale per grid)
 
