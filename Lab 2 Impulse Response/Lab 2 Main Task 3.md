@@ -54,8 +54,7 @@ Make sure the plot has **axis labels** (with units) and a **title**.
 ### ✅ Check Point 2 — Python Plot
 You may now disconnect and put away all hardware.  
 - Return resistor, inductor to their proper bins.  
-- Place the blue workbench on the shelf in the correct order:  
-  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+- Place the blue workbench on the shelf in the correct order.
 
 ----------
 ### 📌 Task 3.3 Data Analysis (Individual)
