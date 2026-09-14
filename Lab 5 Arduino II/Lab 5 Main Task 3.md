@@ -2,63 +2,32 @@
 
 ## :dart: Task 3 – A Closer look at Serial Signal
 
-### 📌 Task 3.1 Circuit Setup
+This task shows you in detail what is a serial signal.
 
-Get rid of all previous wires. Also return the joystick.
+### 📌 Task 3.1 Setup
 
-In WaveForms, turn off "Supplies".
+- [ ] Get rid of all previous wires. Also return the joystick.
 
-**Components Used:**
+- [ ] In WaveForms, turn off "Supplies".
 
-* one KY-023 analog joystick
-* one Adafruit ItsyBitsy M0 Express
-* No need for Analog Discovery 2
+- [ ] Now, use only 2 jumpwires:
+<br> one from Analog Discovery digital pin 0 to Arduino pin TX
+<br> one from Analog Discovery ground pin to Arduino ground pin.
 
-<img src="Pic/joystick.png" width="300">
+- [ ] Keep most of your previous Arduino code in Task 2.<br>
+change all `Serial.print` to `Serial1.print`, change `Serial.println` to `Serial1.println`
 
-**Connection Requirement:**
+- [ ] Upload code and run.
 
-* Use `3V` in Arduino to provide 3.3 V DC to the joystick. 
-* Use one Arduino Analog input pin to measure the voltage (**VRX**) for X-position of the joystick. 
-* Use another Arduino Analog input pin to measure the voltage (**VRY**) for Y-position of the joystick. 
-* Ensure Arduino `G` is connected to the joystick Ground
+--------
+### 📌 Task 3.1 Logic Analyzer
 
----
-### 📌 Task 3.2 Arduino Code
 
-Write Arduino Code to
-* Read the voltages (**VRX**, **VRY**) from both analog input pins
-* Print out both voltages via Serial Monitor
-
-> [!TIP]
-> You can re-visit the [Lab 4 Main Task 3](../Lab%204%20Arduino%20I/Lab%204%20Main%20Task%203.md) code to understand how to obtain pin voltage and print.
-
-<img src="Pic/joystickorit.png" width="400">
-
-#### :pencil2:  Report Item 3-a
-Open the Serial Monitor. 
-
-* Make sure your joystick is in **Upmost position**. Un-click “AutoScrolling”. Copy 5 consecutive output lines and paste them below.
-```text
-<paste your 5 lines here>
-```
-* Make sure your joystick is in **Rightmost position**. Un-click “AutoScrolling”. Copy 5 consecutive output lines and paste them below. 
-```text
-<paste your 5 lines here>
-```
-
-#### :pencil2:  Report Item 3-b
-
-Provide your all Arduino code .
-
-* Use the proper Markdown format: triple grave accents as a fenced block; `c` as the language tag. (introduced in [Lab 4 Main Task 3](../Lab%204%20Arduino%20I/Lab%204%20Main%20Task%203.md))
-* Use clear, meaningful variable names in code
-
-### ✅ Check Point 2 — Arduino Print Voltage
+### ✅ Check Point 3 — Logic Analyzer
 
 - Return components to their proper bins.
 - Place the blue workbench on the shelf in the correct order:  
-  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+
 
 
 
