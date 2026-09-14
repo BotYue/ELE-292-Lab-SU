@@ -70,29 +70,29 @@ Based on the joystick direction in the picture, measure and fill the table.
 
 #### :pencil2:  Report Item 1-a
 
+Always record experiment data in 3 or more significant digits (figures).
 
-
-| Joystick Direction |  VRX Voltage (X-axis)  |  VRY Voltage (Y-axis)  |
+| Joystick Direction |  VRX Voltage   |  VRY Voltage   |
 | :----------------- | :--------------------: | :--------------------: |
-| Center             |         ≈ 2.50 V        |         ≈ 2.50 V        |
-| Move Rightmost          |  ?? V|         ??  V     |
-| Move Upmost            |   ??   V   | ?? V|
-| Move Downmost          |    ??  V     | ?? V|
+| Center             |         ≈ 500 mV        |         ≈ 500 mV        |
+| Move Left          |  ?? mV|         ??  mV     |
+| Move Rightmost          |  ?? mV|         ??  mV     |
+| Move Upmost            |   ??   mV   | ?? mV|
+| Move Downmost          |    ??  mV     | ?? mV|
 
-> [!NOTE]
-> Leftmost position is blocked by the breadboard. 
 
 ---
 ### 📌 Task 1.3 Record 2-Channel Data
 
-Record the scope voltages corresponding to the following continuous movement sequence:
+Record the scope voltages using regular Voltage-Time Scope and X-Y scope.
+
+Follow such movement sequence:
 1. Slowly move the joystick from center to the upmost position
-2. Hold it there for 2 seconds
+2. Hold it there for 1 second
 3. Slowly move it back to the center.
-4. Hold it there for 2 seconds
-5. Slowly move the joystick from center to the rightmost position
-6. Hold it there for 2 seconds
-7. Slowly move it back to the center.
+4. Slowly move the joystick from center to the rightmost position
+5. Hold it there for 1 seconds
+6. Slowly move it back to the center.
 
 This is an example that you expect.
 
