@@ -32,10 +32,14 @@ Go to WaveForms, open "Logic". This is logic analyzer, another instrument.
 
 <img src="Pic/scn147_cao.png" width="800">
 
+#### :pencil2:  Report Item 2-a
+
+Provide a screenshot of your Logic Analyzer.
+
 ### ✅ Check Point 3 — Logic Analyzer
 
 - Return components to their proper bins.
-- Place the blue workbench on the shelf in the correct order:  
+- Place the blue workbench on the shelf in the correct order. 
 
 
 
