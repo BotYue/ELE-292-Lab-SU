@@ -80,6 +80,10 @@ Always record experiment data in 3 or more significant digits (figures).
 | Move Upmost            |   ??   mV   | ?? mV|
 | Move Downmost          |    ??  mV     | ?? mV|
 
+#### :pencil2:  Report Item 1-b
+
+Provide a screenshot of the display of your Scope with measurement on it.<br>
+You don't need 8 screenshots for 8 measurements in 1-a, just one screenshot that matches one of the eight measurements.
 
 ---
 ### 📌 Task 1.3 Record 2-Channel Data
