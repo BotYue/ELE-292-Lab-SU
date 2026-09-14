@@ -112,7 +112,7 @@ Provide the screenshot of the display of your Scope. Showing the Voltage-Time Sc
 
 #### :pencil2:  Report Item 1-d (Individual)
 
-Use text to describe the sequence of joystick movements you used to produce the pattern shown on the 1-c.
+Use text to clearly describe the sequence of joystick movements you used to produce the pattern shown on the 1-c.
 
 ---
 ### ✅ Check Point 1 — Scope Display and Movement
