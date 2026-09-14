@@ -45,7 +45,8 @@ For a voltage drop across a component:
 - [ ] Use **two probes / two channels**      
 - [ ] CH1 measures one side of the component 
 - [ ] CH2 measures the other side      
-- [ ] double check whether the probes are at 10x, and CH on scope are at 10x.      
+- [ ] double check whether the probes are at 10x, and CH on scope are at 10x.
+- [ ] On Scope panel, adjust both CH1 and CH2 bandwith (BW Limit) to be 20 MHz, not "OFF"  
 - [ ] Use **Math = CH1 − CH2**               
 
 $$
@@ -55,13 +56,10 @@ $$
 > [!CAUTION]
 > DO NOT simply connect the probe hook and ground clip across the two terminals of a component, unless the ground-clip side is actually circuit ground.
 
-| Probe Connection. My 2 yellow wires go to CH1, 2 purple wires go to CH2. |
-|---|
-| <img src="Pic/Image_probe.jpg" width="650"> |
+| Probe Connection. My 2 green wires go to CH1, 2 purple wires go to CH2. |Expected Result, Operator "A-B", dark blue signal is the math result |
+|---|---|
+| <img src="Pic/Image_probe.jpg" width="400"> |<img src="Pic/Image_math.jpg" width="650"> |
 
-| Expected Result, dark blue signal is the math result |
-|---|
-| <img src="Pic/Image_math.jpg" width="650"> |
 
 ---
 
