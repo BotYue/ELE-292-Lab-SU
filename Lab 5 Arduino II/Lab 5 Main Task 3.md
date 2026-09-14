@@ -1,10 +1,12 @@
 # Lab 5 Arduino II
 
-## :dart: Task 3 – Joystick with Arduino
+## :dart: Task 3 – A Closer look at Serial Signal
 
 ### 📌 Task 3.1 Circuit Setup
 
-You have studied the characteristics of joystick analog reading. Now we will combine it with Arduino.
+Get rid of all previous wires. Also return the joystick.
+
+In WaveForms, turn off "Supplies".
 
 **Components Used:**
 
