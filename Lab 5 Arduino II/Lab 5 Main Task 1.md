@@ -52,7 +52,7 @@ The **VRX** and **VRY** pins output analog voltages for the X- and Y-axis positi
 
 ### 📌 Task 1.2 Scope Reading
 
-In "Wavegen" -> "Supllies" to provide 1 V DC at the V+ pin.
+In "WaveForms" -> "Supllies" to provide 1 V DC at the V+ pin.
 
 Open your **Scope**, 
 * Change the Mode from **Repeated** to **Screen**
