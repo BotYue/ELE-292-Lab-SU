@@ -80,6 +80,8 @@ The provided code prints the TMP36 voltage only.
 
 Now it is your job to modify it and print the TMP36 temperature.
 
+$$\mathrm{Temperature (°C)} = \dfrac{\mathrm{V (volts)} - 0.500}{0.010}$$
+
 You should modify the code inside ```void loop()```.
 
 Upload your code and check whether it works.
