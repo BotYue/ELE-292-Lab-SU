@@ -94,9 +94,11 @@ X-Y Scope can be found on top tab -> "+XY".
 
 Play with your joystick, until you can draw an interesting pattern on your X-Y scope.
 
-Here is an example that I draw.
+Feel free to explore whatever interesting pattern that you can draw!
 
-<img src="Pic/lab5_sample_signals.png" width="600">
+|Here is an example that I draw. It is a reversed L|
+|---|
+|<img src="Pic/XYscope.png" width="800">|
 
 
 #### :pencil2:  Report Item 1-b
