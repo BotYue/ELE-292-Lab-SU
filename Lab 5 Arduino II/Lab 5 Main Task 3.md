@@ -30,6 +30,8 @@ Go to WaveForms, open "Logic". This is logic analyzer, another instrument.
 - [ ] Run as "Single"
 - [ ] Adjust to obtain the full message and corresponding signal
 
+<img src="Pic/scn147_cao.png" width="800">
+
 ### ✅ Check Point 3 — Logic Analyzer
 
 - Return components to their proper bins.
