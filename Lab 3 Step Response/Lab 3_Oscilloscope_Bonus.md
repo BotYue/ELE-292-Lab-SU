@@ -13,7 +13,11 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 ### Task
 
-Measure the **voltage drop across a component** using a benchtop oscilloscope.
+Measure the voltage drop across the capacitor in today's circuit. <br> Use the same step input from Wavegen (Analog Discovery). But now use benchtop scope to measure it. 
+
+<img src="Pic/RCdiagram.png" width="380"> 
+
+---
 
 ### Guide
 
@@ -27,8 +31,12 @@ A standard oscilloscope probe is **not differential** like the **1+ / 1−** inp
 A standard probe therefore measures:
 
 $$
-V_{\text{node}},
-\qquad \text{NOT} \; 
+V_{\text{node}}
+$$
+
+Not 
+
+$$
 V_{\text{component}}
 $$
 
@@ -44,10 +52,16 @@ $$
 V_{\text{component}}=\text{CH1}-\text{CH2}
 $$
 
-> [!WARNING]
-> Do **not** simply connect the probe hook and ground clip across the two terminals of a component unless the ground-clip side is actually circuit ground.
+> [!CAUTION]
+> DO NOT simply connect the probe hook and ground clip across the two terminals of a component, unless the ground-clip side is actually circuit ground.
 
+| Probe Connection. My 2 purple wires go to CH1, 2 yellow wires go to CH2. |
+|---|
+| <img src="Pic/Image_probe.jpg" width="650"> |
 
+| Expected Result, dark blue signal is the math result |
+|---|
+| <img src="Pic/Image_math.jpg" width="650"> |
 
 ---
 
@@ -57,4 +71,3 @@ $$
 
 - [ ] Also **reset the scope after:**  press the "Storage" button, then select the "Default" option.
 
-<img src="Pic/1000035074.jpg" width="600"> 
