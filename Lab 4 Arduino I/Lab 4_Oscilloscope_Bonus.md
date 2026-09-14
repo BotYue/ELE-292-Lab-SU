@@ -13,19 +13,22 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 ### Task
 
-Repeat today's Task 1 PWM signal measrument.. <br> Use the same input from Arduino.. But now use benchtop scope to measure it. 
+Repeat today's Task 1 PWM signal measrument.. <br> Use the same input from Arduino. (either `analogWrite(PWMPin, 127);` or `analogWrite(PWMPin, 63);`)
+<br>But now use benchtop scope to measure it. 
 
-- [ ] Use the softkeys on the left side of the scope screen to perform meansurement of your signal.
-- [ ] Specifically, measure "Period", "Duty", "Vtop"
+- [ ] Adjust signal on scope to get a clear display (not too dense or too sparse).
+- [ ] Use the line of softkeys on the left side of the scope screen to perform measurement of your signal.
+- [ ] Specifically, measure "Period", "Duty", "Vtop".
+- [ ] You should get them displayed on the bottom of scope screen.
 
 ---
 
 ### Guide
 
 
-| Probe Connection. My 2 green wires go to CH1, 2 purple wires go to CH2. |Expected Result, Operator "A-B", dark blue signal is the math result |
-|---|---|
-| <img src="Pic/Image_probe.jpg" width="400"> |<img src="Pic/Image_math.jpg" width="650"> |
+|Expected Result, I used different value in Arduino `analogWrite` code |
+|---|
+| <img src="Pic/bench_pwm.jpg" width="700"> |
 
 ---
 
