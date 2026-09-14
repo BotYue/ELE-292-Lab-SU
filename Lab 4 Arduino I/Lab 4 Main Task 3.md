@@ -104,6 +104,5 @@ Open the Serial Monitor. Un-click “AutoScrolling”. Copy 10 consecutive outpu
 ### ✅ Check Point 2 — Arduino Print Temperature
 
 - Return resistor, Arduino, TMP 36 sensor to their proper bins.
-- Place the blue workbench on the shelf in the correct order:  
-  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+- Place the blue workbench on the shelf in the correct order.
 
