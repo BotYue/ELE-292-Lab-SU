@@ -20,8 +20,15 @@ change all `Serial.print` to `Serial1.print`, change `Serial.println` to `Serial
 - [ ] Upload code and run.
 
 --------
-### 📌 Task 3.1 Logic Analyzer
+### 📌 Task 3.2 Logic Analyzer
 
+Go to WaveForms, open "Logic". This is logic analyzer, another instrument.
+
+- [ ] Add "UART" Channel at Pin DIO 0, specify the Baud rate at "Manual", "9.6k".
+- [ ] On top tab, "Simple - Pulse - Protocol", select "Protocol", then "Idle".
+- [ ] Set trigger type as "Auto"
+- [ ] Run as "Single"
+- [ ] Adjust to obtain the full message and corresponding signal
 
 ### ✅ Check Point 3 — Logic Analyzer
 
