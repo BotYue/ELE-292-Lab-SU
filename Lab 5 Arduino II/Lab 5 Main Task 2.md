@@ -33,7 +33,7 @@ Provide your full code in Jupyter Notebook.
 
 Once code is successfully running.
 
-Perform the same experiment as Task 1 today. But now record data from your serial monitor.
+Perform the same experiment as Task 1 today. But now record data from your Arduino Serial Monitor.
 
 
 #### :pencil2:  Report Item 2-b
@@ -49,3 +49,18 @@ Always record experiment data in 3 digits after decimal point. (this can be set 
 | Move Downmost          |    ??  V     | ?? V|
 
 --------------
+
+### 📌 Task 2.4 Serial Plotter
+
+Keep your Arduino running. Now open Serial Plotter.
+
+The Serial Plotter is like a simplest scope.
+
+Move your joystick around and see what is going on with the Serial Plotter.
+
+
+#### :pencil2:  Report Item 2-b
+
+Provide a screenshot of your Serial Plotter that correspond to the your joystick movements.
+
+
