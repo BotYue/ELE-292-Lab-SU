@@ -59,8 +59,12 @@ The Serial Plotter is like a simplest scope.
 Move your joystick around and see what is going on with the Serial Plotter.
 
 
-#### :pencil2:  Report Item 2-b
+#### :pencil2:  Report Item 2-c
 
 Provide a screenshot of your Serial Plotter that correspond to the your joystick movements.
 
+Use text to describe your joystick movement.
 
+|Here is an example that I have. I moved joystick to up first, then to right.|
+|---|
+|<img src="Pic/serial_plotter.png" width="800">|
