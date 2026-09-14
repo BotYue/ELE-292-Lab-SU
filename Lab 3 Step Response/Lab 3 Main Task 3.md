@@ -41,8 +41,7 @@ Plots should have proper title, legend, x/y axis labels, units.
 ### ✅ Check Point 2 — Python Plot
 You may now disconnect and put away all hardware.  
 - Return resistor, capacitor to their proper bins.  
-- Place the blue workbench on the shelf in the correct order:  
-  *(EECS 1–2, EECS 3–4, EECS 5–6, …)*  
+- Place the blue workbench on the shelf in the correct order.
 
 ----------
 ### 📌 Task 3.3 Data Analysis (Individual)
