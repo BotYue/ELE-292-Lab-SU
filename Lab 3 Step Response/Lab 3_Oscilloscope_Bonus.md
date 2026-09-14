@@ -55,7 +55,7 @@ $$
 > [!CAUTION]
 > DO NOT simply connect the probe hook and ground clip across the two terminals of a component, unless the ground-clip side is actually circuit ground.
 
-| Probe Connection. My 2 purple wires go to CH1, 2 yellow wires go to CH2. |
+| Probe Connection. My 2 yellow wires go to CH1, 2 purple wires go to CH2. |
 |---|
 | <img src="Pic/Image_probe.jpg" width="650"> |
 
