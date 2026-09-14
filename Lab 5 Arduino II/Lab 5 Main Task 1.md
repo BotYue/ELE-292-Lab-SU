@@ -88,50 +88,32 @@ You don't need 8 screenshots for 8 measurements in 1-a, just one screenshot that
 ---
 ### 📌 Task 1.3 Record 2-Channel Data
 
-Record the scope voltages using regular Voltage-Time Scope and X-Y scope.
+In Wavegen Scope, use the regular Voltage-Time Scope and the new X-Y Scope at the same.
 
-Follow such movement sequence:
-1. Slowly move the joystick from center to the upmost position
-2. Hold it there for 1 second
-3. Slowly move it back to the center.
-4. Slowly move the joystick from center to the rightmost position
-5. Hold it there for 1 seconds
-6. Slowly move it back to the center.
+X-Y Scope can be found on top tab -> "+XY".
 
-This is an example that you expect.
+Play with your joystick, until you can draw an interesting pattern on your X-Y scope.
+
+Here is an example that I draw.
 
 <img src="Pic/lab5_sample_signals.png" width="600">
 
-Then export as .csv for later use.
 
 #### :pencil2:  Report Item 1-b
 
-Provide the screenshot of the display of your Scope. Showing the full movement sequence.
+Provide the screenshot of the display of your Scope. Showing the Voltage-Time Scope and the new X-Y Scope at the same.
 
 > [!NOTE]
 > Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
 > Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
 
-----
-### 📌 Task 1.4 Plot in Python (Individual)
-
-**Clean-up Data:**
-
-When exporting data in Screen Mode, the first recorded data row is often inaccurate due to buffer.
-
-So, open your exported .csv, deleta the first data row.
-
 
 #### :pencil2:  Report Item 1-c (Individual)
-In Jupyter Notebook, use Python to re-plot the two signals from the Scope.
 
-* Plots should have proper title, legend, x/y axis labels, units.
-
-* Show both code and generated plot in the report.
+Use text to describe the sequence of joystick movements you used to produce the pattern shown on the oscilloscope in X–Y mode.
 
 ---
-### ✅ Check Point 1 — Scope Screenshot and Python Plot
-
+### ✅ Check Point 1 — Scope Display and Movement
 
 
 
