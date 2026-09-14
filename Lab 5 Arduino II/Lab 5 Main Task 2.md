@@ -40,9 +40,8 @@ Perform the same experiment as Task 1 today. But now record data from your seria
 
 Always record experiment data in 3 digits after decimal point. (this can be set by Arduino code)
 
-| Joystick Direction |  VRX Voltage (X-axis)  |  VRY Voltage (Y-axis)  |
-| :----------------- | :--------------------: | :--------------------: |
-| Center             |         ?? V        |         ?? V        |
+| Center (Initial)           |        ?? V        |         ?? V        |
+| Move Left          |  ?? V|         ??  V     |
 | Move Rightmost          |  ?? V|         ??  V     |
 | Move Upmost            |   ??   V   | ?? V|
 | Move Downmost          |    ??  V     | ?? V|
