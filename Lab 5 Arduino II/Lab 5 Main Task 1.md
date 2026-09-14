@@ -56,13 +56,13 @@ In "Wavegen" -> "Supllies" to provide 1 V DC at the V+ pin.
 
 Open your **Scope**, 
 * Change the Mode from **Repeated** to **Screen**
-* Use 2 s/div for Time Base
+* Use 2 s/div or 1 s/div for Time Base
 * Make sure both Channels are enabled.
 
 Move the joystick in different directions, observe and understand the voltage.
 
 * You may need to adjust the Channel Offset and Range to observe the full signal.
-* You should set the same offset for 2 channels, same range to 2 channels, overwise may create confusion in reading.
+* Must set the same offset for 2 channels, same range to 2 channels, overwise may create confusion in reading.
 ---
 Based on the joystick direction in the picture, measure and fill the table.
 
