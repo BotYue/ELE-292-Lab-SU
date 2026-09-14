@@ -36,30 +36,28 @@ The **VRX** and **VRY** pins output analog voltages for the X- and Y-axis positi
 ----------
 **Connection Requirement:**
 
-* Use `Wavegen` in Analog Discovery to provide 5 V DC to the joystick. 
+* Use `Supplies` (Pin V+) in Analog Discovery to provide 1 V DC to the joystick. 
 * Use `Scope Channel 1` in Analog Discovery to measure the voltage (**VRX**) for X-position of the joystick. 
 * Use `Scope Channel 2` in Analog Discovery to measure the voltage (**VRY**) for Y-position of the joystick. 
-* Ensure all grounds are properly connected, including:
+* Ensure all grounds are connected together, including:
    * both `Scope Channel` negative pins,
    * Analog Discovery Ground `↓`
    * joystick Ground
 
 > [!NOTE]  
 > You have completed multiple labs already. This time you are expected to handle the wiring **by yourself**.
-> 
-> No detailed pin-to-pin connection will be provided.
 
 > [!TIP]  
 > If you have too many ground wires, organize them to the blue rail of your breadboard.
 
 ### 📌 Task 1.2 Scope Reading
 
-Configue your **Wavegen** to provide 5 V DC.
+In "Wavegen" -> "Supllies" to provide 1 V DC at the V+ pin.
 
 Open your **Scope**, 
 * Change the Mode from **Repeated** to **Screen**
 * Use 2 s/div for Time Base
-* Make sure both Channels are ticked.
+* Make sure both Channels are enabled.
 
 Move the joystick in different directions, observe and understand the voltage.
 
