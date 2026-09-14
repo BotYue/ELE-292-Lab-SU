@@ -2,7 +2,21 @@
 
 ## :dart: Task 2 – Transition from Analog Discovery to Arduino
 
-### 📌 Task 2.1 Understand the 3.3 V Saturation Issue
+
+
+### 📌 Task 2.1 Connection
+
+In this task, we will use the Arduino as a "simple scope" and perform the similar measurement.
+
+- [ ] You still need the Analog Discovery, but now it only acts as a DC power supply.
+- [ ] Move the measurement from Analog Discovery Channel 1/2 pins to the analog input pins of Arduino (Adafruit ItsyBitsy M0 Express).
+- [ ] Ensure the 3 things sharing the same grounds: Analog Discovery, Joystick, Arduino board.
+
+### 📌 Task 2.2 Code
+
+
+
+Understand the 3.3 V Saturation Issue
 
 Lets say, if you want to use this joystick in an Arduino project. You will encounter a 3.3 V saturation issue.
 
@@ -41,29 +55,3 @@ Then, move your joystick around, measure and fill the table.
 | Move Downmost          |    ??  V     | ?? V|
 
 --------------
-
-### 📌 Task 2.3 Record 2-Channel Data
-
-Next, you repeat the same experiment as Task 1, but now with 3.3 V DC supply.
-
-Record the scope voltages corresponding to the following continuous movement sequence:
-1. Slowly move the joystick from center to the upmost position
-2. Hold it there for 2 seconds
-3. Slowly move it back to the center.
-4. Hold it there for 2 seconds
-5. Slowly move the joystick from center to the rightmost position
-6. Hold it there for 2 seconds
-7. Slowly move it back to the center.
-
-#### :pencil2:  Report Item 2-b
-
-Provide the screenshot of the display of your Scope. Showing the full movement sequence.
-
-> [!NOTE]
-> Include the local time and device Serial Number (Discovery 2 C SN: ..) in the screenshot.
-> Use computer-built-in app to screenshot. Not use your phone camera to take pictures.
-
----------
-
-### ✅ Proceed to Task 3. No Check Point in this part.
-
