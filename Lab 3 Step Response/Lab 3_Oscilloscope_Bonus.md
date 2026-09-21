@@ -67,6 +67,6 @@ $$
 ### ✅ Bonus Check 
 
 - [ ] The lab staff will first reset your scope before your check demo
-- [ ] **Show to the lab staff the operations towards the expected results** Then obtain the check for bonus. 
+- [ ] **Individually show to the lab staff the operations towards the expected results** Then obtain the check for bonus. 
 - [ ] Also **reset the scope after:**  press the "Storage" button, then select the "Default" option.
 
