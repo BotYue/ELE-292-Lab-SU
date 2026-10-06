@@ -1,6 +1,6 @@
 # Lab 5 Arduino II
 
-## :dart: Task 3 – A Closer look at Serial Signal
+## :dart: Task 3 – A Closer look at Serial Signal (Optional)
 
 This task shows you in detail what is a serial signal.
 
