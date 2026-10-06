@@ -15,10 +15,13 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 Repeat today's Task 1 joystick setup. <br>But now use benchtop scope to measure it. 
 
-- [ ] Adjust signal on scope to get a clear display (not too dense or too sparse).
-- [ ] Use the line of softkeys on the left side of the scope screen to perform measurement of your signal.
-- [ ] Specifically, measure "Period", "Duty", "Vtop".
-- [ ] You should get them displayed on the bottom of scope screen.
+- [ ] Instead of 1V DC from Analog Discovery, change to the Wavegen in Analog Discovery. Use the default 1k Hz sin wave as the input to joystick Pin V+.
+- [ ] You need 2 probe cables for the benchtop scope.
+- [ ] Benchtop scope Channel 1 to joystick VRX; Benchtop scope Channel 2 to joystick VRY
+- [ ] Ensure common ground: Analog Discovery, joystick, benchtop probe.
+- [ ] Go to the scope, adjust it until you can see clear sin waves.
+- [ ] Next, go to scope "Horizontal" section -> softkey "Menu", adjust from "Y-T" to "X-Y". Then set as "CH1-CH2".
+- [ ] In the "Aquire", adjust memory depth to small "60K".
 
 ---
 
