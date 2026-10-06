@@ -20,15 +20,25 @@ Repeat today's Task 1 joystick setup. <br>But now use benchtop scope to measure 
 - [ ] Benchtop scope Channel 1 to joystick VRX; Benchtop scope Channel 2 to joystick VRY
 - [ ] Ensure common ground: Analog Discovery, joystick, benchtop probe.
 - [ ] Go to the scope, adjust it until you can see clear sin waves.
+      
 - [ ] Next, go to scope "Horizontal" section -> softkey "Menu", adjust from "Y-T" to "X-Y". Then set as "CH1-CH2".
+
+   <img src="Pic/xy mode.jpg" width="700">
+   
 - [ ] In the "Aquire", adjust memory depth to small "60K".
+      
+    <img src="Pic/mem.jpg" width="700">
+
+
+- [ ] Move around your joystick, Check what is happening. The X-Y plot is called "Lissajous figure" formally.
+
 
 ---
 
 ### Guide
 
 
-| Expected Result, an example of final result |
+| An example of final result |
 | ------------------------------------------- |
 | <img src="Pic/bench_pwm.jpg" width="700">   |
 
