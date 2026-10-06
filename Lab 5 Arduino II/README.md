@@ -7,9 +7,9 @@ To do so, export Jupyter Notebook as .html. Then convert .html to .pdf.
 
 **Grading (25 pts total):**  
 - Format (3)  
-- Item 1-a, 1-b, 1-c (2+2+3)
-- Item 2-a, 2-b, 2-c (3+2+3)
-- Item 3-a (4)
+- Item 1-a, 1-b, 1-c (2+3+4)
+- Item 2-a, 2-b, 2-c (3+3+4)
+- Item 3-a (0)
 - Conclusion (3)  
 
 Since Lab 5 report, there will no be **re-submit & re-grade** . If you have questions regarding to report, you should ask during class.
