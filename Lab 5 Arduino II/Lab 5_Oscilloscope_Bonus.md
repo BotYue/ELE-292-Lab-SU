@@ -40,7 +40,7 @@ Repeat today's Task 1 joystick setup. <br>But now use benchtop scope to measure 
 
 | An example of final result |
 | ------------------------------------------- |
-| <img src="Pic/bench_pwm.jpg" width="700">   |
+| https://github.com/user-attachments/assets/71966144-44f3-470d-8e10-39b67b2e6261 |
 
 ---
 
