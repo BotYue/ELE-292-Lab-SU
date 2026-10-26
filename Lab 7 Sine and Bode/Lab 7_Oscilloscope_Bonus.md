@@ -13,18 +13,17 @@ Each bonus lab is worth **5 points**. A max of 4 bonus labs will be counted, for
 
 ### Task
 
-Continue today's circuit.<br>
+Continue with today's circuit.<br>
 - [ ] Use the same input signal from the Analog Discovery.<br>
-- [ ] Set 5V amplitude, 100Hz sine wave from the Wavegen.<br>
+- [ ] Set 5V amplitude, 100Hz sine wave from the Wavegen W1 pin.<br>
 - [ ] Use two probes to connect with $V_{in}$ and $V_{out}$ of today's circuit, respectively
 
-**Recall how to connect:** [← Lab 3 Scope Bonus](../Lab%203%20Step%20Response/Lab%203_Oscilloscope_Bonus.md) to look at its physical connections.
-<br>Probe hook at the voltage node you want to measurel;
-<br>Probe clip to the ground.
+**Recall how to connect probes:** [← Lab 3 Scope Bonus](../Lab%203%20Step%20Response/Lab%203_Oscilloscope_Bonus.md) to look at its physical connections.
+<br>Probe hook at the voltage pin you want to measure; Probe clip to the ground.
 
-- [ ] Acquire signals from 2 channels. Adjust knobs to get two clear signals. Two signal can be in different Y-scale (voltage scale).
+- [ ] Acquire signals from 2 channels. Adjust to get two clear signals. Two signals can be in different Y-scale (voltage scale).
 - [ ] Configure "Acquire" to Mode "High Res".
-- [ ] Configure 2 "Channels" to be "BW Limit 20 M"
+- [ ] Configure 2 Channels, "CH1" and "CH2" to be "BW Limit 20 M"
 - [ ] Measure the "Vtop" for both two signals.
 
 - [ ] Example:
