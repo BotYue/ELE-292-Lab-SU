@@ -18,16 +18,17 @@ Continue today's circuit.<br>
 - [ ] Set 5V amplitude, 100Hz sine wave from the Wavegen.<br>
 - [ ] Use two probes to connect with $V_{in}$ and $V_{out}$ of today's circuit, respectively
 
-** Recall how to connect: lab 3 bonus to look at its pictures.
-Probe hook at the voltage node you want to measurel; Probe clip to the ground.
+**Recall how to connect:** [← Lab 3 Scope Bonus](../Lab%203%20Step%20Response/Lab%203_Oscilloscope_Bonus.md) to look at its physical connections.
+* Probe hook at the voltage node you want to measurel;
+* Probe clip to the ground.
 
 
 
-   <img src="Pic/xy mode.jpg" width="700">
+   <img src="Pic/Lab7Scope1.jpg" width="700">
 
 - [ ] In the "Aquire", adjust memory depth to small "60K".
       
-    <img src="Pic/mem.jpg" width="700">
+    <img src="Pic/Lab7Scope2.jpg" width="700">
 
 
 
