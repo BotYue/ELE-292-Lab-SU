@@ -19,14 +19,18 @@ Continue today's circuit.<br>
 - [ ] Use two probes to connect with $V_{in}$ and $V_{out}$ of today's circuit, respectively
 
 **Recall how to connect:** [← Lab 3 Scope Bonus](../Lab%203%20Step%20Response/Lab%203_Oscilloscope_Bonus.md) to look at its physical connections.
-* Probe hook at the voltage node you want to measurel;
-* Probe clip to the ground.
+<br>Probe hook at the voltage node you want to measurel;
+<br>Probe clip to the ground.
 
+- [ ] Acquire signals from 2 channels. Adjust knobs to get two clear signals. Two signal can be in different Y-scale (voltage scale).
+- [ ] Configure "Acquire" to Mode "High Res".
+- [ ] Configure 2 "Channels" to be "BW Limit 20 M"
+- [ ] Measure the "Vtop" for both two signals.
 
+- [ ] Example:
 
    <img src="Pic/Lab7Scope1.jpg" width="700">
 
-- [ ] In the "Aquire", adjust memory depth to small "60K".
       
     <img src="Pic/Lab7Scope2.jpg" width="700">
 
